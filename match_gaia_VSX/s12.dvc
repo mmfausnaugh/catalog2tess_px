@@ -1,0 +1,5 @@
+outs:
+- md5: 81c3a64099fccb71cba987b3a6230426.dir
+  size: 2048850
+  nfiles: 16
+  path: s12
