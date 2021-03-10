@@ -1,0 +1,2019 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns1:geometryModel dataSetId="40019" geometryModelId="15" startTjd="262.5" xmlns:ns1="http://tess.mit.edu/geometry-model">
+  <ccdGeometry cameraNumber="1" ccdNumber="1" xAngleDegrees="-0.315" yAngleDegrees="-37.75" zAngleDegrees="-0.192">
+    <plateScalePoly maxDomain="-1.0" offsetx="0.0" order="6" originx="0.0" scalex="1.654982e-05" type="standard" xindex="-1">
+      <coeffs>
+        <coeff value="0.0049791024"/>
+        <coeff value="2851.175"/>
+        <coeff value="10.547364"/>
+        <coeff value="56.481487"/>
+        <coeff value="33.51133"/>
+        <coeff value="-69.38692"/>
+        <coeff value="51.90312"/>
+      </coeffs>
+      <covariances>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+      </covariances>
+    </plateScalePoly>
+    <inversePlateScalePoly maxDomain="-1.0" offsetx="0.0" order="6" originx="0.0" scalex="0.00034080367" type="standard" xindex="-1">
+      <coeffs>
+        <coeff value="0.22862458"/>
+        <coeff value="62169.324"/>
+        <coeff value="-68.36136"/>
+        <coeff value="-2119.6912"/>
+        <coeff value="1170.6652"/>
+        <coeff value="-460.82452"/>
+        <coeff value="-267.8708"/>
+      </coeffs>
+      <covariances>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+      </covariances>
+    </inversePlateScalePoly>
+  </ccdGeometry>
+  <ccdGeometry cameraNumber="1" ccdNumber="2" xAngleDegrees="0.315" yAngleDegrees="-37.75" zAngleDegrees="0.192">
+    <plateScalePoly maxDomain="-1.0" offsetx="0.0" order="6" originx="0.0" scalex="1.654982e-05" type="standard" xindex="-1">
+      <coeffs>
+        <coeff value="0.0049791024"/>
+        <coeff value="2851.175"/>
+        <coeff value="10.547364"/>
+        <coeff value="56.481487"/>
+        <coeff value="33.51133"/>
+        <coeff value="-69.38692"/>
+        <coeff value="51.90312"/>
+      </coeffs>
+      <covariances>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+      </covariances>
+    </plateScalePoly>
+    <inversePlateScalePoly maxDomain="-1.0" offsetx="0.0" order="6" originx="0.0" scalex="0.00034080367" type="standard" xindex="-1">
+      <coeffs>
+        <coeff value="0.22862458"/>
+        <coeff value="62169.324"/>
+        <coeff value="-68.36136"/>
+        <coeff value="-2119.6912"/>
+        <coeff value="1170.6652"/>
+        <coeff value="-460.82452"/>
+        <coeff value="-267.8708"/>
+      </coeffs>
+      <covariances>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+      </covariances>
+    </inversePlateScalePoly>
+  </ccdGeometry>
+  <ccdGeometry cameraNumber="1" ccdNumber="3" xAngleDegrees="0.315" yAngleDegrees="-37.25" zAngleDegrees="-179.808">
+    <plateScalePoly maxDomain="-1.0" offsetx="0.0" order="6" originx="0.0" scalex="1.654982e-05" type="standard" xindex="-1">
+      <coeffs>
+        <coeff value="0.0049791024"/>
+        <coeff value="2851.175"/>
+        <coeff value="10.547364"/>
+        <coeff value="56.481487"/>
+        <coeff value="33.51133"/>
+        <coeff value="-69.38692"/>
+        <coeff value="51.90312"/>
+      </coeffs>
+      <covariances>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+      </covariances>
+    </plateScalePoly>
+    <inversePlateScalePoly maxDomain="-1.0" offsetx="0.0" order="6" originx="0.0" scalex="0.00034080367" type="standard" xindex="-1">
+      <coeffs>
+        <coeff value="0.22862458"/>
+        <coeff value="62169.324"/>
+        <coeff value="-68.36136"/>
+        <coeff value="-2119.6912"/>
+        <coeff value="1170.6652"/>
+        <coeff value="-460.82452"/>
+        <coeff value="-267.8708"/>
+      </coeffs>
+      <covariances>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+      </covariances>
+    </inversePlateScalePoly>
+  </ccdGeometry>
+  <ccdGeometry cameraNumber="1" ccdNumber="4" xAngleDegrees="-0.315" yAngleDegrees="-37.25" zAngleDegrees="179.808">
+    <plateScalePoly maxDomain="-1.0" offsetx="0.0" order="6" originx="0.0" scalex="1.654982e-05" type="standard" xindex="-1">
+      <coeffs>
+        <coeff value="0.0049791024"/>
+        <coeff value="2851.175"/>
+        <coeff value="10.547364"/>
+        <coeff value="56.481487"/>
+        <coeff value="33.51133"/>
+        <coeff value="-69.38692"/>
+        <coeff value="51.90312"/>
+      </coeffs>
+      <covariances>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+      </covariances>
+    </plateScalePoly>
+    <inversePlateScalePoly maxDomain="-1.0" offsetx="0.0" order="6" originx="0.0" scalex="0.00034080367" type="standard" xindex="-1">
+      <coeffs>
+        <coeff value="0.22862458"/>
+        <coeff value="62169.324"/>
+        <coeff value="-68.36136"/>
+        <coeff value="-2119.6912"/>
+        <coeff value="1170.6652"/>
+        <coeff value="-460.82452"/>
+        <coeff value="-267.8708"/>
+      </coeffs>
+      <covariances>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+      </covariances>
+    </inversePlateScalePoly>
+  </ccdGeometry>
+  <ccdGeometry cameraNumber="2" ccdNumber="1" xAngleDegrees="-0.256" yAngleDegrees="-12.75" zAngleDegrees="-0.055">
+    <plateScalePoly maxDomain="-1.0" offsetx="0.0" order="6" originx="0.0" scalex="1.654982e-05" type="standard" xindex="-1">
+      <coeffs>
+        <coeff value="0.0049791024"/>
+        <coeff value="2851.175"/>
+        <coeff value="10.547364"/>
+        <coeff value="56.481487"/>
+        <coeff value="33.51133"/>
+        <coeff value="-69.38692"/>
+        <coeff value="51.90312"/>
+      </coeffs>
+      <covariances>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+      </covariances>
+    </plateScalePoly>
+    <inversePlateScalePoly maxDomain="-1.0" offsetx="0.0" order="6" originx="0.0" scalex="0.00034080367" type="standard" xindex="-1">
+      <coeffs>
+        <coeff value="0.22862458"/>
+        <coeff value="62169.324"/>
+        <coeff value="-68.36136"/>
+        <coeff value="-2119.6912"/>
+        <coeff value="1170.6652"/>
+        <coeff value="-460.82452"/>
+        <coeff value="-267.8708"/>
+      </coeffs>
+      <covariances>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+      </covariances>
+    </inversePlateScalePoly>
+  </ccdGeometry>
+  <ccdGeometry cameraNumber="2" ccdNumber="2" xAngleDegrees="0.256" yAngleDegrees="-12.75" zAngleDegrees="0.055">
+    <plateScalePoly maxDomain="-1.0" offsetx="0.0" order="6" originx="0.0" scalex="1.654982e-05" type="standard" xindex="-1">
+      <coeffs>
+        <coeff value="0.0049791024"/>
+        <coeff value="2851.175"/>
+        <coeff value="10.547364"/>
+        <coeff value="56.481487"/>
+        <coeff value="33.51133"/>
+        <coeff value="-69.38692"/>
+        <coeff value="51.90312"/>
+      </coeffs>
+      <covariances>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+      </covariances>
+    </plateScalePoly>
+    <inversePlateScalePoly maxDomain="-1.0" offsetx="0.0" order="6" originx="0.0" scalex="0.00034080367" type="standard" xindex="-1">
+      <coeffs>
+        <coeff value="0.22862458"/>
+        <coeff value="62169.324"/>
+        <coeff value="-68.36136"/>
+        <coeff value="-2119.6912"/>
+        <coeff value="1170.6652"/>
+        <coeff value="-460.82452"/>
+        <coeff value="-267.8708"/>
+      </coeffs>
+      <covariances>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+      </covariances>
+    </inversePlateScalePoly>
+  </ccdGeometry>
+  <ccdGeometry cameraNumber="2" ccdNumber="3" xAngleDegrees="0.256" yAngleDegrees="-12.25" zAngleDegrees="-179.945">
+    <plateScalePoly maxDomain="-1.0" offsetx="0.0" order="6" originx="0.0" scalex="1.654982e-05" type="standard" xindex="-1">
+      <coeffs>
+        <coeff value="0.0049791024"/>
+        <coeff value="2851.175"/>
+        <coeff value="10.547364"/>
+        <coeff value="56.481487"/>
+        <coeff value="33.51133"/>
+        <coeff value="-69.38692"/>
+        <coeff value="51.90312"/>
+      </coeffs>
+      <covariances>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+      </covariances>
+    </plateScalePoly>
+    <inversePlateScalePoly maxDomain="-1.0" offsetx="0.0" order="6" originx="0.0" scalex="0.00034080367" type="standard" xindex="-1">
+      <coeffs>
+        <coeff value="0.22862458"/>
+        <coeff value="62169.324"/>
+        <coeff value="-68.36136"/>
+        <coeff value="-2119.6912"/>
+        <coeff value="1170.6652"/>
+        <coeff value="-460.82452"/>
+        <coeff value="-267.8708"/>
+      </coeffs>
+      <covariances>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+      </covariances>
+    </inversePlateScalePoly>
+  </ccdGeometry>
+  <ccdGeometry cameraNumber="2" ccdNumber="4" xAngleDegrees="-0.256" yAngleDegrees="-12.25" zAngleDegrees="179.945">
+    <plateScalePoly maxDomain="-1.0" offsetx="0.0" order="6" originx="0.0" scalex="1.654982e-05" type="standard" xindex="-1">
+      <coeffs>
+        <coeff value="0.0049791024"/>
+        <coeff value="2851.175"/>
+        <coeff value="10.547364"/>
+        <coeff value="56.481487"/>
+        <coeff value="33.51133"/>
+        <coeff value="-69.38692"/>
+        <coeff value="51.90312"/>
+      </coeffs>
+      <covariances>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+      </covariances>
+    </plateScalePoly>
+    <inversePlateScalePoly maxDomain="-1.0" offsetx="0.0" order="6" originx="0.0" scalex="0.00034080367" type="standard" xindex="-1">
+      <coeffs>
+        <coeff value="0.22862458"/>
+        <coeff value="62169.324"/>
+        <coeff value="-68.36136"/>
+        <coeff value="-2119.6912"/>
+        <coeff value="1170.6652"/>
+        <coeff value="-460.82452"/>
+        <coeff value="-267.8708"/>
+      </coeffs>
+      <covariances>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+      </covariances>
+    </inversePlateScalePoly>
+  </ccdGeometry>
+  <ccdGeometry cameraNumber="3" ccdNumber="1" xAngleDegrees="-0.256" yAngleDegrees="12.25" zAngleDegrees="0.055">
+    <plateScalePoly maxDomain="-1.0" offsetx="0.0" order="6" originx="0.0" scalex="1.654982e-05" type="standard" xindex="-1">
+      <coeffs>
+        <coeff value="0.0049791024"/>
+        <coeff value="2851.175"/>
+        <coeff value="10.547364"/>
+        <coeff value="56.481487"/>
+        <coeff value="33.51133"/>
+        <coeff value="-69.38692"/>
+        <coeff value="51.90312"/>
+      </coeffs>
+      <covariances>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+      </covariances>
+    </plateScalePoly>
+    <inversePlateScalePoly maxDomain="-1.0" offsetx="0.0" order="6" originx="0.0" scalex="0.00034080367" type="standard" xindex="-1">
+      <coeffs>
+        <coeff value="0.22862458"/>
+        <coeff value="62169.324"/>
+        <coeff value="-68.36136"/>
+        <coeff value="-2119.6912"/>
+        <coeff value="1170.6652"/>
+        <coeff value="-460.82452"/>
+        <coeff value="-267.8708"/>
+      </coeffs>
+      <covariances>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+      </covariances>
+    </inversePlateScalePoly>
+  </ccdGeometry>
+  <ccdGeometry cameraNumber="3" ccdNumber="2" xAngleDegrees="0.256" yAngleDegrees="12.25" zAngleDegrees="-0.055">
+    <plateScalePoly maxDomain="-1.0" offsetx="0.0" order="6" originx="0.0" scalex="1.654982e-05" type="standard" xindex="-1">
+      <coeffs>
+        <coeff value="0.0049791024"/>
+        <coeff value="2851.175"/>
+        <coeff value="10.547364"/>
+        <coeff value="56.481487"/>
+        <coeff value="33.51133"/>
+        <coeff value="-69.38692"/>
+        <coeff value="51.90312"/>
+      </coeffs>
+      <covariances>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+      </covariances>
+    </plateScalePoly>
+    <inversePlateScalePoly maxDomain="-1.0" offsetx="0.0" order="6" originx="0.0" scalex="0.00034080367" type="standard" xindex="-1">
+      <coeffs>
+        <coeff value="0.22862458"/>
+        <coeff value="62169.324"/>
+        <coeff value="-68.36136"/>
+        <coeff value="-2119.6912"/>
+        <coeff value="1170.6652"/>
+        <coeff value="-460.82452"/>
+        <coeff value="-267.8708"/>
+      </coeffs>
+      <covariances>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+      </covariances>
+    </inversePlateScalePoly>
+  </ccdGeometry>
+  <ccdGeometry cameraNumber="3" ccdNumber="3" xAngleDegrees="0.256" yAngleDegrees="12.75" zAngleDegrees="179.945">
+    <plateScalePoly maxDomain="-1.0" offsetx="0.0" order="6" originx="0.0" scalex="1.654982e-05" type="standard" xindex="-1">
+      <coeffs>
+        <coeff value="0.0049791024"/>
+        <coeff value="2851.175"/>
+        <coeff value="10.547364"/>
+        <coeff value="56.481487"/>
+        <coeff value="33.51133"/>
+        <coeff value="-69.38692"/>
+        <coeff value="51.90312"/>
+      </coeffs>
+      <covariances>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+      </covariances>
+    </plateScalePoly>
+    <inversePlateScalePoly maxDomain="-1.0" offsetx="0.0" order="6" originx="0.0" scalex="0.00034080367" type="standard" xindex="-1">
+      <coeffs>
+        <coeff value="0.22862458"/>
+        <coeff value="62169.324"/>
+        <coeff value="-68.36136"/>
+        <coeff value="-2119.6912"/>
+        <coeff value="1170.6652"/>
+        <coeff value="-460.82452"/>
+        <coeff value="-267.8708"/>
+      </coeffs>
+      <covariances>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+      </covariances>
+    </inversePlateScalePoly>
+  </ccdGeometry>
+  <ccdGeometry cameraNumber="3" ccdNumber="4" xAngleDegrees="-0.256" yAngleDegrees="12.75" zAngleDegrees="-179.945">
+    <plateScalePoly maxDomain="-1.0" offsetx="0.0" order="6" originx="0.0" scalex="1.654982e-05" type="standard" xindex="-1">
+      <coeffs>
+        <coeff value="0.0049791024"/>
+        <coeff value="2851.175"/>
+        <coeff value="10.547364"/>
+        <coeff value="56.481487"/>
+        <coeff value="33.51133"/>
+        <coeff value="-69.38692"/>
+        <coeff value="51.90312"/>
+      </coeffs>
+      <covariances>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+      </covariances>
+    </plateScalePoly>
+    <inversePlateScalePoly maxDomain="-1.0" offsetx="0.0" order="6" originx="0.0" scalex="0.00034080367" type="standard" xindex="-1">
+      <coeffs>
+        <coeff value="0.22862458"/>
+        <coeff value="62169.324"/>
+        <coeff value="-68.36136"/>
+        <coeff value="-2119.6912"/>
+        <coeff value="1170.6652"/>
+        <coeff value="-460.82452"/>
+        <coeff value="-267.8708"/>
+      </coeffs>
+      <covariances>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+      </covariances>
+    </inversePlateScalePoly>
+  </ccdGeometry>
+  <ccdGeometry cameraNumber="4" ccdNumber="1" xAngleDegrees="-0.315" yAngleDegrees="37.25" zAngleDegrees="0.192">
+    <plateScalePoly maxDomain="-1.0" offsetx="0.0" order="6" originx="0.0" scalex="1.654982e-05" type="standard" xindex="-1">
+      <coeffs>
+        <coeff value="0.0049791024"/>
+        <coeff value="2851.175"/>
+        <coeff value="10.547364"/>
+        <coeff value="56.481487"/>
+        <coeff value="33.51133"/>
+        <coeff value="-69.38692"/>
+        <coeff value="51.90312"/>
+      </coeffs>
+      <covariances>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+      </covariances>
+    </plateScalePoly>
+    <inversePlateScalePoly maxDomain="-1.0" offsetx="0.0" order="6" originx="0.0" scalex="0.00034080367" type="standard" xindex="-1">
+      <coeffs>
+        <coeff value="0.22862458"/>
+        <coeff value="62169.324"/>
+        <coeff value="-68.36136"/>
+        <coeff value="-2119.6912"/>
+        <coeff value="1170.6652"/>
+        <coeff value="-460.82452"/>
+        <coeff value="-267.8708"/>
+      </coeffs>
+      <covariances>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+      </covariances>
+    </inversePlateScalePoly>
+  </ccdGeometry>
+  <ccdGeometry cameraNumber="4" ccdNumber="2" xAngleDegrees="0.315" yAngleDegrees="37.25" zAngleDegrees="-0.192">
+    <plateScalePoly maxDomain="-1.0" offsetx="0.0" order="6" originx="0.0" scalex="1.654982e-05" type="standard" xindex="-1">
+      <coeffs>
+        <coeff value="0.0049791024"/>
+        <coeff value="2851.175"/>
+        <coeff value="10.547364"/>
+        <coeff value="56.481487"/>
+        <coeff value="33.51133"/>
+        <coeff value="-69.38692"/>
+        <coeff value="51.90312"/>
+      </coeffs>
+      <covariances>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+      </covariances>
+    </plateScalePoly>
+    <inversePlateScalePoly maxDomain="-1.0" offsetx="0.0" order="6" originx="0.0" scalex="0.00034080367" type="standard" xindex="-1">
+      <coeffs>
+        <coeff value="0.22862458"/>
+        <coeff value="62169.324"/>
+        <coeff value="-68.36136"/>
+        <coeff value="-2119.6912"/>
+        <coeff value="1170.6652"/>
+        <coeff value="-460.82452"/>
+        <coeff value="-267.8708"/>
+      </coeffs>
+      <covariances>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+      </covariances>
+    </inversePlateScalePoly>
+  </ccdGeometry>
+  <ccdGeometry cameraNumber="4" ccdNumber="3" xAngleDegrees="0.315" yAngleDegrees="37.75" zAngleDegrees="179.808">
+    <plateScalePoly maxDomain="-1.0" offsetx="0.0" order="6" originx="0.0" scalex="1.654982e-05" type="standard" xindex="-1">
+      <coeffs>
+        <coeff value="0.0049791024"/>
+        <coeff value="2851.175"/>
+        <coeff value="10.547364"/>
+        <coeff value="56.481487"/>
+        <coeff value="33.51133"/>
+        <coeff value="-69.38692"/>
+        <coeff value="51.90312"/>
+      </coeffs>
+      <covariances>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+      </covariances>
+    </plateScalePoly>
+    <inversePlateScalePoly maxDomain="-1.0" offsetx="0.0" order="6" originx="0.0" scalex="0.00034080367" type="standard" xindex="-1">
+      <coeffs>
+        <coeff value="0.22862458"/>
+        <coeff value="62169.324"/>
+        <coeff value="-68.36136"/>
+        <coeff value="-2119.6912"/>
+        <coeff value="1170.6652"/>
+        <coeff value="-460.82452"/>
+        <coeff value="-267.8708"/>
+      </coeffs>
+      <covariances>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+      </covariances>
+    </inversePlateScalePoly>
+  </ccdGeometry>
+  <ccdGeometry cameraNumber="4" ccdNumber="4" xAngleDegrees="-0.315" yAngleDegrees="37.75" zAngleDegrees="-179.808">
+    <plateScalePoly maxDomain="-1.0" offsetx="0.0" order="6" originx="0.0" scalex="1.654982e-05" type="standard" xindex="-1">
+      <coeffs>
+        <coeff value="0.0049791024"/>
+        <coeff value="2851.175"/>
+        <coeff value="10.547364"/>
+        <coeff value="56.481487"/>
+        <coeff value="33.51133"/>
+        <coeff value="-69.38692"/>
+        <coeff value="51.90312"/>
+      </coeffs>
+      <covariances>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+      </covariances>
+    </plateScalePoly>
+    <inversePlateScalePoly maxDomain="-1.0" offsetx="0.0" order="6" originx="0.0" scalex="0.00034080367" type="standard" xindex="-1">
+      <coeffs>
+        <coeff value="0.22862458"/>
+        <coeff value="62169.324"/>
+        <coeff value="-68.36136"/>
+        <coeff value="-2119.6912"/>
+        <coeff value="1170.6652"/>
+        <coeff value="-460.82452"/>
+        <coeff value="-267.8708"/>
+      </coeffs>
+      <covariances>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+        <covariance value="0.0"/>
+      </covariances>
+    </inversePlateScalePoly>
+  </ccdGeometry>
+</ns1:geometryModel>
