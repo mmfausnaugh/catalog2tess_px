@@ -1,0 +1,70 @@
+The following is the camera parameter file that I use for Camera 1.
+This version contains the nominal values for the parameters that I am
+using.  Except for the parameters "ang2" and "ang3", the values of all
+the other parameters are the same for the four cameras.
+
+ang1, ang2, ang3 nominal values are:
+
+Camera 1: 0.0, -36.0, 90.0
+Camera 2: 0.0, -12.0, 90.0
+Camera 3: 0.0,  12.0, -90.0
+Camera 4: 0.0,  36.0, -90.0
+
+As I understand it, TSIG presently uses the equivalent of "ang2" but
+not "ang1" or "ang3".  That's ok.  Also, the values TSIG uses for
+"ang2" for the four cameras are ok.
+
+For each CCD, I would like TSIG to use the nominal values as set below for
+"x0"
+"y0"
+"ang"
+"pix_x"
+"pix_y".
+
+The values of "asymfac". "asymang", "tilt_x", and "tilt_y" may be
+safely ignored.
+
+The second column contains a code for runfpg4.c and codes derived therefrom 
+(0 => fix parameter; 1 => parameter is free during fitting).  The value in
+this column is not used by my other programs.
+
+ang1_cam1		1	0.0
+ang2_cam1		1	-36.0
+ang3_cam1		1	90.0
+fl_cam1			1	145.986
+opt_coef1_cam1		0 	1.00000140
+opt_coef2_cam1		0	0.28174612
+opt_coef3_cam1		0	-0.59667259
+opt_coef4_cam1		0	9.17151267
+opt_coef5_cam1		0	-4.36928235
+asymang_cam1		1	0.0
+asymfac_cam1		1	1.0
+x0_ccd1_cam1		1	31.50
+y0_ccd1_cam1		1	31.50
+pix_x_ccd1_cam1		0	0.0149995
+pix_y_ccd1_cam1		0	0.0149995
+ang_ccd1_cam1		1	180.0
+tilt_x_ccd1_cam1	0	0.0
+tilt_y_ccd1_cam1	0	0.0
+x0_ccd2_cam1		1	-0.78		
+y0_ccd2_cam1		1	31.50
+pix_x_ccd2_cam1		0	0.0149995
+pix_y_ccd2_cam1		0	0.0149995
+ang_ccd2_cam1		1	180.0
+tilt_x_ccd2_cam1	0	0.0
+tilt_y_ccd2_cam1	0	0.0
+x0_ccd3_cam1		1	-31.50
+y0_ccd3_cam1		1	-31.50
+pix_x_ccd3_cam1		0	0.0149995
+pix_y_ccd3_cam1		0	0.0149995
+ang_ccd3_cam1		1	0.0
+tilt_x_ccd3_cam1	0	0.0	
+tilt_y_ccd3_cam1	0	0.0
+x0_ccd4_cam1		1	0.78
+y0_ccd4_cam1		1	-31.50
+pix_x_ccd4_cam1		0	0.0149995
+pix_y_ccd4_cam1		0	0.0149995
+ang_ccd4_cam1		1	0.0
+tilt_x_ccd4_cam1	0	0.0
+tilt_y_ccd4_cam1	0	0.0
+

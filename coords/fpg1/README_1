@@ -1,0 +1,156 @@
+
+starspx4:
+
+Command line parameters:
+
+1) camera number (1-4)
+2,3,4) Spacecraft attitude specified as RA, Dec (J2000), and roll (all in degrees)
+RA and Dec are the direction that gives the spacecraft z-axis direction.
+
+Input files: 
+
+1) File "fpg_pars.txt" with a parameter name, on/off flag, and parameter value on each line
+2) (via stdin) File with one line per star to be used as in the geometric analysis.
+   Each line comprises 5 columns as follows:
+     Star RA (J2000)
+     Star Dec (J2000)
+     Star RA (J2000) (velocity aberrated)
+     Star Dec (J2000) (velocity aberrated)
+     magnitude in the TESS band.
+
+Output files:
+1) (via stdout) File with one line per star to be used as in the geometric analysis.
+   Each line comprises 9 columns,
+     Line number
+     Star RA (J2000)
+     Star Dec (J2000)
+     Star RA (J2000) (aberrated)
+     Star Dec (J2000) (aberrated)
+     magnitude in the TESS band.
+     CCD no. that the star image is closest to
+     Predicted column no. (uses 1-base FITS file pixel numbering)
+     Predicted row no. (ditto)
+
+Example use in a csh script:
+
+rm fpg_pars.txt
+ln -s fpg_pars2_m1.txt fpg_pars.txt
+~aml/asmxn/tess2/fpg1/starspx3 1 147.418 -46.028 -214.759 < star_table_sector1_camera1ed1.txt > stars_tsc1_spx2.txt
+
+
+
+starsig3:
+
+Command line parameters:
+
+1) Typical point response function width (1 sigma per axis in pixels)
+2) Typical 1 sigma systematic error in a 1-axis star centroid measurement (pixels)
+3) Background light level (TESS magnitude per pixel)
+4) Number of pixels used to determine a stellar centroid location
+
+Input files: 
+
+1) (via stdin) File with one line per star to be used as in the geometric analysis.
+   Each line comprises 9 columns,
+     Line number
+     Star RA (J2000)
+     Star Dec (J2000)
+     Star RA (J2000) (aberrated)
+     Star Dec (J2000) (aberrated)
+     magnitude in the TESS band.
+     CCD no. that the star image is closest to
+     Predicted column no. (uses 1-base FITS file pixel numbering)
+     Predicted row no. (ditto)
+
+Output files:
+1) (via stdout) File with one line per star to be used as in the geometric analysis.
+   Each line comprises 11 columns,
+     Line number
+     Star RA (J2000)
+     Star Dec (J2000)
+     Star RA (J2000) (aberrated)
+     Star Dec (J2000) (aberrated)
+     magnitude in the TESS band.
+     CCD no. that the star image is closest to
+     Predicted column no. (uses 1-base FITS file pixel numbering) w/ superposed simulated
+       measurement noise
+     Predicted row no. (ditto) (ditto)
+     Column pixel no. 1-sigma uncertainty
+     Row pixel no. 1-sigma uncertainty
+
+Example use in a csh script:
+
+~aml/asmxn/tess2/fpg1/starsig2 0.7 0.07 13.0 10 < stars_tsc1_spx2.txt > stars_tsc1_sig2.txt
+
+
+
+
+runfpg4:
+
+Command line parameters:
+
+1) camera number (1-4)
+2,3,4) Spacecraft attitude specified as RA, Dec (J2000), and roll (all in degrees)
+RA and Dec are the direction that gives the spacecraft z-axis direction.
+5) (dxy_mm) A length in mm used in computing the derivatives used in the fitting algorithm.
+            Use a value equal to the distance across a few CCD pixels.
+6) (delchi) Threshold difference of chi square values from one fit iteration to another
+            used to determine when to stop the fitting process.
+7) (ncon)  Differnce number of fit iterations used when checking the chi square change and
+            thereby determining when to stop the fitting process.
+8) (pxbor) A star will not be used in the fit if Its image falls in this CCD border
+            width in pixels.
+
+Input files: 
+
+1) File "fpg_pars.txt" with a parameter name, on/off flag, and parameter value on each line.
+   The parameter values are those used to start the fit.
+   The on/off ( = 1/0) flag sets whether a value is allowed to vary in the fitting process.
+2) (via stdin) File with one line per star to be used as in the geometric analysis.
+   Each line comprises 11 columns,
+     Line number
+     Star RA (J2000)
+     Star Dec (J2000)
+     Star RA (J2000) (aberrated)
+     Star Dec (J2000) (aberrated)
+     magnitude in the TESS band.
+     CCD no. that the star image is closest to
+     Measured column no. (uses 1-base FITS file pixel numbering)
+     Measured row no. (ditto)
+     Column pixel no. 1-sigma uncertainty
+     Row pixel no. 1-sigma uncertainty
+
+Output files:
+1) (via stdout) File with a parameter name, on/off flag, and parameter value on each line.
+   The (on) parameter values are those determined in the fit.  The other (off) parameter
+   values are those values that were read in.
+2) ("runfpg_stars.txt") File with one line per star, with the following columns:
+     Star no.
+     Star RA (J2000)
+     Star Dec (J2000)
+     Star RA (J2000) (aberrated)
+     Star Dec (J2000) (aberrated)
+     TESS-band magnitude
+     CCD no.
+     measured pixel column no.  (9999.0 if star is not on main E)CCD imaging area
+     measured pixel row no.  (ditto)
+     1-sigma pixel column uncertainty
+     1-sigma pixel row uncertainty
+     best-fit model pixel column no.
+     best-fit pixel row no.
+     measured minus best-fit pixel column no.
+     measured minus best-fit pixel row no.
+3) (via stderr) Diagnostic information
+ 
+Example use in a csh script:
+
+rm fpg_pars.txt
+ln -s fpg_pars2_eul0.txt fpg_pars.txt
+(~aml/asmxn/tess2/fpg1/runfpg3 1 147.418 -46.028 -214.759 0.0 0.0 0.0 0.03 0.1 1 50.0 < stars_tsc1_sig2.txt > runfpg3a.txt) >& rf3a.serr
+
+head -3 runfpg3a.txt > fpg_pars3a.txt
+tail -n +4 fpg_pars2.txt >> fpg_pars3a.txt
+
+rm fpg_pars.txt
+ln -s fpg_pars3a.txt fpg_pars.txt
+(~aml/asmxn/tess2/fpg1/runfpg3 1 147.418 -46.028 -214.759 0.0 0.0 0.0 0.03 0.1 1 50.0 < stars_tsc1_sig2.txt > runfpg3b.txt) >& rf3b.serr

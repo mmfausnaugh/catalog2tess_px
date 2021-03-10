@@ -1,0 +1,36 @@
+setvar 0
+	define str fe
+	define ncam 4
+	define fac 500
+	lw 3
+	ptype 4 1
+
+rd 0
+        define infile rfpg_cam$ncam""_$str"".txt
+	da $infile
+        read { x 12 y 13 dx 14 dy 15 }
+
+dop 0
+        erase
+	setvar
+        rd
+        limits 0 4272 0 4154
+	# CCD 4:
+	#limits 2136 4272 0 2078 
+        box
+        xlabel column
+        ylabel row
+	relocate 0 2078
+	draw 4272 2078
+	relocate 2136 0
+	draw 2136 4154
+	points x y
+        do i=0,dimen(x)-1,1 {
+        define xp ( x[$i] )
+        define yp ( y[$i] )
+	relocate $xp $yp
+        define xp ( x[$i] + $fac * dx[$i] )
+        define yp ( y[$i] + $fac * dy[$i] )
+	draw $xp $yp
+        }
+
