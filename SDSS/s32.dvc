@@ -1,0 +1,5 @@
+outs:
+- md5: 8cea52db638318c73b5c652651c3ad8a.dir
+  size: 1045440
+  nfiles: 4
+  path: s32

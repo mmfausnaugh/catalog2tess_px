@@ -1,0 +1,5 @@
+outs:
+- md5: 6fe9756abdca4fb58563b15b5e3af4ed.dir
+  size: 120360960
+  nfiles: 4
+  path: s16
