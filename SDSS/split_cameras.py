@@ -9,7 +9,8 @@ sys.path.insert(0, os.path.abspath(   os.path.dirname(__file__)) + '/..')
 from camera_pointings import cam_pointings
 
 
-d = fits.open('DR14Q_v4_4.fits')
+#d = fits.open('DR14Q_v4_4.fits')
+d = fits.open('DR16Q_v4.fits')
 
 ra = d[1].data['RA']
 dec = d[1].data['DEC']
@@ -29,7 +30,9 @@ cams = [cam_pointings.cam1,
 
 for jj,cam in enumerate(cams):
     for ii in range(len(cam)):
-        if os.path.isfile('s{:02d}/SDSS_DR14_s{:02d}_cam{}.fits'.format(ii+1, ii+1, jj + 1)):
+        #if os.path.isfile('s{:02d}/SDSS_DR14_s{:02d}_cam{}.fits'.format(ii+1, ii+1, jj + 1)):
+        #    continue
+        if os.path.isfile('s{:02d}/SDSS_DR16_s{:02d}_cam{}.fits'.format(ii+1, ii+1, jj + 1)):
             continue
         ra1,dec1 = cam[ii]
         print(ra1,dec1, ii, jj)
@@ -53,5 +56,5 @@ for jj,cam in enumerate(cams):
 
         if os.path.isdir('s{:02d}'.format(ii+1)) == False:
             os.makedirs('s{:02d}'.format(ii+1))
-        dout.writeto('s{:02d}/SDSS_DR14_s{:02d}_cam{}.fits'.format(ii+1, ii+1, jj + 1),overwrite=True)
+        dout.writeto('s{:02d}/SDSS_DR16_s{:02d}_cam{}.fits'.format(ii+1, ii+1, jj + 1),overwrite=True)
 
