@@ -46,11 +46,11 @@ for sector in sectors:
             with open( os.path.join( outdir ,  
                                      'match_hyperleda_milliquas_cam{}_ccd{}.txt'.format(cam, ccd + 1)
                                  ),'w') as fout:
-                fout.write('{:>35s} {:>35s} '
-                           '{:>12s} {:>12s} '
-                           '{:>10s} {:>10s} {:>10s} '
-                           '{:>7s} {:>7s} '
-                           '{:>8s} {:>8s} {:>8s} {:>8s} {:>8s}\n'.format('hyperleda_id',
+                fout.write('{:>35s},{:>35s},'
+                           '{:>12s},{:>12s},'
+                           '{:>10s},{:>10s},{:>10s},'
+                           '{:>7s},{:>7s},'
+                           '{:>8s},{:>8s},{:>8s},{:>8s},{:>8s}\n'.format('hyperleda_id',
                                                                          'milliquas_id',
                                                                          'hyp_class',
                                                                          'mil_class',
@@ -63,11 +63,11 @@ for sector in sectors:
                                                                          'mil_col','mil_row',
                                                                          'delta_px'))
                 for ii in range(len(hyperleda_idx)):            
-                    fout.write('{:>35s} {:>35s} '
-                               '{:>12s} {:>12s} '
-                               '{:>10.3f} {:>10.6f} {:>10.6f} '
-                               '{:>7.3f} {:>7.3f} '
-                               '{:>8.2f} {:>8.2f} {:>8.2f} {:>8.2f} {:>8.4f}\n'.format(                   
+                    fout.write('{:>35s},{:>35s},'
+                               '{:>12s},{:>12s},'
+                               '{:>10.3f},{:>10.6f},{:>10.6f},'
+                               '{:>7.3f},{:>7.3f},'
+                               '{:>8.2f},{:>8.2f},{:>8.2f},{:>8.2f},{:>8.4f}\n'.format(                   
                                    hyperleda_cat.objname[ccd_m1][hyperleda_idx[ii]],
                                    milliquas_cat.name[ccd_m2][milliquas_idx[ii]],
 
