@@ -507,3 +507,5 @@
     AT  2021dzn      GaiaAlerts                 Gaia21bcz   06:45:05.220   -41:53:12.52 2021-02-26 11:31:12.000    Unclassified   18.27                 G_Gaia          -99                                     None          -99
     AT  2021ecc           ATLAS                ATLAS21hee   05:11:26.556   -37:03:39.80 2021-02-16 06:28:48.000    Unclassified  19.352             cyan_ATLAS          -99                                     None          -99
     AT  2021eim      GaiaAlerts                 Gaia21bej   05:49:04.660   -33:00:49.10 2021-03-02 05:38:24.000    Unclassified    18.8                 G_Gaia          -99                                     None          -99
+    AT  2021fio     Pan-STARRS1                   PS21bov   06:47:59.751   -30:09:34.88 2021-02-22 06:04:19.200    Unclassified   18.66                i_Sloan          -99                                     None          -99
+    AT  2021fkz           ATLAS                ATLAS21hov   06:36:40.072   -35:41:00.93 2021-03-12 05:44:09.600    Unclassified  17.109             cyan_ATLAS          -99                                     None          -99
