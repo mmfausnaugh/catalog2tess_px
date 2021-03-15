@@ -308,3 +308,4 @@
     AT  2021dnx      GaiaAlerts                 Gaia21aza   09:19:28.350   -53:16:00.95 2021-02-18 23:09:36.000    Unclassified   12.41                 G_Gaia          -99                                     None          -99
     AT  2021dvm           ATLAS                ATLAS21gyx   07:09:45.312   -45:44:31.55 2021-02-26 07:35:02.400    Unclassified  17.834           orange_ATLAS          -99                                     None          -99
     AT  2021dvt      GaiaAlerts                 Gaia21bbg   08:19:28.860   -57:26:06.11 2021-02-21 23:12:28.800    Unclassified   16.16                 G_Gaia          -99                                     None          -99
+    AT  2021fcf          MASTER MASTER-OT-J092150.55-620934.7   09:21:50.550   -62:09:34.70 2021-02-23 03:47:07.872    Unclassified    17.9                 Clear_          -99                                     None          -99

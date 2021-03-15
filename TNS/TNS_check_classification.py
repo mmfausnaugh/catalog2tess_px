@@ -114,8 +114,8 @@ api_key="27ef476a16a3292302a365f8e3a0e7e8929f84b9"
 
 
 #active_sectors = [15,16,17,18,19,20,21,22,23,24,25,26]
-#active_sectors = [29,30,31,32,33, 34, 35]
-active_sectors = [35]
+active_sectors = [32,33, 34, 35]
+#active_sectors = [35]
 
 
 if len(sys.argv) > 2:
