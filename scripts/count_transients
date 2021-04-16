@@ -90,13 +90,18 @@ def main():
                 if args.list:
                     for jj in sp.where(mask)[0]:
                         print('{}{} {:6s} {} {}'.format(cat.prefix[jj],cat.obj_name[jj], cat.obj_type[jj], cat.internal_name[jj], cat.mag[jj]))
+                        #print('{:4d} {:4d} {:4d} {}{} {:6s} {} {}'.format(sector, cam, ccd, cat.prefix[jj],
+#                                                        cat.obj_name[jj],
+#                                                        cat.obj_type[jj],
+#                                                        cat.internal_name[jj], cat.mag[jj]))
 
                 if args.save:
                     for jj in sp.where(mask)[0]:
-                        outfile.write('{:4d} {:15.8f} {:15.8f} {:6.3f} {:10.5f} {:4s} {:10s} {:10s} {:4d} {:4d} {:15.3f} {:15.3f}\n'.format(
+                        outfile.write('{:4d} {:15.8f} {:15.8f} {:6.3f} {:10.5f} {:4s} {:14s} {:10s} {:11s} {:4d} {:4d} {:15.3f} {:15.3f}\n'.format(
                             sector, cat.ra[jj],
                             cat.dec[jj], cat.mag[jj],
                             cat.tjd[jj], cat.prefix[jj],
+                            cat.obj_type[jj],
                             cat.obj_name[jj], cat.group[jj], cam, ccd, cat.ccdcol[jj],cat.ccdrow[jj]  ))
                     
                 cam_total += len(cat.obj_name[mask])

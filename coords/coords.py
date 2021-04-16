@@ -158,7 +158,7 @@ class SectorCoords(object):
                                                                  dec,
                                                                  mag)
         col2,row2 = self.convert_cam2ccd_pix(col1, row1, ccd1)
-        print(self.sector_num, camnum, col1,row1, col2, row2)
+        #print(self.sector_num, camnum, col1,row1, col2, row2)
         #on imaging region, and maske sure bkg annulus will fit
         #settled on bkground region inner/outer 4/8 pixels
         #seems to need some extra buffer for things near the bottom
