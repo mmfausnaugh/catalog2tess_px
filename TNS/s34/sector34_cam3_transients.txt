@@ -364,3 +364,5 @@
     AT  2021lbc      GaiaAlerts                 Gaia21cen   08:04:20.630   -46:24:50.36 2021-05-03 10:39:21.600    Unclassified   18.26                 G_Gaia          -99                                     None          -99
     AT  2021lfi      GaiaAlerts                 Gaia21cep   08:03:11.860   -43:52:46.38 2021-04-02 11:00:57.600    Unclassified   18.41                 G_Gaia          -99                                     None          -99
     AT  2021lfm      GaiaAlerts                 Gaia21ces   07:50:47.200   -46:30:35.32 2021-05-03 16:37:55.200    Unclassified   17.89                 G_Gaia          -99                                     None          -99
+    AT  2021lqp      GaiaAlerts                 Gaia21cfv   06:55:32.880   -37:39:14.76 2021-05-06 12:18:43.200    Unclassified    18.7                 G_Gaia          -99                                     None          -99
+    AT  2021lqr      GaiaAlerts                 Gaia21cfx   06:18:49.190   -36:41:43.69 2021-05-07 04:23:31.200    Unclassified   17.98                 G_Gaia          -99                                     None          -99
