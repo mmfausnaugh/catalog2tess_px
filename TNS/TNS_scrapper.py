@@ -116,7 +116,7 @@ api_key="27ef476a16a3292302a365f8e3a0e7e8929f84b9"
 
 
 #active_sectors = [14,15,16,17,18,19,20,21,22,23,24,25,26]
-active_sectors = [33,34,35,36]
+active_sectors = [34,35,36, 37,38]
 #active_sectors = [34]
 
 #these are imported from catalog2tess_px/camera_pointings/cam_pointings.py
