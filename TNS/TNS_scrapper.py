@@ -10,15 +10,21 @@ Developed and tested in :
 @author: Nikola Knezevic
 """
 
+
 import os
 import sys
-import scipy as sp
+import numpy as np
 import requests
 import json
 from collections import OrderedDict
 
 sys.path.insert(0, os.path.abspath(   os.path.dirname(__file__)) + '/..')
 from camera_pointings import cam_pointings
+
+#new header needed as of 2021 May
+#header = {'User-=Agent':'tns_marker{"tns_id":54047,"type": "bot", "name":"tess1"}'}
+header = {'User-Agent':'tns_marker{"tns_id":870,"type": "user", "name":"mmfausnaugh"}'}
+
 
 ############################# PARAMETERS #############################
 # API key for Bot                                                    #
@@ -64,8 +70,10 @@ def search(url,json_list):                                           #
     # construct the list of (key,value) pairs                        #
     search_data=[('api_key',(None, api_key)),                        #
                  ('data',(None,json.dumps(json_file)))]              #
-    # search obj using request module                                #
-    response=requests.post(search_url, files=search_data)            #
+    # search obj using request module      #
+    response=requests.post(search_url, 
+                           headers=header,
+                           files=search_data)            #
     # return response                                                #
     return response                                                  #
   except Exception as e:                                             #
@@ -82,7 +90,9 @@ def get(url,json_list):                                              #
     get_data=[('api_key',(None, api_key)),                           #
                  ('data',(None,json.dumps(json_file)))]              #
     # get obj using request module                                   #
-    response=requests.post(get_url, files=get_data)                  #
+    response=requests.post(get_url, 
+                           headers=header,
+                           files=get_data)                  #
     # return response                                                #
     return response                                                  #
   except Exception as e:                                             #
@@ -94,7 +104,8 @@ def get_file(url):                                                   #
     # take filename                                                  #
     filename=os.path.basename(url)                                   #
     # downloading file using request module                          #
-    response=requests.post(url, files=[('api_key',(None, api_key))], #
+    response=requests.post(url, files=[('api_key',(None, api_key))],
+                           header=headers, #
                            stream=True)                              #
     # saving file                                                    #
     path=os.path.join(download_dir,filename)                         #
@@ -131,9 +142,9 @@ for s in active_sectors:
 
         catfile = 's{:02d}/sector{}_cam{}_transients.txt'.format(s, s, ii+1)
         if os.path.isfile(catfile):
-            catname = sp.genfromtxt(catfile,usecols=(1),dtype=str, comments='@')
+            catname = np.genfromtxt(catfile,usecols=(1),dtype=str, comments='@')
         else:
-            catname = sp.array([])
+            catname = np.array([])
             with open(catfile,'w') as fout:
                 fout.write('#%-6s %-8s %-15s %-25s %-14s %-14s %-22s %-15s %-7s %-22s %-12s %-40s %-12s\n'%(
                     'prefix','name','group','internal_name',
@@ -158,7 +169,7 @@ for s in active_sectors:
                        
 
             for obj in objs:
-                if any(sp.in1d(catname, str(obj))):
+                if any(np.in1d(catname, str(obj))):
                     continue
                 get_obj = [("objname",obj)]
                 response=get(url_tns_api, get_obj)
