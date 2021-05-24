@@ -435,3 +435,4 @@
     AT  2021knl      GaiaAlerts                 Gaia21cbi   08:11:33.370   -80:31:09.62 2021-04-25 16:14:52.800    Unclassified   17.72                 G_Gaia          -99                                     None          -99
     AT  2021knp      GaiaAlerts                 Gaia21cbr   10:16:24.590   -60:33:10.33 2021-04-26 00:24:28.800    Unclassified   18.63                 G_Gaia          -99                                     None          -99
     AT  2021kpn          MASTER MASTER-OT-J150231.16-830149.5   15:02:31.160   -83:01:49.50 2021-04-29 07:58:12.576    Unclassified    14.0                 Clear_          -99                                     None          -99
+    AT  2021mil         ASAS-SN               ASASSN-21ia   11:46:41.407   -65:32:30.73 2021-05-15 03:07:12.000    Unclassified    16.3                g_Sloan          -99                                     None          -99

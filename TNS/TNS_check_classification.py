@@ -11,13 +11,17 @@ Developed and tested in :
 """
 
 import os
-import scipy as sp
+import numpy as np
 import requests
 import json
 from collections import OrderedDict
 from astropy.time import Time
 import datetime
 import sys
+
+#new header needed as of 2021 May
+#header = {'User-=Agent':'tns_marker{"tns_id":54047,"type": "bot", "name":"tess1"}'}
+header={'User-Agent':'tns_marker{"tns_id":870,"type": "user", "name":"mmfausnaugh"}'}
 
 ############################# PARAMETERS #############################
 # API key for Bot                                                    #
@@ -65,7 +69,9 @@ def search(url,json_list):                                           #
     search_data=[('api_key',(None, api_key)),                        #
                  ('data',(None,json.dumps(json_file)))]              #
     # search obj using request module                                #
-    response=requests.post(search_url, files=search_data)            #
+    response=requests.post(search_url, 
+                           headers=header,
+                           files=search_data)            #
     # return response                                                #
     return response                                                  #
   except Exception as e:                                             #
@@ -82,7 +88,9 @@ def get(url,json_list):                                              #
     get_data=[('api_key',(None, api_key)),                           #
                  ('data',(None,json.dumps(json_file)))]              #
     # get obj using request module                                   #
-    response=requests.post(get_url, files=get_data)                  #
+    response=requests.post(get_url, 
+                           headers = header,
+                           files=get_data)                  #
     # return response                                                #
     return response                                                  #
   except Exception as e:                                             #
@@ -114,7 +122,7 @@ api_key="27ef476a16a3292302a365f8e3a0e7e8929f84b9"
 
 
 #active_sectors = [15,16,17,18,19,20,21,22,23,24,25,26]
-active_sectors = [34, 35, 36]
+active_sectors = [34, 35, 36, 37,38]
 #active_sectors = [35]
 
 
@@ -136,11 +144,11 @@ for s in active_sectors:
 
         catfile = 's{:02d}/sector{}_cam{}_transients.txt'.format(s, s,ii+1)
         if os.path.isfile(catfile):
-            catname = sp.genfromtxt(catfile,usecols=(1),dtype=str)
-            prefix  = sp.genfromtxt(catfile,usecols=(0),dtype=str)
-            classification = sp.genfromtxt(catfile,usecols=(8),dtype=str)
-            t1,t2 = sp.genfromtxt(catfile,usecols=(6,7),unpack=1,dtype=str)
-            t = sp.array([ z[0]+'T'+z[1] for z in zip(t1,t2)])
+            catname = np.genfromtxt(catfile,usecols=(1),dtype=str)
+            prefix  = np.genfromtxt(catfile,usecols=(0),dtype=str)
+            classification = np.genfromtxt(catfile,usecols=(8),dtype=str)
+            t1,t2 = np.genfromtxt(catfile,usecols=(6,7),unpack=1,dtype=str)
+            t = np.array([ z[0]+'T'+z[1] for z in zip(t1,t2)])
             #            print(Time(t[0:20], format='isot',scale='utc'))
 
             try:
@@ -167,7 +175,7 @@ for s in active_sectors:
                 try:
                     json_data2 = json.loads(response.text)
                     json_data2 = json_data2['data']['reply']
-                    m = sp.in1d(catname, obj)
+                    m = np.in1d(catname, obj)
 
                     if json_data2['object_type']['name']  is not  None:
                         obj_type = json_data2['object_type']['name'].replace(' ','')
