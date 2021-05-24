@@ -54,8 +54,10 @@ def main():
                 #select the masks
                 mag_mask  = cat.rmag < args.mag
                 ccd_mask  = cat.ccd == ccd
-
-                mask = mag_mask & ccd_mask
+                row_mask = (cat.ccdrow > 10 ) & (cat.ccdrow < 2038)
+                col_mask = (cat.ccdcol > 54 ) & (cat.ccdcol < 2082)
+                mask = mag_mask & ccd_mask & row_mask & col_mask
+                
                 
                 l2 = sp.array([i.replace(' ', '_') for i in cat.name])
 
