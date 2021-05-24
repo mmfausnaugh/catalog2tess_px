@@ -75,7 +75,7 @@ for sector in sectors:
                                    milliquas_cat.qso_class[ccd_m2][milliquas_idx[ii]],
 
                                    hyperleda_cat.corrected_BV[ccd_m1][hyperleda_idx[ii]],
-                                   hyperleda_cat.velocity[ccd_m1][hyperleda_idx[ii]]/2.99792e10,
+                                   hyperleda_cat.velocity[ccd_m1][hyperleda_idx[ii]]/2.99792e5,
                                    milliquas_cat.redshift[ccd_m2][milliquas_idx[ii]],
                            
                                    hyperleda_cat.imag[ccd_m1][hyperleda_idx[ii]],
