@@ -527,3 +527,5 @@
     AT  2021ktq      GaiaAlerts                 Gaia21cdj   06:57:29.020   -63:13:11.64 2021-04-30 10:22:04.800    Unclassified   17.87                 G_Gaia          -99                                     None          -99
     AT  2021kvp         ASAS-SN               ASASSN-21gx   06:39:52.750   -54:39:04.68 2021-05-01 18:57:36.000    Unclassified    17.0                g_Sloan          -99                 WISEAJ063952.03-543901.3     0.035111
     AT  2021kvy      GaiaAlerts                 Gaia21cdo   05:19:17.160   -64:02:09.38 2021-04-30 11:55:40.800    Unclassified   18.17                 G_Gaia          -99                                     None          -99
+    AT  2021nny      GaiaAlerts                 Gaia21cnz   04:55:14.990   -63:11:51.29 2021-05-26 15:57:36.000    Unclassified   17.28                 G_Gaia          -99                                     None          -99
+    AT  2021nnz      GaiaAlerts                 Gaia21coa   04:37:34.860   -63:34:09.08 2021-04-30 11:51:21.600    Unclassified   16.85                 G_Gaia          -99                                     None          -99
