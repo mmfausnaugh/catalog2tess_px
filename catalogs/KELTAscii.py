@@ -27,6 +27,7 @@ class KELTAscii(Catalog):
     def __init__(self, ifile, sector, cam,ignore_image_buffer=False):
         d = pd.read_csv(ifile, dtype = {'0': str, '1': float}, skiprows = 1, usecols = range(37), sep='\t',
                         engine='python', na_values = "N/A", header=None)
+        print(d)
         d = pd.DataFrame(d).to_numpy()
         
         ra = d[:,8]

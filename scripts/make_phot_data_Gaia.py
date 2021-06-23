@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import scipy as sp
+import numpy as np
 import os
 import sys
 sys.path.insert(0, os.path.abspath(   os.path.dirname(__file__)) + '/..') 
@@ -61,7 +61,7 @@ def main():
                 if not os.path.isdir(outdir):
                     os.makedirs(outdir)
 
-                name_use = sp.array(["{:019d}".format(sp.uint64(i)) for i in cat.source_id])
+                name_use = np.array(["{:019d}".format(np.uint64(i)) for i in cat.source_id])
                 cat.make_phot_data(cat.ccdcol[mask],
                                    cat.ccdrow[mask],
                                    name_use[mask],
