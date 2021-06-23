@@ -19,10 +19,7 @@ class FermiCsv(Catalog):
     def __init__(self, ifile, sector, cam,ignore_image_buffer=False):
         d = pd.read_csv(ifile, dtype = {'0': str, '1': float}, skiprows = 4, usecols = range(1, 19), sep='|',
                         engine='python', na_values = "N/A", header=0)
-        #print(d)
-        #print('columns: ', d.columns)
         d = pd.DataFrame(d).to_numpy()
-        #assert False
         ra = [[float(e) for e in r.split(' ')] for r  in d[:,1]]
         dec = [[float(e) for e in r.split(' ')] for r in d[:,2]]
         coords = np.array([ self.sexigesimal_to_decimal(z[0],z[1]) for z in zip(ra,dec)])
@@ -39,10 +36,7 @@ class FermiCsv(Catalog):
         ccdrow = out[4]
         idx = out[8]
         
-        # print sector, cam, idx
-        # print d
         d = d[idx]
-        # print d, ccd
         ra = ra[idx]
         dec = dec[idx]
         
