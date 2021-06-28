@@ -23,6 +23,7 @@ class FermiCsv(Catalog):
         ra = [[float(e) for e in r.split(' ')] for r  in d[:,1]]
         dec = [[float(e) for e in r.split(' ')] for r in d[:,2]]
         coords = np.array([ self.sexigesimal_to_decimal(z[0],z[1]) for z in zip(ra,dec)])
+        d[:,0] = [r.replace(" ", "_") for r in d[:,0]]
         ra  = coords[:,0]
         dec = coords[:,1]
         
