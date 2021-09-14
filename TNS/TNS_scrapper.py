@@ -17,14 +17,14 @@ import numpy as np
 import requests
 import json
 from collections import OrderedDict
+from time import sleep
 
 sys.path.insert(0, os.path.abspath(   os.path.dirname(__file__)) + '/..')
 from camera_pointings import cam_pointings
 
 #new header needed as of 2021 May
-#header = {'User-=Agent':'tns_marker{"tns_id":54047,"type": "bot", "name":"tess1"}'}
-header = {'User-Agent':'tns_marker{"tns_id":870,"type": "user", "name":"mmfausnaugh"}'}
-
+header = {'User-Agent':'tns_marker{"tns_id":54047,"type": "bot", "name":"tess1"}'}
+#header = {'User-Agent':'tns_marker{"tns_id":870,"type": "user", "name":"mmfausnaugh"}'}
 
 ############################# PARAMETERS #############################
 # API key for Bot                                                    #
@@ -68,12 +68,18 @@ def search(url,json_list):                                           #
     # change json_list to json format                                #
     json_file=OrderedDict(json_list)                                 #
     # construct the list of (key,value) pairs                        #
-    search_data=[('api_key',(None, api_key)),                        #
-                 ('data',(None,json.dumps(json_file)))]              #
+    search_data={'api_key': api_key,                         #
+                 'data':json.dumps(json_file)}              #
     # search obj using request module      #
     response=requests.post(search_url, 
                            headers=header,
-                           files=search_data)            #
+                           data=search_data)            #
+#    search_data=[('api_key',(None, api_key)),                        #
+#                 ('data',(None,json.dumps(json_file)))]              #
+#    # search obj using request module      #
+#    response=requests.post(search_url, 
+#                           headers=header,
+#                           files=search_data)            #
     # return response                                                #
     return response                                                  #
   except Exception as e:                                             #
@@ -87,12 +93,17 @@ def get(url,json_list):                                              #
     # change json_list to json format                                #
     json_file=OrderedDict(json_list)                                 #
     # construct the list of (key,value) pairs                        #
-    get_data=[('api_key',(None, api_key)),                           #
-                 ('data',(None,json.dumps(json_file)))]              #
-    # get obj using request module                                   #
+
+    get_data={'api_key':api_key,'data': json.dumps(json_file)}
     response=requests.post(get_url, 
                            headers=header,
-                           files=get_data)                  #
+                           data=get_data)                  #
+#    get_data=[('api_key',(None, api_key)),                           #
+#                 ('data',(None,json.dumps(json_file)))]              #
+    # get obj using request module                                   #
+#    response=requests.post(get_url, 
+#                           headers=header,
+#                           files=get_data)                  #
     # return response                                                #
     return response                                                  #
   except Exception as e:                                             #
@@ -127,7 +138,7 @@ api_key="27ef476a16a3292302a365f8e3a0e7e8929f84b9"
 
 
 #active_sectors = [14,15,16,17,18,19,20,21,22,23,24,25,26]
-active_sectors = [40]
+active_sectors = [37,38,39,40,41,42]
 #active_sectors = [34]
 
 #these are imported from catalog2tess_px/camera_pointings/cam_pointings.py
@@ -138,6 +149,7 @@ cams = [cam_pointings.cam1,
 
 for s in active_sectors:
     for ii,cam in enumerate(cams):
+        sleep(60)
         print('searching sector {}, camera {}'.format(s, ii+1))
 
         catfile = 's{:02d}/sector{}_cam{}_transients.txt'.format(s, s, ii+1)
@@ -161,7 +173,6 @@ for s in active_sectors:
                     ("objname",""),
                     ("internal_name","")]                    
         response=search(url_tns_api,search_obj)
-
         if None not in response:
             # Here we just display the full json data as the response
             json_data=json.loads(response.text)
@@ -169,13 +180,19 @@ for s in active_sectors:
                        
 
             for obj in objs:
+
                 if any(np.in1d(catname, str(obj))):
                     continue
                 get_obj = [("objname",obj)]
+                sleep(3.0)
                 response=get(url_tns_api, get_obj)
+                
                 json_data2 = json.loads(response.text)
-                json_data2 = json_data2['data']['reply']
-
+                try:
+                    json_data2 = json_data2['data']['reply']
+                except:
+                    print(json_data2)
+                    raise
                 try:
                     times = json_data2['discoverydate']
                     mags  = float(json_data2['discoverymag'])
@@ -250,7 +267,6 @@ for s in active_sectors:
                     times, obj_type, mags, fband, redshift,
                     host,host_redshift))
                 fout.flush()
-                
                 
         else:
             print (response[1])

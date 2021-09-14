@@ -18,10 +18,11 @@ from collections import OrderedDict
 from astropy.time import Time
 import datetime
 import sys
+from time import sleep
 
 #new header needed as of 2021 May
-#header = {'User-=Agent':'tns_marker{"tns_id":54047,"type": "bot", "name":"tess1"}'}
-header={'User-Agent':'tns_marker{"tns_id":870,"type": "user", "name":"mmfausnaugh"}'}
+header = {'User-Agent':'tns_marker{"tns_id":54047,"type": "bot", "name":"tess1"}'}
+#header={'user-agent':'tns_marker{"tns_id":870,"type": "user", "name":"mmfausnaugh"}'}
 
 ############################# PARAMETERS #############################
 # API key for Bot                                                    #
@@ -123,6 +124,7 @@ api_key="27ef476a16a3292302a365f8e3a0e7e8929f84b9"
 
 #active_sectors = [15,16,17,18,19,20,21,22,23,24,25,26]
 active_sectors = [38,39]
+#active_sectors = [37]
 #active_sectors = [35]
 
 
@@ -140,6 +142,7 @@ print('\n\nchecking for changes {} days in the past...\n\n'.format(time_offset))
 for s in active_sectors:
     #loop over cameras
     for ii in range(4):
+        sleep(60)
         print('searching sector {}, camera {}'.format(s, ii+1))
 
         catfile = 's{:02d}/sector{}_cam{}_transients.txt'.format(s, s,ii+1)
@@ -171,9 +174,11 @@ for s in active_sectors:
 
             for obj in catname[m_use]:
                 get_obj = [("objname",obj)]
+                sleep(3.0)
                 response=get(url_tns_api, get_obj)
                 try:
                     json_data2 = json.loads(response.text)
+                    #print(json_data2)
                     json_data2 = json_data2['data']['reply']
                     m = np.in1d(catname, obj)
 
@@ -193,4 +198,5 @@ for s in active_sectors:
                 except:
                     print('obj',obj)
                     print('response',response)
+                    #continue
                     raise
