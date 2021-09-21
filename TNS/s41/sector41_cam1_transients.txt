@@ -883,3 +883,4 @@
     AT  2021yml          MASTER MASTER-OT-J200756.96+204158.1   20:07:57.050   +20:41:57.90 2021-09-10 00:49:21.792    Unclassified    16.5                 Clear_          -99                                     None          -99
     AT  2021ypf          MASTER MASTER-OT-J200306.19+325807.9   20:03:06.190   +32:58:07.90 2021-09-10 20:31:25.824    Unclassified    16.6                 Clear_          -99                                     None          -99
     AT  2021yrl             ZTF              ZTF21acatkss   20:48:37.964   +27:03:18.81 2021-09-09 08:22:33.600    Unclassified   18.63                  r_ZTF          -99                                     None          -99
+    AT  2021zbi             ZTF              ZTF21abwrafv   19:20:48.945   +37:45:26.82 2021-09-01 06:24:28.800    Unclassified   19.13                  g_ZTF          -99                                     None          -99
