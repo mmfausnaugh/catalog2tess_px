@@ -1256,3 +1256,5 @@
     AT  2021zao          ALeRCE              ZTF21accqita   08:21:16.145   +70:24:49.06 2021-09-16 11:22:48.003    Unclassified 19.6843                  r_ZTF          -99                 WISEAJ082115.33+702448.1          -99
     AT  2021zdg           AMPEL              ZTF18acpwhdb   08:19:10.541   +76:15:42.39 2021-09-18 11:21:59.904    Unclassified   18.49                  g_ZTF          -99                                     None          -99
     AT  2021zdz           AMPEL              ZTF18achddwe   08:26:08.360   +70:02:41.62 2021-09-16 11:54:16.128    Unclassified   19.29                  g_ZTF          -99                                     None          -99
+    AT 2019aalp            None                      None   06:56:15.980   +71:43:23.19 2019-02-08 07:14:13.000    Unclassified   20.61                r_Sloan          -99                 WISEAJ065616.90+714323.4          -99
+    AT  2021zrk          ALeRCE              ZTF21aceduex   06:54:20.235   +85:59:37.56 2021-09-22 08:44:29.999    Unclassified 19.5101                  r_ZTF          -99                 WISEAJ065421.53+855937.5          -99

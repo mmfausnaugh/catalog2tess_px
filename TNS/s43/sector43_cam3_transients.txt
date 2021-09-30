@@ -914,3 +914,4 @@
     AT  2021zgv             ZTF              ZTF21accwevc   03:13:19.176   +18:17:42.76 2021-09-17 10:14:52.800    Unclassified   20.27                  g_ZTF          -99                                     None          -99
     AT  2021zlx     Pan-STARRS1                   PS21kgq   03:16:12.410   +16:07:19.97 2021-09-11 12:17:16.800    Unclassified   21.62                  w_PS1          -99                                     None          -99
     AT  2021zuo     Pan-STARRS1                   PS21kmh   03:43:22.986   +12:20:43.38 2021-09-11 12:21:36.000    Unclassified   21.35                  w_PS1          -99                                     None          -99
+    AT  2021zvs     Pan-STARRS1                   PS21knk   04:01:08.803   +13:14:34.37 2021-09-11 12:23:02.400    Unclassified   20.73                  w_PS1          -99                                     None          -99
