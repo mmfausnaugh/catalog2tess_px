@@ -1897,3 +1897,5 @@
     AT    2021Z          ALeRCE              ZTF18aaqcfax   10:39:57.702   +58:29:43.84 2021-01-01 11:10:04.996    Unclassified 19.4243                  r_ZTF          -99                  SDSSJ103957.69+582943.9        0.102
     SN   2021zs          ALeRCE              ZTF21aacscvb   09:11:21.780   +77:33:36.58 2021-01-09 08:49:05.002            SNIa 20.1365                  r_ZTF         0.07                 WISEAJ091121.75+773331.7          -99
     AT  2018lyn             ZTF              ZTF18aaqxpsi   14:11:01.122   +63:16:55.62 2018-05-10 07:23:31.200    Unclassified   18.22                  r_ZTF          -99                                     None          -99
+    AT 2021aahc          ALeRCE              ZTF21acfjllc   09:26:18.983   +73:10:59.69 2021-09-30 10:36:49.000    Unclassified 19.9543                  g_ZTF          -99                 WISEAJ092618.62+731058.2          -99
+    AT 2021aalo             ZTF              ZTF21acermmd   10:31:09.613   +72:47:17.15 2021-09-30 11:19:40.800    Unclassified   17.14                  g_ZTF          -99                                     None          -99

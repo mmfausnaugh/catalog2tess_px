@@ -426,3 +426,5 @@
     AT  2021yrd          ALeRCE              ZTF18aadgcej   06:40:33.947   +34:15:13.66 2021-09-11 11:42:17.997    Unclassified 20.2089                  r_ZTF          -99                 WISEAJ064033.93+341513.9          -99
     AT  2021yro           ATLAS               ATLAS21binu   06:32:23.413   +28:00:15.86 2021-09-10 14:24:00.000    Unclassified   19.32             cyan_ATLAS          -99                                     None          -99
     AT  2021zjh          ALeRCE              ZTF21acdobrl   06:16:25.501   +24:34:02.00 2021-09-22 10:48:55.996    Unclassified 19.1204                  r_ZTF          -99                  SDSSJ061625.49+243401.8          -99
+    AT 2021aabb      GaiaAlerts                 Gaia21ejl   06:28:09.080   +19:49:18.26 2021-09-19 13:07:40.800    Unclassified   18.94                 G_Gaia          -99                                     None          -99
+    AT 2021aabf          ALeRCE              ZTF21acertfl   06:25:57.371   +30:56:28.59 2021-09-30 10:45:08.997    Unclassified 19.9343                  g_ZTF          -99                 WISEAJ062557.33+305627.6          -99
