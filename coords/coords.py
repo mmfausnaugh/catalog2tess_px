@@ -168,6 +168,7 @@ class SectorCoords(object):
                                                                  ra,
                                                                  dec,
                                                                  mag)
+
         col2,row2 = self.convert_cam2ccd_pix(col1, row1, ccd1)
         #print(self.sector_num, camnum, col1,row1, col2, row2)
         #on imaging region, and maske sure bkg annulus will fit
@@ -185,7 +186,7 @@ class SectorCoords(object):
 
         if len(idx[m]) == 0:
             raise ValueError('No objects on this CCD in this Sector')
-        
+
         return col1[m], row1[m], ccd1[m], col2[m], row2[m], ra1[m], dec1[m], mag1[m], idx[m]
         
 
