@@ -521,3 +521,4 @@
     SN 2021aesq             ZTF              ZTF21acpmcgo   05:40:40.000   +16:27:36.34 2021-11-12 09:06:33.120            SNIa 20.1673                  r_ZTF     0.016225                                     None          -99
     AT 2021afbb             ZTF              ZTF21acqfilh   04:35:16.649   +12:25:23.07 2021-11-14 09:08:38.400    Unclassified    20.4                  r_ZTF          -99                                     None          -99
     AT 2021afje     Pan-STARRS1                   PS21mws   04:36:01.552   +14:08:27.18 2021-11-24 08:57:07.200    Unclassified   19.82                i_Sloan          -99                                     None          -99
+    AT 2019aamj     Pan-STARRS1                   PS21nbc   05:00:30.671   +09:51:37.79 2019-10-05 13:20:38.400    Unclassified   22.56                  w_PS1          -99                                     None          -99
