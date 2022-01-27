@@ -356,3 +356,6 @@
     AT  2019ucz      GaiaAlerts                 Gaia19exc   06:44:16.580   -67:54:53.46    2019-11-01 15:46:04    Unclassified   17.89                 G_Gaia          -99                                     None          -99
     AT  2019uds      GaiaAlerts                 Gaia19exi   04:53:15.740   -62:15:29.59    2019-11-03 04:00:28    Unclassified   18.89                 G_Gaia          -99                                     None          -99
     AT  2019uea      GaiaAlerts                 Gaia19exr   04:13:02.960   -62:00:36.22    2019-11-02 22:04:48    Unclassified   18.98                 G_Gaia          -99                                     None          -99
+    AT 20010312A          FRBCAT                 FRB010312   05:26:54.900   -64:56:19.20 2001-03-12 11:06:47.980             FRB    0.25               AFB_MB20          -99                                     None          -99
+    AT   2010mh            OGLE                      None   05:36:28.010   -67:19:58.50 2010-12-02 04:45:23.616    Unclassified  18.178              I_Cousins          -99                 WISEAJ053627.78-671954.7          -99
+    AT 20190322D          FRBCAT                 FRB190322   04:46:14.450   -66:55:27.80 2019-03-22 07:00:12.300             FRB     0.0                 Other_          -99                                     None          -99

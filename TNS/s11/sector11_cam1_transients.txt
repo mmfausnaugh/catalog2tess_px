@@ -519,3 +519,5 @@
     AT  2019xix      GaiaAlerts                 Gaia19frd   14:23:57.430   -45:52:19.49    2019-12-21 01:01:55    Unclassified   16.06                 G_Gaia          -99                                     None          -99
     AT  2019xjd      GaiaAlerts                 Gaia19frj   13:46:06.710   -22:07:33.49    2019-12-21 22:52:19    Unclassified    18.9                 G_Gaia          -99                                     None          -99
     AT  2019xjf      GaiaAlerts                 Gaia19frl   14:02:31.170   -33:26:06.29    2019-12-21 18:50:24    Unclassified   18.69                 G_Gaia          -99                                     None          -99
+    AT    1977J           PALEO                      None   13:18:30.120   -32:14:02.30 1977-03-20 15:53:00.000    Unclassified    16.2              B_Johnson          -99                                 ESO444-7      0.01528
+    AT    1977K           PALEO                      None   13:26:47.790   -31:59:37.20 1977-03-20 15:53:00.000    Unclassified    16.6              B_Johnson          -99                                LEDA98045        0.049

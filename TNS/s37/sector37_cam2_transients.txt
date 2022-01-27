@@ -366,7 +366,6 @@
     AT  2019wty      GaiaAlerts                 Gaia19fon   13:31:19.460   -54:58:33.67 2019-12-15 00:59:02.000    Unclassified   11.43                 G_Gaia          -99                                     None          -99
     AT  2019wzr      GaiaAlerts                 Gaia19fpm   13:13:33.550   -44:08:18.74 2019-12-16 17:05:16.000    Unclassified   18.92                 G_Gaia          -99                                     None          -99
     AT  2019xae      GaiaAlerts                 Gaia19fps   13:25:30.750   -42:14:41.53 2019-12-17 17:05:16.000    Unclassified   18.01                 G_Gaia          -99                                     None          -99
-    SN  2019xfi         ASAS-SN              ASASSN-19adm   12:39:47.940   -48:17:41.03 2019-12-20 07:55:12.000            SNIa    16.4                g_Sloan     0.017969                              ESO218-G013     0.017969
     AT  2019xhp           ATLAS               ATLAS19bcpj   11:46:13.512   -33:47:30.90 2019-12-04 14:26:52.000    Unclassified  19.492           orange_ATLAS          -99                                     None          -99
     AT   2019xp      GaiaAlerts                 Gaia19agc   10:57:31.450   -45:20:33.22 2019-01-17 16:59:31.000    Unclassified   18.06                 G_Gaia          -99                                     None          -99
     AT  2019yxz           ATLAS               ATLAS19berh   11:38:59.195   -34:16:51.86 2019-12-24 13:19:12.000    Unclassified  19.059             cyan_ATLAS          -99                                     None          -99
@@ -596,3 +595,4 @@
     AT  2021vjp      GaiaAlerts                 Gaia21drj   12:25:15.430   -47:40:53.26 2021-08-08 03:59:02.400    Unclassified   18.75                 G_Gaia          -99                                     None          -99
     AT  2021vmf      GaiaAlerts                 Gaia21drv   12:39:10.020   -60:05:09.02 2021-08-08 15:48:57.600    Unclassified   18.06                 G_Gaia          -99                                     None          -99
     AT  2021vmh      GaiaAlerts                 Gaia21dry   12:32:45.300   -39:37:07.00 2021-08-08 16:07:40.800    Unclassified   18.58                 G_Gaia          -99                                     None          -99
+    SN  2019xfi         ASAS-SN              ASASSN-19adm   12:39:47.940   -48:17:41.03 2019-12-20 07:55:12.000            SNIa    16.4                g_Sloan     0.017969                              ESO218-G013     0.017969

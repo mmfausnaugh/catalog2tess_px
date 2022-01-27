@@ -249,7 +249,6 @@
     AT  2020jci      GaiaAlerts                 Gaia20cce   07:54:32.340   -51:32:28.93 2020-05-03 00:30:14.400    Unclassified   17.07                 G_Gaia          -99                                     None          -99
     AT  2020jcj      GaiaAlerts                 Gaia20ccf   08:32:18.400   -48:03:47.74 2020-05-03 00:37:26.400    Unclassified   17.64                 G_Gaia          -99                                     None          -99
     AT  2020kbn          MASTER MASTER-OT-J090603.28-573927.2   09:06:03.280   -57:39:27.20 2020-05-14 22:33:03.168    Unclassified    16.3                 Clear_          -99                                     None          -99
-    AT  2020kms           BraTS         BraTS-ROCG-T1-002   09:46:58.810   -54:04:43.00 2020-05-18 22:56:49.000    Unclassified    16.1                 Clear_          -99                                     None          -99
     AT  2020lhn      GaiaAlerts                 Gaia20clv   09:35:13.500   -54:04:10.34 2020-05-28 03:17:16.800    Unclassified   15.24                 G_Gaia          -99                                     None          -99
     AT  2020ljh      GaiaAlerts                 Gaia20cmg   08:57:48.960   -43:12:52.31 2020-05-28 19:40:48.000    Unclassified   18.58                 G_Gaia          -99                                     None          -99
     AT  2020lnd      GaiaAlerts                 Gaia20cmv   08:40:37.380   -43:39:19.87 2020-05-29 13:42:14.400    Unclassified   14.09                 G_Gaia          -99                                     None          -99
@@ -331,3 +330,4 @@
     AT  2021lbc      GaiaAlerts                 Gaia21cen   08:04:20.630   -46:24:50.36 2021-05-03 10:39:21.600    Unclassified   18.26                 G_Gaia          -99                                     None          -99
     AT  2021lfi      GaiaAlerts                 Gaia21cep   08:03:11.860   -43:52:46.38 2021-04-02 11:00:57.600    Unclassified   18.41                 G_Gaia          -99                                     None          -99
     AT  2021lfm      GaiaAlerts                 Gaia21ces   07:50:47.200   -46:30:35.32 2021-05-03 16:37:55.200    Unclassified   17.89                 G_Gaia          -99                                     None          -99
+    AT  2020kms           BraTS         BraTS-ROCG-T1-002   09:46:58.810   -54:04:43.00 2020-05-18 22:56:49.000    Unclassified    16.1                 Clear_          -99                                     None          -99

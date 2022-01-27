@@ -19,8 +19,11 @@ import json
 from collections import OrderedDict
 from time import sleep
 
+from astropy.time import Time
+
 sys.path.insert(0, os.path.abspath(   os.path.dirname(__file__)) + '/..')
 from camera_pointings import cam_pointings
+from catalogs.catalog import sector_times
 
 #new header needed as of 2021 May
 header = {'User-Agent':'tns_marker{"tns_id":54047,"type": "bot", "name":"tess1"}'}
@@ -138,7 +141,7 @@ api_key="27ef476a16a3292302a365f8e3a0e7e8929f84b9"
 
 
 #active_sectors = [14,15,16,17,18,19,20,21,22,23,24,25,26]
-active_sectors = [47]
+active_sectors = [46]
 #active_sectors = [34]
 
 #these are imported from catalog2tess_px/camera_pointings/cam_pointings.py
@@ -171,16 +174,20 @@ for s in active_sectors:
                     ("radius","15"),
                     ("units","degrees"),
                     ("objname",""),
-                    ("internal_name","")]                    
+                    ("internal_name",""),
+                    ("discoverydate","")]                    
         response=search(url_tns_api,search_obj)
         if None not in response:
             # Here we just display the full json data as the response
             json_data=json.loads(response.text)
-            objs = [ elem['objname'] for elem in json_data['data']['reply'] ]
-                       
+            objs = np.array([ elem['objname'] for elem in json_data['data']['reply'] ])
+            times_sort = np.array([ elem['objid'] for elem in json_data['data']['reply'] ])
+            idx = np.argsort(times_sort)
+            objs = objs[idx]
+            times_sort = times_sort[idx]
 
             for obj in objs:
-
+                print(obj)
                 if any(np.in1d(catname, str(obj))):
                     continue
                 get_obj = [("objname",obj)]
@@ -195,6 +202,11 @@ for s in active_sectors:
                     raise
                 try:
                     times = json_data2['discoverydate']
+                    t = Time(times.replace(' ','T'),  scale='utc',format='isot').jd - 2457000.0
+                    #print(times, t, sector_times['s{:d}'.format(s)][1] + 30.0)
+                    if t > sector_times['s{:d}'.format(s)][1] + 30.0:
+                        print('object {} is more than 30 days after end of sector'.format(obj) )
+                        break
                     mags  = float(json_data2['discoverymag'])
                 except: 
                     continue
@@ -259,7 +271,7 @@ for s in active_sectors:
                 else:
                     obj_type = 'Unclassified'
                     
-                print('  ',internal_name,  mags, obj)
+                print('  ',internal_name,  mags, obj, times)
 
                 fout.write('%6s %8s %15s %25s %14s %14s %22s %15s %7s %22s %12s %40s %12s\n'%(
                     prefix, obj, group, internal_name,

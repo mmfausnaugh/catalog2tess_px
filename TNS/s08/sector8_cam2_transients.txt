@@ -341,3 +341,4 @@
     AT  2019tcd      GaiaAlerts                 Gaia19eqo   09:47:41.740   -21:10:03.18    2019-10-17 02:19:40    Unclassified    18.5                 G_Gaia          -99                                     None          -99
     AT  2019tcs             ZTF              ZTF19acgjpjh   09:13:39.464   -15:23:02.45    2019-10-20 12:30:28    Unclassified   18.72                  r_ZTF          -99                                     None          -99
     AT  2019tct             ZTF              ZTF19acgjpku   08:50:04.063   -16:51:58.08    2019-10-20 12:30:28    Unclassified   19.08                  r_ZTF          -99                                     None          -99
+    AT 20160317A          FRBCAT                 FRB160317   07:53:47.000   -29:36:31.00 2016-03-17 09:00:36.530             FRB     3.0                 Other_          -99                                     None          -99

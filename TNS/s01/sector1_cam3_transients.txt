@@ -318,3 +318,6 @@
     AT  2019ufa            OGLE                      None   00:15:26.520   -63:50:04.00    2019-10-27 02:14:47    Unclassified    21.6              I_Cousins          -99      OGLE-GAL-SMC784.18-1002.564-790.362          -99
     AT  2019ufb            OGLE                      None   00:04:18.990   -70:06:24.80    2019-10-28 02:24:14    Unclassified  20.968              I_Cousins          -99      OGLE-GAL-SMC776.27-508.808-3444.080          -99
     AT  2019ufc            OGLE                      None   00:07:33.290   -70:46:56.60    2019-10-21 02:13:29    Unclassified  20.618              I_Cousins          -99     OGLE-GAL-SMC701.15-2053.846-2822.227          -99
+    AT   1994ap            None                      None   21:41:02.000   -82:48:00.10 1994-07-04 17:19:00.000    Unclassified    18.7              R_Cousins          -99                                  ESO11-5      0.00997
+    AT 20010724A          FRBCAT                 FRB010724   01:18:06.000   -75:12:18.00 2001-07-24 19:50:01.690             FRB    30.0               AFB_MB20          -99                                     None          -99
+    AT 20170827A          FRBCAT                 FRB170827   00:49:18.660   -65:33:02.30 2017-08-27 16:20:18.000             FRB    50.3                 Other_          -99                                     None          -99

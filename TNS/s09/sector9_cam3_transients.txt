@@ -248,3 +248,4 @@
     AT  2019wdz      GaiaAlerts                 Gaia19fku   09:48:02.130   -54:45:05.08    2019-12-06 10:52:19    Unclassified   15.75                 G_Gaia          -99                                     None          -99
     AT  2019wei      GaiaAlerts                 Gaia19flf   09:54:45.330   -60:55:41.05    2019-10-30 09:21:36    Unclassified   15.73                 G_Gaia          -99                                     None          -99
     AT  2019xjl          MASTER MASTER-OT-J094414.86-633913.7   09:44:14.860   -63:39:13.70    2019-12-20 21:22:25    Unclassified    15.1                 Clear_          -99                                     None          -99
+    AT  2017kfm          MASTER MASTER-OT-J091029.35-503203.3   09:10:29.350   -50:32:03.30 2017-02-12 19:57:50.112    Unclassified    16.5                 Clear_          -99                                     None          -99

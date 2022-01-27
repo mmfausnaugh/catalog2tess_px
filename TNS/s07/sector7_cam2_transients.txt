@@ -286,3 +286,6 @@
     SN  2019spg           ATLAS                ATLAS19ygx   08:21:48.082   -14:04:11.88    2019-10-16 13:22:04            SNIa  18.222           orange_ATLAS        0.073                                     None          -99
     AT  2019tzs             ZTF              ZTF19acgjjgn   06:34:23.378   -26:54:07.68    2019-10-23 12:33:09    Unclassified   19.25                  r_ZTF          -99                                     None          -99
     AT  2019ucg          ALeRCE              ZTF19acnptbd   07:30:23.849   -07:12:00.44    2019-11-03 12:07:48    Unclassified  19.871                  r_ZTF          -99                 WISEAJ073024.06-071201.1          -99
+    AT 20150418A          FRBCAT                 FRB150418   07:16:35.000   -19:00:40.00 2015-04-18 04:29:06.657             FRB     2.2              BPSR_MB20          -99                                     None          -99
+    AT 20160317A          FRBCAT                 FRB160317   07:53:47.000   -29:36:31.00 2016-03-17 09:00:36.530             FRB     3.0                 Other_          -99                                     None          -99
+    AT 20180430A          FRBCAT                 FRB180430   06:50:60.000   -09:57:00.00 2018-04-30 09:59:58.700             FRB   147.5                 Clear_          -99                                     None          -99

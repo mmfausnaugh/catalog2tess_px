@@ -199,7 +199,6 @@
     AT  2019plv             ZTF              ZTF19abupgbs   00:00:34.092   +78:23:21.37 2019-08-30 08:59:34.000    Unclassified   19.94                  g_ZTF          -99                                     None          -99
     AT  2019pmm             ZTF              ZTF19abxivpg   01:35:16.167   +78:19:46.51 2019-09-06 09:43:38.000    Unclassified   16.94                  g_ZTF          -99                                     None          -99
     SN  2019pow           ATLAS                ATLAS19utk   01:04:38.262   +71:57:57.69 2019-09-06 12:36:00.000            SNIa  19.448           orange_ATLAS         0.08                                     None          -99
-    AT  2019pox           ATLAS                ATLAS19usw   23:33:16.529   +74:56:06.08 2019-09-06 12:53:16.000    Unclassified  19.637           orange_ATLAS          -99                                     None          -99
     AT  2019poy           ATLAS                ATLAS19usz   23:38:02.165   +80:29:59.20 2019-09-06 13:13:26.000    Unclassified   19.09           orange_ATLAS          -99                                     None          -99
     AT  2019pxi             ZTF                      None   22:11:39.214   +60:23:44.74 2019-09-10 09:48:23.000    Unclassified   19.03                  r_ZTF          -99                                     None          -99
     AT  2019pxj             ZTF              ZTF19abyhhml   22:38:45.978   +55:56:11.90 2019-09-10 09:49:04.000    Unclassified  19.439                  r_ZTF          -99                                     None          -99
@@ -329,3 +328,4 @@
     AT 2019aaey             ZTF              ZTF18acaujas   00:03:52.327   +53:26:11.11 2019-11-27 02:47:02.400    Unclassified   17.38                  g_ZTF          -99                                     None          -99
     AT  2020qii             ZTF              ZTF20abojvde   00:25:30.407   +73:41:15.59 2020-07-24 09:50:24.000    Unclassified   16.65                  r_ZTF          -99                                     None          -99
     AT  2020qik             ZTF              ZTF20abovqes   21:10:14.897   +65:54:12.55 2020-07-26 09:20:09.600    Unclassified   18.26                  r_ZTF          -99                                     None          -99
+    SN  2019pox           ATLAS                ATLAS19usw   23:33:16.529   +74:56:06.08 2019-09-06 12:53:16.000           SNIIn  19.637           orange_ATLAS       0.0674                                     None          -99

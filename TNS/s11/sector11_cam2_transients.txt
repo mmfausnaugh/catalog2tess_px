@@ -423,7 +423,6 @@
     AT  2019wtt      GaiaAlerts                 Gaia19foi   13:28:56.700   -56:17:24.61    2019-12-14 13:00:28    Unclassified   16.51                 G_Gaia          -99                                     None          -99
     AT  2019wty      GaiaAlerts                 Gaia19fon   13:31:19.460   -54:58:33.67    2019-12-15 00:59:02    Unclassified   11.43                 G_Gaia          -99                                     None          -99
     AT  2019wug      GaiaAlerts                 Gaia19fou   13:43:05.210   -61:14:17.92    2019-12-13 13:03:21    Unclassified   20.65                 G_Gaia          -99                                     None          -99
-    AT  2019www      GaiaAlerts                 Gaia19foy   13:36:50.150   -54:02:14.82    2019-12-15 13:00:28    Unclassified   17.53                 G_Gaia          -99                                     None          -99
     AT  2019wzl      GaiaAlerts                 Gaia19fpb   14:33:08.310   -61:15:39.96    2019-12-15 19:10:33    Unclassified   17.51                 G_Gaia          -99                                     None          -99
     AT  2019wzn      GaiaAlerts                 Gaia19fpf   14:20:58.920   -59:57:54.04    2019-12-15 17:21:07    Unclassified   17.88                 G_Gaia          -99                                     None          -99
     AT  2019wzr      GaiaAlerts                 Gaia19fpm   13:13:33.550   -44:08:18.74    2019-12-16 17:05:16    Unclassified   18.92                 G_Gaia          -99                                     None          -99
@@ -431,6 +430,5 @@
     AT  2019xaf      GaiaAlerts                 Gaia19fpu   14:37:04.820   -57:14:24.86    2019-12-18 01:09:07    Unclassified   18.76                 G_Gaia          -99                                     None          -99
     AT  2019xey      GaiaAlerts                 Gaia19fqb   14:29:31.530   -55:55:24.53    2019-12-18 01:07:40    Unclassified   19.06                 G_Gaia          -99                                     None          -99
     AT  2019xez      GaiaAlerts                 Gaia19fqc   14:04:30.950   -50:14:48.48    2019-12-18 07:01:55    Unclassified   18.19                 G_Gaia          -99                                     None          -99
-    AT  2019xfi         ASAS-SN              ASASSN-19adm   12:39:47.990   -48:17:40.02    2019-12-20 07:55:12    Unclassified    16.4                g_Sloan          -99                              ESO218-G013     0.017969
     AT  2019xfp      GaiaAlerts                 Gaia19fqm   14:41:18.740   -55:33:35.17    2019-12-19 01:09:07    Unclassified    16.6                 G_Gaia          -99                                     None          -99
     AT  2019xix      GaiaAlerts                 Gaia19frd   14:23:57.430   -45:52:19.49    2019-12-21 01:01:55    Unclassified   16.06                 G_Gaia          -99                                     None          -99

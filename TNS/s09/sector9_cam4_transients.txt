@@ -372,3 +372,6 @@
     AT  2019xgq         ASAS-SN              ASASSN-19adn   06:28:18.624   -54:15:06.91    2019-12-20 04:04:48    Unclassified    17.5                g_Sloan          -99                 WISEAJ062818.75-541508.8     0.052059
     AT  2019xir            OGLE                      None   04:37:48.710   -69:04:54.60    2019-12-05 03:38:32    Unclassified  21.142              I_Cousins          -99      OGLE-GAL-LMC539.06-338.873-3386.790          -99
     AT  2019xis            OGLE                      None   05:36:13.700   -69:16:24.70    2019-10-15 08:40:24    Unclassified  21.286              I_Cousins          -99       OGLE-GAL-LMC517.02-374.217-667.894          -99
+    AT 20010312A          FRBCAT                 FRB010312   05:26:54.900   -64:56:19.20 2001-03-12 11:06:47.980             FRB    0.25               AFB_MB20          -99                                     None          -99
+    AT   2010mh            OGLE                      None   05:36:28.010   -67:19:58.50 2010-12-02 04:45:23.616    Unclassified  18.178              I_Cousins          -99                 WISEAJ053627.78-671954.7          -99
+    AT 20190322D          FRBCAT                 FRB190322   04:46:14.450   -66:55:27.80 2019-03-22 07:00:12.300             FRB     0.0                 Other_          -99                                     None          -99

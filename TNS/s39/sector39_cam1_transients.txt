@@ -462,7 +462,6 @@
     AT  2020pjo      GaiaAlerts                 Gaia20dge   16:21:05.990   -53:43:08.65 2020-07-13 04:10:33.600    Unclassified   18.54                 G_Gaia          -99                                     None          -99
     AT  2020pjs      GaiaAlerts                 Gaia20dgh   16:16:54.900   -39:28:19.74 2020-07-13 22:26:24.000    Unclassified   18.41                 G_Gaia          -99                                     None          -99
     AT  2020pjt      GaiaAlerts                 Gaia20dgi   16:28:55.140   -51:35:51.07 2020-07-13 22:13:26.400    Unclassified   19.86                 G_Gaia          -99                                     None          -99
-    AT  2020plb      GaiaAlerts                 Gaia20dgv   16:47:10.050   -52:16:21.29 2020-07-15 10:14:52.800    Unclassified   18.02                 G_Gaia          -99                                     None          -99
     AT  2020ptq      GaiaAlerts                 Gaia20dhl   16:09:52.830   -31:49:35.69 2020-07-16 12:23:02.400    Unclassified   18.86                 G_Gaia          -99                                     None          -99
     AT  2020ptr      GaiaAlerts                 Gaia20dhm   17:04:49.180   -53:23:18.74 2020-07-17 22:14:52.800    Unclassified   16.69                 G_Gaia          -99                                     None          -99
     AT  2020pym      GaiaAlerts                 Gaia20dht   16:33:43.850   -46:09:17.03 2020-07-19 00:10:04.800    Unclassified   18.13                 G_Gaia          -99                                     None          -99
@@ -694,3 +693,4 @@
     AT  2021wxj      GaiaAlerts                 Gaia21dzb   17:44:41.910   -28:47:10.39 2021-08-24 04:09:07.200    Unclassified   17.41                 G_Gaia          -99                                     None          -99
     AT  2021xsy           ATLAS               ATLAS21bgvp   16:09:29.941   -31:47:35.02 2021-08-29 05:58:33.600    Unclassified   18.09           orange_ATLAS          -99                                     None          -99
     AT  2021ymg           ATLAS               ATLAS21bijh   16:48:41.449   -26:44:47.37 2021-09-08 05:34:04.800    Unclassified   18.05             cyan_ATLAS          -99                                     None          -99
+    AT  2020plb      GaiaAlerts                 Gaia20dgv   16:47:10.050   -52:16:21.29 2020-07-15 10:14:52.800    Unclassified   18.02                 G_Gaia          -99                                     None          -99

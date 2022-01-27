@@ -167,7 +167,6 @@
     AT  2018eob            OGLE SMC731.19.1297.86.2986.54   01:25:55.150   -71:04:41.50 2018-08-02 08:25:17.000    Unclassified  17.166              I_Cousins          -99                                     None          -99
     AT  2018eoc            OGLE                      None   01:29:31.960   -64:34:27.00 2018-08-01 07:47:53.000    Unclassified  19.879              I_Cousins          -99      OGLE-GAL-SMC816.13-203.122-3324.900          -99
     AT  2018eqz            OGLE                      None   02:37:15.130   -63:28:46.80 2018-08-04 09:46:36.000    Unclassified  20.186              I_Cousins          -99                                 notknown          -99
-    AT  2018fca      GaiaAlerts                 Gaia18cec   01:38:41.470   -50:24:05.44 2018-08-12 19:37:55.000    Unclassified   17.45                 G_Gaia          -99                                     None          -99
     AT  2018fcb      GaiaAlerts                 Gaia18ceg   01:17:24.070   -55:20:00.46 2018-08-13 13:43:40.000    Unclassified    19.0                 G_Gaia          -99                                     None          -99
     AT  2018fdm      GaiaAlerts                 Gaia18cfg   02:10:46.200   -51:01:01.92 2018-08-14 07:35:02.000    Unclassified   14.66                 G_Gaia          -99                                     None          -99
     AT  2018fdw         ASAS-SN               ASASSN-18sk   00:59:48.900   -73:57:25.00 2018-08-14 23:16:48.000    Unclassified   17.85                g_Sloan          -99                                     None          -99
@@ -454,3 +453,4 @@
     AT  2021bmj         ASAS-SN               ASASSN-21ao   03:23:43.351   -57:54:57.28 2021-01-31 19:55:12.000    Unclassified    17.2                g_Sloan          -99                               2MFGC02785     0.044731
     AT  2021dkb         ASAS-SN               ASASSN-21bv   03:02:32.654   -57:51:36.43 2021-02-20 01:40:48.000    Unclassified    16.6                g_Sloan          -99                              ESO116-G005     0.017936
     AT  2021dzw      GaiaAlerts                 Gaia21bdh   00:52:37.830   -73:05:17.20 2021-02-28 00:24:28.800    Unclassified   17.48                 G_Gaia          -99                                     None          -99
+    SN  2018fca      GaiaAlerts                 Gaia18cec   01:38:41.470   -50:24:05.44 2018-08-12 19:37:55.000            SNIa   17.45                 G_Gaia         0.05                                     None          -99

@@ -277,3 +277,5 @@
     AT  2019tux             ZTF              ZTF19aclrnrq   05:18:39.242   +08:12:57.54    2019-11-01 08:01:03    Unclassified   19.39                  r_ZTF          -99                                     None          -99
     AT  2019txk             ZTF              ZTF19aamrnyv   05:51:57.809   +18:07:05.24    2019-03-17 03:57:55    Unclassified 19.1395                  g_ZTF          -99                                     None          -99
     AT  2019ued             ZTF              ZTF19acleugy   05:28:12.209   +07:28:29.19    2019-11-01 08:01:03    Unclassified   19.98                  r_ZTF          -99                                     None          -99
+    AT 20141113A          FRBCAT                 FRB141113   06:13:00.100   +18:47:11.20 2014-11-13 07:42:55.220             FRB   0.039                 Other_          -99                                     None          -99
+    AT 20180301A          FRBCAT                 FRB180301   06:12:43.400   +04:33:44.80 2018-03-01 07:34:19.760             FRB     1.2              BPSR_MB20          -99                                     None          -99

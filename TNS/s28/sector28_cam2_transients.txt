@@ -326,7 +326,6 @@
     AT  2019tpr      GaiaAlerts                 Gaia19eva   23:08:59.350   -55:58:04.01 2019-10-27 16:24:57.000    Unclassified    18.1                 G_Gaia          -99                                     None          -99
     AT  2019tvy      GaiaAlerts                 Gaia19ewg   00:31:33.480   -51:42:24.88 2019-10-30 16:30:43.000    Unclassified   18.77                 G_Gaia          -99                                     None          -99
     AT  2019ufa            OGLE                      None   00:15:26.520   -63:50:04.00 2019-10-27 02:14:47.000    Unclassified    21.6              I_Cousins          -99      OGLE-GAL-SMC784.18-1002.564-790.362          -99
-    SN  2019ufq         ASAS-SN              ASASSN-19aat   23:07:55.027   -57:41:26.56 2019-11-05 05:38:24.000            SNIa  17.068                g_Sloan        0.044                   2MASSJ23075596-5741326          -99
     AT  2019ukf           ATLAS               ATLAS19baej   23:08:07.730   -41:16:45.77 2019-11-08 04:49:26.000    Unclassified  18.211           orange_ATLAS          -99                                     None          -99
     AT  2019vjs      GaiaAlerts                 Gaia19ffh   22:14:19.930   -44:10:31.12 2019-11-21 19:24:57.000    Unclassified   18.28                 G_Gaia          -99                                     None          -99
     AT  2019vkx      GaiaAlerts                 Gaia19ffm   23:20:22.100   -52:07:54.91 2019-11-22 17:28:19.000    Unclassified   18.89                 G_Gaia          -99                                     None          -99
@@ -418,3 +417,4 @@
     AT  2020zxb           ATLAS               ATLAS20bfmc   21:58:51.990   -46:09:47.95 2020-11-16 05:05:16.800    Unclassified  19.097             cyan_ATLAS          -99                                     None          -99
     AT  2020zxe           ATLAS               ATLAS20bfmf   22:45:03.797   -44:48:31.90 2020-11-16 05:44:09.600    Unclassified  19.147             cyan_ATLAS          -99                                     None          -99
     AT  2020zzj           ATLAS               ATLAS20bfnv   22:45:30.780   -49:55:32.59 2020-11-16 05:44:09.600    Unclassified   19.22             cyan_ATLAS          -99                                     None          -99
+    SN  2019ufq         ASAS-SN              ASASSN-19aat   23:07:55.027   -57:41:26.56 2019-11-05 05:38:24.000            SNIa  17.068                g_Sloan        0.044                   2MASSJ23075596-5741326          -99

@@ -775,7 +775,6 @@
     AT  2019xad      GaiaAlerts                 Gaia19fpr   12:25:31.840   -15:30:00.04 2019-12-17 16:37:55.000    Unclassified   18.77                 G_Gaia          -99                                     None          -99
     AT  2019xfe      GaiaAlerts                 Gaia19fqh   13:33:40.940   -39:05:51.79 2019-12-18 18:50:24.000    Unclassified   18.98                 G_Gaia          -99                                     None          -99
     AT  2019xgs      GaiaAlerts                 Gaia19fqo   13:40:40.450   -37:19:28.38 2019-12-19 12:50:24.000    Unclassified   17.83                 G_Gaia          -99                                     None          -99
-    SN  2019xgu      GaiaAlerts                 Gaia19fqs   13:18:06.270   -24:53:02.83 2019-12-19 18:37:26.000            SNIa   17.59                 G_Gaia        0.032                                     None          -99
     AT  2019xjd      GaiaAlerts                 Gaia19frj   13:46:06.710   -22:07:33.49 2019-12-21 22:52:19.000    Unclassified    18.9                 G_Gaia          -99                                     None          -99
     AT  2019xjf      GaiaAlerts                 Gaia19frl   14:02:31.170   -33:26:06.29 2019-12-21 18:50:24.000    Unclassified   18.69                 G_Gaia          -99                                     None          -99
     SN  2019xtm      GaiaAlerts                 Gaia19fsb   13:56:21.730   -22:38:25.76 2019-12-22 16:53:45.000            SNIa   18.98                 G_Gaia        0.042                                     None          -99
@@ -985,7 +984,6 @@
     AT  2020kka          ALeRCE              ZTF20abamjub   13:39:57.227   -22:50:44.90 2020-05-18 07:04:29.001    Unclassified 20.2034                  r_ZTF          -99              GALEXASCJ133957.34-225042.9          -99
     AT  2020kkf          ALeRCE              ZTF20abajxnm   13:22:43.427   -14:33:58.89 2020-05-18 05:32:04.004    Unclassified 20.3108                  g_ZTF          -99                 WISEAJ132243.31-143358.1          -99
     AT  2020klb          ALeRCE              ZTF20abamkug   13:08:16.083   -21:26:22.10 2020-05-18 05:31:24.001    Unclassified 20.3033                  g_ZTF          -99                 WISEAJ130816.06-212621.2          -99
-    AT  2020kmc           ATLAS                ATLAS20mrt   12:58:15.192   -21:38:16.02 2020-05-18 08:22:33.600    Unclassified  18.098           orange_ATLAS          -99                                     None          -99
     AT  2020knd           ATLAS                ATLAS20mzq   13:22:54.475   -29:05:25.44 2020-05-18 08:21:07.200    Unclassified  19.437           orange_ATLAS          -99                                     None          -99
     AT  2020koq           ATLAS                ATLAS20ndv   14:06:30.275   -30:37:28.40 2020-05-20 08:32:38.400    Unclassified  19.188             cyan_ATLAS          -99                                     None          -99
     AT  2020kpb           ATLAS                ATLAS20nfv   13:33:29.511   -19:48:41.60 2020-05-20 08:34:04.800    Unclassified  19.425             cyan_ATLAS          -99                                     None          -99
@@ -1414,3 +1412,5 @@
     AT  2021vxe      GaiaAlerts                 Gaia21dte   13:22:09.360   -15:33:35.21 2021-08-12 10:32:09.600    Unclassified    18.8                 G_Gaia          -99                                     None          -99
     AT  2021vyt      GaiaAlerts                 Gaia21dti   13:41:55.580   -21:05:57.01 2021-08-13 04:26:24.000    Unclassified   18.32                 G_Gaia          -99                                     None          -99
     AT  2021wyy            None               ASASSN-21qk   13:56:06.533   -30:21:24.26 2021-08-27 00:00:00.000    Unclassified    16.1                g_Sloan          -99                                  NGC5357     0.016238
+    SN  2019xgu      GaiaAlerts                 Gaia19fqs   13:18:06.270   -24:53:02.83 2019-12-19 18:37:26.000            SNIa   17.59                 G_Gaia        0.032                                     None          -99
+    AT  2020kmc           ATLAS                ATLAS20mrt   12:58:15.192   -21:38:16.02 2020-05-18 08:22:33.600    Unclassified  18.098           orange_ATLAS          -99                                     None          -99

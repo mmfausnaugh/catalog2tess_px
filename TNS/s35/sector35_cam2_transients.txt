@@ -471,7 +471,6 @@
     SN  2020ckp          ALeRCE              ZTF20aamwfea   08:36:21.240   -25:31:58.55 2020-02-13 06:01:54.000            SNIa 17.0059                  r_ZTF         0.03                 WISEAJ083621.44-253200.8     0.029851
     AT  2020ckq          ALeRCE              ZTF20aamwfxx   08:33:58.219   -27:32:25.55 2020-02-13 06:01:54.000    Unclassified 18.7565                  r_ZTF          -99                 WISEAJ083358.18-273224.8          -99
     AT  2020cku          ALeRCE              ZTF20aamxrxr   09:34:46.305   -22:38:57.88 2020-02-13 07:01:16.000    Unclassified 19.4003                  r_ZTF          -99                 WISEAJ093446.02-223853.9          -99
-    AT  2020cnb          MASTER MASTER-OT-J095359.98-333736.2   09:53:59.980   -33:37:36.20 2020-02-11 18:43:24.000    Unclassified    19.6                 Clear_          -99                                     None          -99
     AT  2020crl             ZTF              ZTF20aaockgq   10:19:08.176   -24:45:28.69 2020-02-16 09:07:07.000    Unclassified   19.69                  g_ZTF          -99                                     None          -99
     AT  2020csf          ALeRCE              ZTF20aanzlfs   09:26:10.118   -26:41:31.61 2020-02-16 06:32:34.000    Unclassified 19.8569                  r_ZTF          -99                 WISEAJ092609.93-264128.8          -99
     AT  2020csu           ATLAS                ATLAS20fud   09:09:21.246   -29:54:28.37 2020-02-16 11:21:07.000    Unclassified  19.051           orange_ATLAS          -99                                     None          -99
@@ -693,3 +692,4 @@
     SN  2021mwj           ATLAS                ATLAS21pki   09:36:41.790   -21:08:47.10 2021-05-21 06:14:24.000            SNII  17.674           orange_ATLAS     0.007575                                     None          -99
     AT  2021nih           ATLAS                ATLAS21pka   09:38:50.651   -30:26:03.52 2021-05-21 05:57:07.200    Unclassified  17.595           orange_ATLAS          -99                                     None          -99
     SN  2021knh          ALeRCE              ZTF21aaxjpsw   09:10:08.650   -27:37:26.58 2021-04-25 04:04:11.997            SNIa  18.445                  g_ZTF         0.03                                     None          -99
+    AT  2020cnb          MASTER MASTER-OT-J095359.98-333736.2   09:53:59.980   -33:37:36.20 2020-02-11 18:43:24.000    Unclassified    19.6                 Clear_          -99                                     None          -99

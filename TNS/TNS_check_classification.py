@@ -122,8 +122,8 @@ def get_file(url):                                                   #
 api_key="27ef476a16a3292302a365f8e3a0e7e8929f84b9"
 
 
-#active_sectors = [15,16,17,18,19,20,21,22,23,24,25,26]
-active_sectors = [45,46]
+active_sectors = np.r_[46:48]
+#active_sectors = [45]
 
 
 if len(sys.argv) > 2:
@@ -171,6 +171,7 @@ for s in active_sectors:
             m_use = tjd > tjd_moment - time_offset
 
             for obj in catname[m_use]:
+                print('object: {}'.format(obj),file=sys.stderr)
                 get_obj = [("objname",obj)]
                 sleep(3.0)
                 response=get(url_tns_api, get_obj)

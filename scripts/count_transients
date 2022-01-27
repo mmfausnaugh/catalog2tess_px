@@ -16,7 +16,7 @@ def get_inputs(args):
     parser.add_argument('--sector', type=str, nargs="*", help="Sector Number (for start/stop time")
     parser.add_argument('--tminus', type=float, default=0.0, help="Early time offset (days): collect all sources discovered this many days before sector start  (default = 0)")
     parser.add_argument('--tplus', type=float, default=0.0, help="Late time offset (days): collect all sources discovered this many days after sector stop (default = 0)")
-    parser.add_argument('--mag', type=float, default=20.0, help="Magnitude limit: collect all sources brighter than this value (default = 20)")
+    parser.add_argument('--mag', type=float, default=27.0, help="Magnitude limit: collect all sources brighter than this value (default = 20)")
     parser.add_argument('--doall', action='store_true', help="If set, do all cams and CCDs in the sectors")
     parser.add_argument('--SN', action='store_true', help="If set, only count supernovae")
     parser.add_argument('--list', action='store_true', help="If set, print out the SN names")

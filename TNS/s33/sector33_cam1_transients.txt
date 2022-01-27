@@ -233,7 +233,6 @@
     AT  2019wit          ALeRCE              ZTF19acxnhts   07:14:10.380   +09:21:13.11 2019-12-10 07:59:56.000    Unclassified 19.4431                  r_ZTF          -99                 WISEAJ071410.22+092114.3          -99
     AT  2019wjn           ATLAS               ATLAS19bcsi   06:52:32.383   +11:06:08.87 2019-12-09 12:25:55.000    Unclassified  18.795           orange_ATLAS          -99                                     None          -99
     AT  2019wnj          MASTER MASTER-OT-J064829.56+021205.9   06:48:29.554   +02:12:06.63 2019-12-14 03:53:47.000    Unclassified    16.8                 Clear_          -99                                     None          -99
-    AT  2019wwg          MASTER MASTER-OT-J064855.37-055545.7   06:48:55.370   -05:55:45.70 2019-12-16 01:36:46.000    Unclassified    16.6                 Clear_          -99                                     None          -99
     AT  2019wxo           ATLAS               ATLAS19bawm   06:02:05.497   -04:33:19.49 2019-11-25 11:38:24.000    Unclassified  19.483           orange_ATLAS          -99                                     None          -99
     AT  2019wzi          ALeRCE              ZTF19aczildx   06:32:44.721   -08:50:29.69 2019-12-18 09:40:43.000    Unclassified 18.3138                  r_ZTF          -99                 WISEAJ063245.04-085030.5          -99
     AT  2019xcg          ALeRCE              ZTF19adagtuz   06:00:55.608   +15:07:25.53 2019-12-19 10:30:06.000    Unclassified 19.4653                  r_ZTF          -99                 WISEAJ060055.61+150725.2          -99
@@ -429,3 +428,4 @@
     AT  2021jit      GaiaAlerts                 Gaia21buj   06:48:42.450   +15:37:26.22 2021-04-09 06:00:00.000    Unclassified    17.8                 G_Gaia          -99                                     None          -99
     AT  2021jjf          ALeRCE              ZTF21aauooqj   05:54:39.813   +15:09:27.89 2021-04-12 03:57:10.002    Unclassified 18.7726                  r_ZTF          -99                                 UGC03376     0.013159
     AT  2021jjz          ALeRCE              ZTF21aauogao   07:26:59.698   +05:01:48.89 2021-04-08 04:37:21.003    Unclassified 20.4419                  g_ZTF          -99                                     None          -99
+    AT  2019wwg          MASTER MASTER-OT-J064855.37-055545.7   06:48:55.370   -05:55:45.70 2019-12-16 01:36:46.000    Unclassified    16.6                 Clear_          -99                                     None          -99

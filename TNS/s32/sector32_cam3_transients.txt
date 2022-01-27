@@ -366,7 +366,6 @@
     AT  2020cjp          MASTER MASTER-OT-J052642.27-575133.2   05:26:42.270   -57:51:33.20 2020-02-12 19:13:52.000    Unclassified    18.6                 Clear_          -99                                     None          -99
     AT  2020clz          MASTER MASTER-OT-J060717.51-491308.3   06:07:17.470   -49:13:07.90 2020-02-13 00:13:36.000    Unclassified    17.6                 Clear_          -99                                     None          -99
     AT   2020cm      GaiaAlerts                 Gaia20aau   04:41:12.020   -56:00:40.86 2020-01-01 12:51:50.000    Unclassified   18.47                 G_Gaia          -99                                     None          -99
-    AT  2020cna          MASTER MASTER-OT-J041206.51-432419.7   04:12:06.531   -43:24:20.63 2020-02-12 21:19:35.000    Unclassified    16.9                 Clear_          -99                                     None          -99
     SN  2020cwd         ASAS-SN               ASASSN-20bz   06:06:59.081   -49:00:23.94 2020-02-19 04:48:00.000           SNIbn    17.4                g_Sloan        0.052                                PGC481435          -99
     AT  2020ddj           ATLAS                ATLAS20gbq   04:25:05.980   -32:52:18.44 2020-02-22 06:37:26.000    Unclassified  18.899             cyan_ATLAS          -99                                     None          -99
     AT  2020dfv           ATLAS                ATLAS20gmu   05:02:04.177   -41:46:44.47 2020-02-24 07:03:21.000    Unclassified  18.647           orange_ATLAS          -99                                     None          -99
@@ -471,7 +470,6 @@
     AT 2020abgz      GaiaAlerts                 Gaia20fmp   05:19:14.060   -34:09:24.52 2020-11-29 12:15:50.400    Unclassified    18.7                 G_Gaia          -99                                     None          -99
     AT 2020abky      GaiaAlerts                 Gaia20fng   04:40:02.470   -35:31:07.50 2020-12-01 12:24:28.800    Unclassified    18.3                 G_Gaia          -99                                     None          -99
     AT 2020abqs           ATLAS               ATLAS20bgpk   05:19:28.263   -29:43:37.73 2020-12-04 10:17:45.600    Unclassified  18.642           orange_ATLAS          -99                                     None          -99
-    AT 2020acaa           ATLAS               ATLAS20bhdi   05:01:12.530   -38:20:48.55 2020-12-08 09:28:48.000    Unclassified  18.571           orange_ATLAS          -99                                     None          -99
     AT 2020aclz          MASTER MASTER-OT-J053158.63-482735.9   05:31:58.630   -48:27:35.90 2020-12-12 05:13:23.232    Unclassified    16.7                 Clear_          -99                                     None          -99
     AT 2020acpv          MASTER MASTER-OT-J052952.42-370243.4   05:29:52.420   -37:02:43.40 2020-12-14 04:46:21.504    Unclassified    18.4                 Clear_          -99                                     None          -99
     AT 2020acsm           ATLAS               ATLAS20bikj   04:12:53.595   -37:27:19.33 2020-12-14 09:20:09.600    Unclassified  19.065             cyan_ATLAS          -99                                     None          -99
@@ -522,3 +520,5 @@
     AT  2021ecp           ATLAS                ATLAS21hfz   05:00:19.199   -31:52:15.90 2021-02-16 06:40:19.200    Unclassified  19.072             cyan_ATLAS          -99                                     None          -99
     AT  2021eim      GaiaAlerts                 Gaia21bej   05:49:04.660   -33:00:49.10 2021-03-02 05:38:24.000    Unclassified    18.8                 G_Gaia          -99                                     None          -99
     AT  2021ekw           ATLAS                ATLAS21hig   05:22:38.830   -31:36:16.19 2021-03-04 06:38:52.800    Unclassified  19.168             cyan_ATLAS          -99                                     None          -99
+    AT  2020cna          MASTER MASTER-OT-J041206.51-432419.7   04:12:06.531   -43:24:20.63 2020-02-12 21:19:35.000    Unclassified    16.9                 Clear_          -99                                     None          -99
+    SN 2020acaa           ATLAS               ATLAS20bhdi   05:01:12.530   -38:20:48.55 2020-12-08 09:28:48.000            SNIa  18.571           orange_ATLAS        0.065                                     None          -99
