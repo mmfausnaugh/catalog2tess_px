@@ -449,3 +449,4 @@
     AT 2021aeux             ZTF              ZTF21acouotm   06:45:19.420   +28:41:42.94 2021-11-12 09:10:04.800    Unclassified   19.88                  r_ZTF          -99                                     None          -99
     AT 2021aeym             ZTF              ZTF17aacyntn   06:33:06.296   +28:53:39.50 2021-11-20 07:06:14.400    Unclassified    18.5                  r_ZTF          -99                                     None          -99
     SN  2021vuw             ZTF              ZTF21abrqria   06:40:47.460   +27:47:01.82 2021-08-08 11:48:28.800          SLSN-I   19.55                  r_ZTF          0.2                                     None          -99
+    AT 2021afqy            XOSS                    XM83HT   06:37:25.720   +17:33:33.70 2021-11-27 22:48:44.064    Unclassified   17.22                 Clear_          -99                                     None          -99

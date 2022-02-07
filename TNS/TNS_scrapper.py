@@ -141,7 +141,7 @@ api_key="27ef476a16a3292302a365f8e3a0e7e8929f84b9"
 
 
 #active_sectors = [14,15,16,17,18,19,20,21,22,23,24,25,26]
-active_sectors = [46]
+active_sectors = [47]
 #active_sectors = [34]
 
 #these are imported from catalog2tess_px/camera_pointings/cam_pointings.py
@@ -152,6 +152,9 @@ cams = [cam_pointings.cam1,
 
 for s in active_sectors:
     for ii,cam in enumerate(cams):
+        #pick out individual cameras
+        #if ii < 3:
+        #    continue
         sleep(60)
         print('searching sector {}, camera {}'.format(s, ii+1))
 
@@ -176,7 +179,10 @@ for s in active_sectors:
                     ("objname",""),
                     ("internal_name",""),
                     ("discoverydate","")]                    
+        print('doing cone search')
         response=search(url_tns_api,search_obj)
+        print('cone search done')
+        
         if None not in response:
             # Here we just display the full json data as the response
             json_data=json.loads(response.text)
@@ -192,7 +198,9 @@ for s in active_sectors:
                     continue
                 get_obj = [("objname",obj)]
                 sleep(3.0)
+                print('doing obj query')
                 response=get(url_tns_api, get_obj)
+                print('done with obj query')
                 
                 json_data2 = json.loads(response.text)
                 try:
