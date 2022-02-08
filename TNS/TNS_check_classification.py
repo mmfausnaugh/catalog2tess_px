@@ -122,8 +122,8 @@ def get_file(url):                                                   #
 api_key="27ef476a16a3292302a365f8e3a0e7e8929f84b9"
 
 
-#active_sectors = np.r_[46:48]
-active_sectors = [47]
+active_sectors = np.r_[44:48]
+#active_sectors = [47]
 
 
 if len(sys.argv) > 2:

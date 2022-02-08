@@ -2083,3 +2083,4 @@
     AT  2022bkf           ATLAS                ATLAS22epc   16:05:40.670   +69:35:36.82 2022-02-03 14:52:48.000    Unclassified  18.568           orange_ATLAS          -99                                     None          -99
     AT  2022blz           ATLAS                ATLAS22ewp   16:09:13.014   +60:16:02.10 2022-02-05 14:09:33.408    Unclassified  19.422             cyan_ATLAS          -99                                     None          -99
     AT  2022bpn      GaiaAlerts                 Gaia22als   18:07:06.940   +63:54:09.36 2022-02-05 05:28:19.200    Unclassified   17.62                 G_Gaia          -99                                     None          -99
+    AT  2022bqp      GaiaAlerts                 Gaia22amr   19:11:27.880   +55:48:10.51 2022-02-07 03:33:07.200    Unclassified    16.4                 G_Gaia          -99                                     None          -99
