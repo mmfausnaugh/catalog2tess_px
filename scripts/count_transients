@@ -1,12 +1,16 @@
 #!/usr/bin/env python
 
+import numpy as np
 import scipy as sp
 import os
 import sys
-sys.path.insert(0, os.path.abspath(   os.path.dirname(__file__)) + '/..') 
+import tqdm
 import argparse
-from catalogs.TNS import TNS
+import warnings
 
+sys.path.insert(0, os.path.abspath(   os.path.dirname(__file__)) + '/..')
+from catalogs.catalog import sector_times
+from catalogs.TNS import TNS
 
 def get_inputs(args):
     parser = argparse.ArgumentParser(
@@ -16,22 +20,26 @@ def get_inputs(args):
     parser.add_argument('--sector', type=str, nargs="*", help="Sector Number (for start/stop time")
     parser.add_argument('--tminus', type=float, default=0.0, help="Early time offset (days): collect all sources discovered this many days before sector start  (default = 0)")
     parser.add_argument('--tplus', type=float, default=0.0, help="Late time offset (days): collect all sources discovered this many days after sector stop (default = 0)")
-    parser.add_argument('--mag', type=float, default=27.0, help="Magnitude limit: collect all sources brighter than this value (default = 20)")
+    parser.add_argument('--mag', type=float, default=27.0, help="Magnitude limit: collect all sources brighter than this value (default = 27)")
     parser.add_argument('--doall', action='store_true', help="If set, do all cams and CCDs in the sectors")
     parser.add_argument('--SN', action='store_true', help="If set, only count supernovae")
     parser.add_argument('--list', action='store_true', help="If set, print out the SN names")
     parser.add_argument('--no_buffer', action='store_true', help="If set, ignore buffer around outside of image (objects in this region are not safe for photometry)")
 
     parser.add_argument('--save', action='store_true', help="If set, save in ascii columns for plotting in the TESS fields")
-
+    parser.add_argument('--quiet', action='store_true', help='do not print anything intermediate, can be used while saving')
+    parser.add_argument('--nowarn', action='store_true', help='suppress warnings')
     return parser.parse_args()
 
 
 def main():
 
     args = get_inputs(sys.argv[1:])
+
+   
     if args.sector[0] == 'doall':
-        sector_use = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]
+        sector_use = [ int(s.replace('s','')) for s in sector_times.keys() ]
+        print(f"Counting transients in all sectors, 1 through { max(sector_use) }")
     else:
         sector_use = [ int(s) for s in args.sector]
         
@@ -42,13 +50,17 @@ def main():
         cam_use = args.cam
         ccd_use = args.ccd
 
+    if args.nowarn:
+        warnings.filterwarnings("ignore")
         
     total = 0
 
     if args.save:
-        outfile = open('count_transients_s{}-{}.txt'.format(min(sector_use),max(sector_use)),'w')
+        outfile = open(f'count_transients_s{min(sector_use)}-{max(sector_use)}.txt','w')
 
-    for sector in sector_use:        
+    sector_iterator = tqdm.tqdm(sector_use) if args.quiet else sector_use
+
+    for sector in sector_iterator:        
         sector_total = 0
         for cam in cam_use:
             cam_total = 0
@@ -57,9 +69,7 @@ def main():
                 catdir = os.path.join(
                     os.path.abspath( os.path.dirname(__file__)),
                     '../TNS/')
-                catfile = 's{s_use:02d}/sector{s_use:d}_cam{cam:d}_transients.txt'.format(
-                    s_use = sector,
-                    cam   = cam )
+                catfile = f's{sector:02d}/sector{sector:d}_cam{cam:d}_transients.txt'
  
                 catfile = os.path.join(catdir, catfile)
 
@@ -75,7 +85,7 @@ def main():
                     continue
                     
                 #select the masks
-                time_mask = cat.filter_on_sector_time('s{:d}'.format(sector), 
+                time_mask = cat.filter_on_sector_time(f's{sector}', 
                                                       early_offset=args.tminus,
                                                       late_offset=args.tplus)
                 mag_mask  = cat.mag < args.mag
@@ -85,32 +95,33 @@ def main():
                 if args.SN:
                     mask_SN = cat.prefix == 'SN'
                     mask = mask & mask_SN
-
-                print('{: 8d} {: 8d} {: 8} {: 8d}'.format(sector,cam,ccd,len(cat.obj_name[mask]) ))
+                if args.list or not args.quiet:
+                    print(f'{sector: 8d} {cam: 8d} {ccd: 8} {len(cat.obj_name[mask]): 8d}')
                 if args.list:
-                    for jj in sp.where(mask)[0]:
-                        print('{}{} {:6s} {} {}'.format(cat.prefix[jj],cat.obj_name[jj], cat.obj_type[jj], cat.internal_name[jj], cat.mag[jj]))
+                    for jj in np.where(mask)[0]:
+                        print(f'{cat.prefix[jj]}{cat.obj_name[jj]} {cat.obj_type[jj]:6s} {cat.internal_name[jj]} {cat.mag[jj]}')
                         #print('{:4d} {:4d} {:4d} {}{} {:6s} {} {}'.format(sector, cam, ccd, cat.prefix[jj],
 #                                                        cat.obj_name[jj],
 #                                                        cat.obj_type[jj],
 #                                                        cat.internal_name[jj], cat.mag[jj]))
 
                 if args.save:
-                    for jj in sp.where(mask)[0]:
-                        outfile.write('{:4d} {:15.8f} {:15.8f} {:6.3f} {:10.5f} {:4s} {:14s} {:10s} {:11s} {:4d} {:4d} {:15.3f} {:15.3f}\n'.format(
-                            sector, cat.ra[jj],
-                            cat.dec[jj], cat.mag[jj],
-                            cat.tjd[jj], cat.prefix[jj],
-                            cat.obj_type[jj],
-                            cat.obj_name[jj], cat.group[jj], cam, ccd, cat.ccdcol[jj],cat.ccdrow[jj]  ))
-                    
+                    for jj in np.where(mask)[0]:
+                        outfile.write(f'{sector:4d} {cat.ra[jj]:15.8f} '
+                                      '{cat.dec[jj]:15.8f} {cat.mag[jj]:6.3f} '
+                                      '{cat.tjd[jj]:10.5f} {cat.prefix[jj]:4s} '
+                                      '{cat.obj_type[jj]:14s} {cat.obj_name[jj]:10s} '
+                                      '{cat.group[jj]:11s} {cam:4d} {ccd:4d} '
+                                      '{cat.ccdcol[jj]:15.3f} {cat.ccdrow[jj]:15.3f}\n')
                 cam_total += len(cat.obj_name[mask])
-            print('{:>8s} {:>8s} {:>8s} {:>8s}'.format('sector','cam','ccd','N'))
-            print('cam_total:                 {: 8d}'.format(cam_total))
+            if args.list or not args.quiet:
+                print('{:>8s} {:>8s} {:>8s} {:>8s}'.format('sector', 'cam', 'ccd', 'N'))
+                print(f'cam_total:                 {cam_total: 8d}')
             sector_total += cam_total
-        print('sector_total:              {: 8d}'.format(sector_total))
+        if args.list or not args.quiet:
+            print(f'sector_total:              {sector_total: 8d}')
         total += sector_total
-    print('total:                     {: 8d}'.format(total))
+    print(f'total:                     {total: 8d}')
     if args.save:
         outfile.close()
             
