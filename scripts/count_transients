@@ -108,11 +108,11 @@ def main():
                 if args.save:
                     for jj in np.where(mask)[0]:
                         outfile.write(f'{sector:4d} {cat.ra[jj]:15.8f} '
-                                      '{cat.dec[jj]:15.8f} {cat.mag[jj]:6.3f} '
-                                      '{cat.tjd[jj]:10.5f} {cat.prefix[jj]:4s} '
-                                      '{cat.obj_type[jj]:14s} {cat.obj_name[jj]:10s} '
-                                      '{cat.group[jj]:11s} {cam:4d} {ccd:4d} '
-                                      '{cat.ccdcol[jj]:15.3f} {cat.ccdrow[jj]:15.3f}\n')
+                                      f'{cat.dec[jj]:15.8f} {cat.mag[jj]:6.3f} '
+                                      f'{cat.tjd[jj]:10.5f} {cat.prefix[jj]:4s} '
+                                      f'{cat.obj_type[jj]:14s} {cat.obj_name[jj]:10s} '
+                                      f'{cat.group[jj]:11s} {cam:4d} {ccd:4d} '
+                                      f'{cat.ccdcol[jj]:15.3f} {cat.ccdrow[jj]:15.3f}\n')
                 cam_total += len(cat.obj_name[mask])
             if args.list or not args.quiet:
                 print('{:>8s} {:>8s} {:>8s} {:>8s}'.format('sector', 'cam', 'ccd', 'N'))
