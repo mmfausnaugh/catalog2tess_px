@@ -140,9 +140,8 @@ api_key="27ef476a16a3292302a365f8e3a0e7e8929f84b9"
 			
 
 
-#active_sectors = [14,15,16,17,18,19,20,21,22,23,24,25,26]
-active_sectors = [48]
-#active_sectors = [34]
+#gotta do s2cam4, s15 cam4, s16 3&4, s18 2,3,4, s20+4, s22 3+4, s27 3+4, s40 3+4, ,s42 4, 46 2,3,4
+active_sectors = [40,42]
 
 #these are imported from catalog2tess_px/camera_pointings/cam_pointings.py
 cams = [cam_pointings.cam1, 
@@ -153,7 +152,7 @@ cams = [cam_pointings.cam1,
 for s in active_sectors:
     for ii,cam in enumerate(cams):
         #pick out individual cameras
-        #if ii < 3:
+        #if ii < 2:
         #    continue
         sleep(60)
         print('searching sector {}, camera {}'.format(s, ii+1))
@@ -174,7 +173,7 @@ for s in active_sectors:
 
         search_obj=[("ra", "{}".format(cam[s-1][0])),
                     ("dec","{}".format(cam[s-1][1])),
-                    ("radius","15"),
+                    ("radius","17"),
                     ("units","degrees"),
                     ("objname",""),
                     ("internal_name",""),
@@ -191,7 +190,7 @@ for s in active_sectors:
             idx = np.argsort(times_sort)
             objs = objs[idx]
             times_sort = times_sort[idx]
-
+            #np.savetxt('tmp.txt',np.c_[objs, times_sort],fmt='%s')
             for obj in objs:
                 print(obj)
                 if any(np.in1d(catname, str(obj))):
