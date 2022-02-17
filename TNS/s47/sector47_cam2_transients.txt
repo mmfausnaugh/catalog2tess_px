@@ -2499,3 +2499,6 @@
     AT  2022cmh             ZTF              ZTF22aaalbgn   08:11:29.186   +51:07:34.27 2022-02-12 07:53:45.600    Unclassified   19.48                  r_ZTF          -99                                     None          -99
     AT  2022cmr          ALeRCE              ZTF22aaarajp   10:22:19.606   +67:25:18.38 2022-02-12 09:13:26.000    Unclassified 19.3398                  g_ZTF          -99                 WISEAJ102219.52+672519.1          -99
     AT  2022cna          ALeRCE              ZTF19aatcwtj   08:31:51.721   +65:46:48.38 2022-02-14 06:21:57.004    Unclassified 19.3416                  g_ZTF          -99                 WISEAJ083151.72+654649.1     0.068968
+    AT  2022cng      Pan-STARRS                   PS22bgm   08:46:47.600   +61:23:32.39 2022-02-10 05:41:04.704    Unclassified    19.9                   w_P1          -99                                     None          -99
+    AT  2022cnx             ZTF              ZTF22aaavkmq   06:48:28.664   +58:58:54.28 2022-02-13 05:22:33.600    Unclassified   20.03                  g_ZTF          -99                                     None          -99
+    AT  2022cnz             ZTF              ZTF22aaamhgt   06:31:22.469   +73:32:39.82 2022-02-13 05:47:02.400    Unclassified   19.62                  g_ZTF          -99                                     None          -99

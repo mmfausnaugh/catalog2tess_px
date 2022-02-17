@@ -2597,3 +2597,4 @@
     AT  2022cjd          ALeRCE              ZTF22aaajozq   16:50:25.429   +53:16:45.54 2022-02-13 09:18:02.998    Unclassified 19.6336                  r_ZTF          -99              GALEXASCJ165025.42+531645.9          -99
     AT  2022cjg          ALeRCE              ZTF22aaaftzp   19:38:36.647   +55:28:36.99 2022-02-11 12:18:20.002    Unclassified 18.3653                  g_ZTF          -99                                     None          -99
     AT  2022ckc          ALeRCE              ZTF18aarwnkv   17:10:42.090   +68:02:00.21 2022-02-13 09:19:26.003    Unclassified 19.7149                  r_ZTF          -99                 WISEAJ171042.05+680200.5          -99
+    AT  2022cqe      Pan-STARRS                   PS22bhm   16:27:19.962   +63:56:30.75 2022-02-14 15:05:31.776    Unclassified   20.38                   i_P1          -99                                     None          -99

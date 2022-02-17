@@ -3256,3 +3256,5 @@
     AT  2022cmg             ZTF              ZTF22aaarabn   08:23:05.797   +47:11:18.73 2022-02-12 06:23:02.400    Unclassified   19.77                  g_ZTF          -99                                     None          -99
     AT  2022cmh             ZTF              ZTF22aaalbgn   08:11:29.186   +51:07:34.27 2022-02-12 07:53:45.600    Unclassified   19.48                  r_ZTF          -99                                     None          -99
     AT  2022cmq          ALeRCE              ZTF22aaarrzh   06:46:16.250   +43:54:09.34 2022-02-14 05:18:45.996    Unclassified 19.2588                  g_ZTF          -99                  SDSSJ064616.22+435409.3          -99
+    AT  2022coe             ZTF              ZTF22aaaiuhz   08:06:49.797   +39:25:34.92 2022-02-12 06:21:36.000    Unclassified   19.78                  g_ZTF          -99                                     None          -99
+    AT  2022cpz           AMPEL              ZTF18aacrkse   09:05:14.496   +41:51:53.73 2022-02-12 06:24:25.344    Unclassified    18.8                  g_ZTF          -99                                     None          -99
