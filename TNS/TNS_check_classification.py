@@ -25,8 +25,9 @@ header = {'User-Agent':'tns_marker{"tns_id":54047,"type": "bot", "name":"tess1"}
 #header={'user-agent':'tns_marker{"tns_id":870,"type": "user", "name":"mmfausnaugh"}'}
 
 ############################# PARAMETERS #############################
-# API key for Bot                                                    #
-api_key="27ef476a16a3292302a365f8e3a0e7e8929f84b9"                              #
+# API key for Bot
+with open('api_key.txt','r') as f:
+    api_key = f.read().strip()#
 # list that represents json file for search obj                      #
 search_obj=[("ra",""), ("dec",""), ("radius",""), ("units",""),      #
             ("objname",""), ("internal_name","")]                    #
@@ -119,10 +120,9 @@ def get_file(url):                                                   #
     print ('Error message : \n'+str(e))                              #
 ######################################################################
 
-api_key="27ef476a16a3292302a365f8e3a0e7e8929f84b9"
 
 
-active_sectors = np.r_[44:48]
+active_sectors = np.r_[48]
 #active_sectors = [47]
 
 

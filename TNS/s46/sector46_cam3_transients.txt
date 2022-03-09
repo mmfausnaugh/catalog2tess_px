@@ -3367,7 +3367,6 @@
     AT  2022amp      Pan-STARRS                    PS22xe   10:31:10.636   +03:19:03.55 2022-01-08 12:51:50.400    Unclassified   21.78                   w_P1          -99                                     None          -99
     AT  2022ams      Pan-STARRS                    PS22xh   10:48:01.375   +00:16:17.17 2022-01-26 12:28:48.000    Unclassified    19.1                   w_P1          -99                                     None          -99
     AT  2022anb      Pan-STARRS                    PS22xp   10:51:51.113   +06:41:13.25 2022-01-26 12:24:28.800    Unclassified   19.98                   w_P1          -99                                     None          -99
-    AT  2022ane           ATLAS                ATLAS22cxi   10:54:42.336   -00:37:53.42 2022-01-27 12:20:09.600    Unclassified  18.931           orange_ATLAS          -99                                     None          -99
     AT  2022anl           ATLAS                ATLAS22cxx   11:22:43.735   +00:27:43.99 2022-01-27 12:37:26.400    Unclassified  19.304           orange_ATLAS          -99                                     None          -99
     AT  2022aom      Pan-STARRS                    PS22yg   11:12:05.036   +13:03:20.24 2022-01-27 11:00:57.600    Unclassified    19.5                   w_P1          -99                                     None          -99
     AT  2022aon      Pan-STARRS                    PS22yh   11:15:34.129   +15:48:48.71 2022-01-27 11:05:16.800    Unclassified   21.29                   w_P1          -99                                     None          -99
@@ -4339,3 +4338,4 @@
     SN  2022ann           ATLAS                ATLAS22cyp   10:17:29.658   -02:25:35.45 2022-01-27 11:28:19.200           SNIcn  19.136           orange_ATLAS        0.049                                     None          -99
     AT  2022ark           ATLAS                ATLAS22dmn   10:31:00.461   +15:59:28.80 2022-01-28 11:05:16.800    Unclassified  19.153           orange_ATLAS          -99                                     None          -99
     AT  2022arx      Pan-STARRS                   PS22aau   11:56:42.094   -06:28:01.00 2022-01-28 12:38:52.800    Unclassified   21.17                   w_P1          -99                                     None          -99
+    SN  2022ane           ATLAS                ATLAS22cxi   10:54:42.363   -00:37:53.30 2022-01-27 12:20:09.600            SNIa  18.931           orange_ATLAS        0.052                                     None          -99

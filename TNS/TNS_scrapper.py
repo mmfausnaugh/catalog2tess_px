@@ -31,7 +31,8 @@ header = {'User-Agent':'tns_marker{"tns_id":54047,"type": "bot", "name":"tess1"}
 
 ############################# PARAMETERS #############################
 # API key for Bot                                                    #
-api_key="27ef476a16a3292302a365f8e3a0e7e8929f84b9"                              #
+with open('api_key.txt','r') as f:
+    api_key = f.read().strip()
 # list that represents json file for search obj                      #
 search_obj=[("ra",""), ("dec",""), ("radius",""), ("units",""),      #
             ("objname",""), ("internal_name","")]                    #
@@ -135,13 +136,12 @@ def get_file(url):                                                   #
     print ('Error message : \n'+str(e))                              #
 ######################################################################
 
-api_key="27ef476a16a3292302a365f8e3a0e7e8929f84b9"
 
 			
 
 
 #gotta do s2cam4, s15 cam4, s16 3&4, s18 2,3,4, s20+4, s22 3+4, s27 3+4, s40 3+4, ,s42 4, 46 2,3,4
-active_sectors = np.r_[40:49]
+active_sectors = np.r_[47:49]
 
 #these are imported from catalog2tess_px/camera_pointings/cam_pointings.py
 cams = [cam_pointings.cam1, 
