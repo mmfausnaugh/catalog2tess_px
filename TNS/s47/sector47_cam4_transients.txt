@@ -2612,3 +2612,6 @@
     AT  2022dad      Pan-STARRS                   PS22bkz   15:05:03.807   +76:45:28.38 2022-02-21 15:06:19.296    Unclassified   19.59                   i_P1          -99                                     None          -99
     AT  2022dft           ATLAS                ATLAS22hft   16:47:14.220   +69:46:58.08 2022-02-25 15:24:50.400    Unclassified  18.834           orange_ATLAS          -99                                     None          -99
     AT  2022dfu           ATLAS                ATLAS22hfx   17:49:45.476   +56:58:26.89 2022-02-25 15:12:11.808    Unclassified  19.393           orange_ATLAS          -99                                     None          -99
+    SN  2022acm             ZTF              ZTF22aaaepgu   17:35:55.070   +50:48:23.76 2022-01-21 12:44:38.400           SNIbn    19.2                  r_ZTF         0.05                                     None          -99
+    SN  2022cvw             ZTF              ZTF22aaboeex   18:19:33.116   +68:22:39.10 2022-02-20 10:16:19.200            SNIa   19.39                  g_ZTF         0.09                                     None          -99
+    SN  2022dmc             ZTF              ZTF22aabzjge   18:15:49.599   +69:45:27.33 2022-02-20 12:23:02.400            SNIa   20.07                  r_ZTF        0.086                                     None          -99

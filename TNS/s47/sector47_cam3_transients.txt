@@ -2012,3 +2012,6 @@
     AT  2022dhm             ZTF              ZTF22aabxasy   11:55:40.008   +80:12:46.21 2022-02-11 11:16:46.272    Unclassified 20.2273                  g_ZTF          -99                                     None          -99
     AT  2022dia          ALeRCE              ZTF22aabwkla   12:17:41.794   +78:08:25.03 2022-02-26 09:43:48.996    Unclassified 20.4058                  r_ZTF          -99                 WISEAJ121741.84+780824.9          -99
     AT  2022dih          ALeRCE              ZTF22aabvqjp   10:40:17.372   +67:33:25.78 2022-02-26 05:14:50.997    Unclassified 20.2634                  g_ZTF          -99                 WISEAJ104017.32+673325.6          -99
+    SN  2022aek      Pan-STARRS                    PS22sd   12:50:47.546   +77:18:50.13 2022-01-21 13:20:38.400            SNII   19.52                i_Sloan      0.03468                                     None          -99
+    SN  2022bmc           ATLAS                ATLAS22ewx   14:29:05.564   +75:52:29.01 2022-02-05 13:29:04.704            SNIa  19.153             cyan_ATLAS        0.078                                     None          -99
+    SN  2022dma             ZTF              ZTF22aabwfss   14:18:24.686   +69:12:44.49 2022-02-20 09:53:16.800            SNIa   20.21                  g_ZTF        0.084                                     None          -99

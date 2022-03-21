@@ -2530,3 +2530,4 @@
     AT  2022dmo           AMPEL              ZTF20acfxdpx   09:29:22.380   +73:14:09.72 2022-02-20 04:59:27.744    Unclassified   19.37                  g_ZTF          -99                                     None          -99
     AT  2022doo          ALeRCE              ZTF22aabrtwl   06:51:13.903   +54:13:35.97 2022-02-26 03:52:33.997    Unclassified 20.6638                  r_ZTF          -99                 WISEAJ065113.90+541336.0          -99
     AT  2022dpk           AMPEL              ZTF19acmbifa   08:28:55.373   +62:47:38.52 2022-02-17 08:57:02.880    Unclassified   19.06                  r_ZTF          -99                                     None          -99
+    SN  2022cip          ALeRCE              ZTF22aaaltnx   06:25:05.967   +68:55:19.64 2022-02-13 06:14:52.002            SNIa  19.298                  r_ZTF        0.061                 WISEAJ062506.19+685517.7          -99

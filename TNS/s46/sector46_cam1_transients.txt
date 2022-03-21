@@ -3250,3 +3250,4 @@
     AT  2022ami      Pan-STARRS                    PS22wv   08:37:21.287   +35:04:54.56 2022-01-26 07:55:12.000    Unclassified   21.68                   w_P1          -99                                     None          -99
     AT  2022anw           ATLAS                ATLAS22dag   08:46:39.979   +34:17:50.52 2022-01-26 11:00:57.600    Unclassified   19.44           orange_ATLAS          -99                                     None          -99
     AT  2022att      Pan-STARRS                   PS22ach   09:09:42.209   +27:04:12.77 2022-01-29 09:02:52.800    Unclassified   20.62                   w_P1          -99                                     None          -99
+    SN  2022afc           ATLAS                ATLAS22cle   07:56:45.028   +26:53:07.36 2022-01-22 10:53:45.600            SNIb  18.618           orange_ATLAS        0.028                                     None          -99

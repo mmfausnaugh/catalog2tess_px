@@ -4336,3 +4336,6 @@
     AT  2022ark           ATLAS                ATLAS22dmn   10:31:00.461   +15:59:28.80 2022-01-28 11:05:16.800    Unclassified  19.153           orange_ATLAS          -99                                     None          -99
     AT  2022arx      Pan-STARRS                   PS22aau   11:56:42.094   -06:28:01.00 2022-01-28 12:38:52.800    Unclassified   21.17                   w_P1          -99                                     None          -99
     SN  2022ane           ATLAS                ATLAS22cxi   10:54:42.363   -00:37:53.30 2022-01-27 12:20:09.600            SNIa  18.931           orange_ATLAS        0.052                                     None          -99
+    SN   2022wr      Pan-STARRS                    PS22ny   12:22:13.120   +05:13:25.39 2022-01-12 14:42:43.200            SNIa   20.83                   w_P1         0.08                                     None          -99
+    SN  2022akc           ATLAS                ATLAS22csv   10:19:07.979   +05:41:28.75 2022-01-25 09:57:36.000            SNIa  18.728           orange_ATLAS        0.074                                     None          -99
+    SN  2022ara           ATLAS                ATLAS22dlm   11:24:29.300   -06:03:34.57 2022-01-28 12:44:38.400            SNIb  19.442           orange_ATLAS        0.064                                     None          -99

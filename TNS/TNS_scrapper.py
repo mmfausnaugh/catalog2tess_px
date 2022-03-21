@@ -141,7 +141,7 @@ def get_file(url):                                                   #
 
 
 #gotta do s2cam4, s15 cam4, s16 3&4, s18 2,3,4, s20+4, s22 3+4, s27 3+4, s40 3+4, ,s42 4, 46 2,3,4
-active_sectors = np.r_[47:49]
+active_sectors = np.r_[44:50]
 
 #these are imported from catalog2tess_px/camera_pointings/cam_pointings.py
 cams = [cam_pointings.cam1, 
@@ -154,7 +154,7 @@ for s in active_sectors:
         #pick out individual cameras
         #if ii < 2:
         #    continue
-        sleep(60)
+        sleep(3)
         print('searching sector {}, camera {}'.format(s, ii+1))
 
         catfile = 's{:02d}/sector{}_cam{}_transients.txt'.format(s, s, ii+1)
@@ -194,6 +194,8 @@ for s in active_sectors:
             for obj in objs:
                 print(obj)
                 if any(np.in1d(catname, str(obj))):
+                    continue
+                if len(obj) >8:
                     continue
                 get_obj = [("objname",obj)]
                 sleep(3.0)
