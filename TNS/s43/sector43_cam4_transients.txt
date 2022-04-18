@@ -638,7 +638,6 @@
     AT 2021abti             ZTF              ZTF21aciefgr   04:42:09.116   +23:48:16.13 2021-10-17 10:35:02.400    Unclassified   20.34                  g_ZTF          -99                                     None          -99
     AT 2021abwg      GaiaAlerts                 Gaia21esc   05:55:56.610   +39:22:07.86 2021-10-14 02:25:26.400    Unclassified   18.15                 G_Gaia          -99                                     None          -99
     AT 2021acah      GaiaAlerts                 Gaia21eul   06:52:54.980   +15:51:00.65 2021-10-20 12:53:16.800    Unclassified    18.4                 G_Gaia          -99                                     None          -99
-    AT 2021acpe          ALeRCE              ZTF21acjniho   06:12:57.364   +09:18:14.43 2021-10-30 10:28:21.996    Unclassified 19.7732                  r_ZTF          -99                 WISEAJ061257.35+091814.4          -99
     AT 2021acxq             ZTF              ZTF21acjnvoo   06:23:13.584   +39:16:05.68 2021-10-30 10:40:48.000    Unclassified   18.43                  g_ZTF          -99                                     None          -99
     AT 2021acxr             ZTF              ZTF21aacpypo   07:00:06.300   +18:20:06.71 2021-01-09 06:47:31.200    Unclassified   19.43                  r_ZTF          -99                                     None          -99
     AT 2021addy          ALeRCE              ZTF21ackswxk   06:53:55.002   +16:26:44.02 2021-11-03 08:16:06.001    Unclassified  20.254                  g_ZTF          -99                 WISEAJ065355.10+162645.5          -99
@@ -649,3 +648,4 @@
     AT 2021aedf            SGLF              ZTF21acjolal   07:03:15.575   +26:36:14.82 2021-10-30 11:11:01.000    Unclassified  20.154                  g_ZTF          -99                                     None          -99
     AT 2021aedg           ATLAS               ATLAS21bmad   06:59:21.411   +21:58:18.80 2021-11-09 11:55:40.800    Unclassified  18.694             cyan_ATLAS          -99                                     None          -99
     AT 2021aepl           AMPEL              ZTF17aacedyd   07:01:13.225   +27:18:47.07 2021-11-07 11:11:45.600    Unclassified   19.52                  g_ZTF          -99                                     None          -99
+    SN 2021acpe          ALeRCE              ZTF21acjniho   06:12:57.364   +09:18:14.43 2021-10-30 10:28:21.996   SNIa-91T-like 19.7732                  r_ZTF        0.043                 WISEAJ061257.35+091814.4          -99

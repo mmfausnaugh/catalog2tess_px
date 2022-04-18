@@ -2205,7 +2205,6 @@
     AT 2021aesu     Pan-STARRS1                   PS21mlu   08:59:52.446   +19:51:30.99 2021-11-08 13:26:24.000    Unclassified   21.54                  w_PS1          -99                                     None          -99
     AT 2021aesv     Pan-STARRS1                   PS21mlv   08:48:28.118   +17:01:26.96 2021-11-08 13:24:57.600    Unclassified   21.36                  w_PS1          -99                                     None          -99
     AT 2021aetj     Pan-STARRS1                   PS21mmj   08:56:25.146   +10:20:19.96 2021-11-09 14:26:52.800    Unclassified   21.63                  w_PS1          -99                                     None          -99
-    AT 2021aevw            SGLF              ZTF21acpfduf   08:02:22.881   +19:29:48.53 2021-11-13 09:28:49.000    Unclassified  20.417                g_Sloan          -99                  SDSSJ080222.65+192947.2     0.116571
     AT 2021aevy           AMPEL              ZTF21acophds   08:36:02.433   +25:52:05.35 2021-11-11 09:59:38.688    Unclassified   19.95                  r_ZTF          -99                                     None          -99
     AT 2021aewe             YSE                   PS21mnl   09:10:03.396   +25:27:15.24 2021-11-12 14:45:36.000    Unclassified   20.58                g_Sloan          -99                                     None          -99
     AT 2021aewk          ALeRCE              ZTF21acpqkaz   08:39:09.644   +08:35:02.59 2021-11-13 10:36:24.998    Unclassified 20.9887                  r_ZTF          -99                  SDSSJ083909.63+083502.6          -99
@@ -3336,3 +3335,4 @@
     AT 2021afsu      Pan-STARRS                   PS21nem   08:49:45.003   +04:21:24.33 2021-11-28 13:20:38.400    Unclassified   20.54                   w_P1          -99                                     None          -99
     AT 2021afte      GaiaAlerts                 Gaia21fjb   07:48:10.250   +32:26:18.67 2021-11-29 17:52:48.000    Unclassified   17.11                 G_Gaia          -99                                     None          -99
     AT 2021afxf          ALeRCE              ZTF21acqtkng   07:37:43.327   +10:32:40.22 2021-12-02 07:23:39.002    Unclassified 20.0148                  g_ZTF          -99                  SDSSJ073743.28+103240.4          -99
+    SN 2021aevw            SGLF              ZTF21acpfduf   08:02:22.882   +19:29:48.59 2021-11-13 09:28:49.000   SNIa-91T-like  20.417                g_Sloan        0.117                  SDSSJ080222.65+192947.2     0.116571

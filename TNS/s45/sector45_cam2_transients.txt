@@ -1951,7 +1951,6 @@
     AT 2021aero          ALeRCE              ZTF18aaewooq   07:08:34.511   +24:03:05.88 2021-11-14 10:27:50.996    Unclassified 19.7977                  r_ZTF          -99                 WISEAJ070834.56+240306.5          -99
     AT 2021aest     Pan-STARRS1                   PS21mlt   08:06:56.989   +20:49:59.22 2021-11-08 13:14:52.800    Unclassified   21.01                  w_PS1          -99                                     None          -99
     AT 2021aesv     Pan-STARRS1                   PS21mlv   08:48:28.118   +17:01:26.96 2021-11-08 13:24:57.600    Unclassified   21.36                  w_PS1          -99                                     None          -99
-    AT 2021aevw            SGLF              ZTF21acpfduf   08:02:22.881   +19:29:48.53 2021-11-13 09:28:49.000    Unclassified  20.417                g_Sloan          -99                  SDSSJ080222.65+192947.2     0.116571
     AT 2021aevy           AMPEL              ZTF21acophds   08:36:02.433   +25:52:05.35 2021-11-11 09:59:38.688    Unclassified   19.95                  r_ZTF          -99                                     None          -99
     AT 2021aewl          ALeRCE              ZTF21acpnnhz   08:36:39.520   +12:02:37.08 2021-11-18 11:37:58.996    Unclassified 19.2126                  r_ZTF          -99                  SDSSJ083639.54+120236.9          -99
     AT  2021agx             ZTF              ZTF21aaeeuqz   07:33:22.715   +13:18:30.59 2021-01-14 07:58:04.800    Unclassified   16.89                  r_ZTF          -99                                     None          -99
@@ -2931,3 +2930,4 @@
     AT 2021agsk      Pan-STARRS                   PS21nks   08:44:26.286   +32:51:39.37 2021-11-09 13:09:07.200    Unclassified   21.21                   w_P1          -99                                     None          -99
     AT 2021ahhe      Pan-STARRS                   PS21och   08:03:41.906   +05:21:11.55 2021-11-11 14:09:36.000    Unclassified   20.89                   w_P1          -99                                     None          -99
     AT 2021ahhl      Pan-STARRS                   PS21oco   07:09:22.037   +35:54:09.87 2021-11-10 14:15:21.600    Unclassified   20.59                   w_P1          -99                                     None          -99
+    SN 2021aevw            SGLF              ZTF21acpfduf   08:02:22.882   +19:29:48.59 2021-11-13 09:28:49.000   SNIa-91T-like  20.417                g_Sloan        0.117                  SDSSJ080222.65+192947.2     0.116571

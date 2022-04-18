@@ -2670,5 +2670,5 @@
     AT  2022fau          MASTER MASTER-OT-J115312.32+734323.0   11:53:12.320   +73:43:23.00 2022-03-24 18:37:08.256    Unclassified    19.3                 Clear_          -99                                     None          -99
     AT  2022fav          MASTER MASTER-OT-J120723.92+761737.8   12:07:23.920   +76:17:37.80 2022-03-24 17:49:05.088    Unclassified    18.0                 Clear_          -99                                     None          -99
     AT  2022faw          MASTER MASTER-OT-J123941.04+680037.3   12:39:41.040   +68:00:37.30 2022-03-24 18:18:38.016    Unclassified    18.7                 Clear_          -99                                     None          -99
-    AT  2022fhw           ATLAS                ATLAS22jva   12:35:57.949   +60:02:33.19 2022-03-27 10:55:07.680    Unclassified  18.097           orange_ATLAS          -99                                     None          -99
     SN  2022fjy           ATLAS                ATLAS22jxn   15:20:55.319   +68:20:59.52 2022-03-27 13:49:28.992            SNIa  18.772           orange_ATLAS          -99                                     None          -99
+    SN  2022fhw           ATLAS                ATLAS22jva   12:35:57.941   +60:02:33.18 2022-03-27 10:55:07.680            SNIa  18.097           orange_ATLAS        0.056                                     None          -99

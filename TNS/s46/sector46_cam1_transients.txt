@@ -2093,7 +2093,6 @@
     AT 2021aest     Pan-STARRS1                   PS21mlt   08:06:56.989   +20:49:59.22 2021-11-08 13:14:52.800    Unclassified   21.01                  w_PS1          -99                                     None          -99
     AT 2021aesu     Pan-STARRS1                   PS21mlu   08:59:52.446   +19:51:30.99 2021-11-08 13:26:24.000    Unclassified   21.54                  w_PS1          -99                                     None          -99
     AT 2021aesv     Pan-STARRS1                   PS21mlv   08:48:28.118   +17:01:26.96 2021-11-08 13:24:57.600    Unclassified   21.36                  w_PS1          -99                                     None          -99
-    AT 2021aevw            SGLF              ZTF21acpfduf   08:02:22.882   +19:29:48.59 2021-11-13 09:28:49.000    Unclassified  20.417                g_Sloan          -99                  SDSSJ080222.65+192947.2     0.116571
     AT 2021aevy           AMPEL              ZTF21acophds   08:36:02.433   +25:52:05.35 2021-11-11 09:59:38.688    Unclassified   19.95                  r_ZTF          -99                                     None          -99
     AT 2021aewk          ALeRCE              ZTF21acpqkaz   08:39:09.644   +08:35:02.59 2021-11-13 10:36:24.998    Unclassified 20.9887                  r_ZTF          -99                  SDSSJ083909.63+083502.6          -99
     AT 2021aewl          ALeRCE              ZTF21acpnnhz   08:36:39.520   +12:02:37.08 2021-11-18 11:37:58.996    Unclassified 19.2126                  r_ZTF          -99                  SDSSJ083639.54+120236.9          -99
@@ -3251,3 +3250,4 @@
     AT  2022anw           ATLAS                ATLAS22dag   08:46:39.979   +34:17:50.52 2022-01-26 11:00:57.600    Unclassified   19.44           orange_ATLAS          -99                                     None          -99
     AT  2022att      Pan-STARRS                   PS22ach   09:09:42.209   +27:04:12.77 2022-01-29 09:02:52.800    Unclassified   20.62                   w_P1          -99                                     None          -99
     SN  2022afc           ATLAS                ATLAS22cle   07:56:45.028   +26:53:07.36 2022-01-22 10:53:45.600            SNIb  18.618           orange_ATLAS        0.028                                     None          -99
+    SN 2021aevw            SGLF              ZTF21acpfduf   08:02:22.882   +19:29:48.59 2021-11-13 09:28:49.000   SNIa-91T-like  20.417                g_Sloan        0.117                  SDSSJ080222.65+192947.2     0.116571
