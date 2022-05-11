@@ -141,7 +141,7 @@ def get_file(url):                                                   #
 
 
 #gotta do s2cam4, s15 cam4, s16 3&4, s18 2,3,4, s20+4, s22 3+4, s27 3+4, s40 3+4, ,s42 4, 46 2,3,4
-active_sectors = np.r_[50]
+active_sectors = np.r_[49,50]
 
 #these are imported from catalog2tess_px/camera_pointings/cam_pointings.py
 cams = [cam_pointings.cam1, 
