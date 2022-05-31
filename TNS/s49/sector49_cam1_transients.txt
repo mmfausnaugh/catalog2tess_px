@@ -4232,7 +4232,6 @@
     AT  2022iak      Pan-STARRS                   PS22doq   11:59:53.005   +32:23:28.16 2022-04-21 06:13:45.120    Unclassified   21.33                   w_P1          -99                                     None          -99
     AT  2022iax          ALeRCE              ZTF22aaheepe   12:39:49.904   +20:31:29.33 2022-04-19 06:37:53.003    Unclassified 19.9393                  g_ZTF          -99                  SDSSJ123949.86+203131.2          -99
     AT  2022ibj          ALeRCE              ZTF22aahdgvs   11:17:46.793   +24:59:30.85 2022-04-19 06:10:49.996    Unclassified 20.1654                  g_ZTF          -99                                     None          -99
-    AT  2022ibn           ATLAS                ATLAS22mnc   13:06:14.583   +25:27:41.21 2022-04-21 10:15:16.128    Unclassified  18.932           orange_ATLAS          -99                                     None          -99
     AT  2022ibx             ZTF              ZTF22aaftnzi   12:10:02.082   +31:15:07.54 2022-04-02 08:36:57.600    Unclassified   19.89                  r_ZTF          -99                                     None          -99
     SN  2022icb           ATLAS                ATLAS22mor   11:21:30.780   +12:26:42.69 2022-04-21 08:29:04.128            SNIa  18.752             cyan_ATLAS          0.1                                     None          -99
     AT  2022idy      Pan-STARRS                   PS22dpx   12:05:20.571   +22:53:16.71 2022-04-08 07:07:31.296    Unclassified   22.07                   w_P1          -99                                     None          -99
@@ -4243,3 +4242,4 @@
     AT  2022igd          ALeRCE              ZTF22aahhibo   11:07:55.723   +21:19:46.98 2022-04-24 05:54:49.003    Unclassified 19.9658                  g_ZTF          -99                  SDSSJ110755.52+211949.3   0.07725883
     AT  2022igu          ALeRCE              ZTF22aagzlpk   12:50:56.758   +25:41:01.71 2022-04-18 08:36:48.001    Unclassified 19.8678                  r_ZTF          -99                  SDSSJ125056.73+254102.1          -99
     AT  2022iin          ALeRCE              ZTF22aahihoq   12:39:58.704   +12:46:35.80 2022-04-21 07:09:49.000    Unclassified 20.1339                  g_ZTF          -99                  SDSSJ123958.63+124635.2          -99
+    SN  2022ibn           ATLAS                ATLAS22mnc   13:06:14.583   +25:27:41.21 2022-04-21 10:15:16.128            SNIc  18.932           orange_ATLAS       0.0242                                     None          -99
