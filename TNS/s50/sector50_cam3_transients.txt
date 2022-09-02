@@ -3178,7 +3178,6 @@
     AT  2022hau      GaiaAlerts                 Gaia22bla   15:06:19.120   +58:42:05.76 2022-04-03 04:48:00.000    Unclassified   19.85                 G_Gaia          -99                                     None          -99
     AT  2022hdf          ALeRCE              ZTF22aaespoi   15:30:03.682   +50:14:30.56 2022-04-04 08:19:51.997    Unclassified 20.6317                  g_ZTF          -99                  SDSSJ153003.66+501430.5          -99
     AT  2022hdh          ALeRCE              ZTF22aaerufm   14:40:59.110   +42:47:36.47 2022-04-03 07:40:18.002    Unclassified  20.794                  g_ZTF          -99                  SDSSJ144059.31+424736.6          -99
-    AT  2022hdn          ALeRCE              ZTF22aadrjte   15:00:09.143   +36:07:13.09 2022-04-03 08:10:44.999    Unclassified 20.2193                  g_ZTF          -99                  SDSSJ150009.15+360712.9          -99
     AT  2022hds          ALeRCE              ZTF22aadduia   15:27:37.959   +62:19:41.19 2022-04-04 08:17:05.004    Unclassified 20.0365                  g_ZTF          -99                                     None          -99
     AT  2022hdw          ALeRCE              ZTF18aawruyr   15:42:34.129   +50:15:58.49 2022-04-04 08:19:51.997    Unclassified 20.9248                  g_ZTF          -99                  SDSSJ154234.17+501559.3          -99
     AT  2022hdx          ALeRCE              ZTF18aatjlyq   15:24:31.910   +36:27:35.29 2022-04-04 08:55:24.997    Unclassified 19.9804                  r_ZTF          -99                  SDSSJ152431.87+362735.0    0.1116836
@@ -3243,7 +3242,6 @@
     AT  2022iuv          ALeRCE              ZTF22aahmbzq   14:47:46.427   +48:15:39.39 2022-04-28 06:43:37.004    Unclassified  19.825                  g_ZTF          -99                                     None          -99
     AT  2022ivd          ALeRCE              ZTF18abqkhel   15:30:58.652   +39:37:08.85 2022-04-28 08:54:30.997    Unclassified 19.7204                  r_ZTF          -99                  SDSSJ153058.64+393709.1          -99
     AT  2022ixq         ANTARES              ZTF22aahmovu   15:37:27.064   +59:56:10.46 2022-04-29 09:19:18.624    Unclassified 20.0176                  r_ZTF          -99                                     None          -99
-    AT  2022ixu             ZTF              ZTF22aahxaiv   13:51:19.872   +58:54:38.85 2022-04-29 07:58:04.800    Unclassified   19.42                  g_ZTF          -99                                     None          -99
     AT  2022iyd             ZTF              ZTF22aahidho   15:28:57.729   +36:39:30.74 2022-04-24 07:42:14.400    Unclassified   19.73                  r_ZTF          -99                                     None          -99
     AT  2022iyo          ALeRCE              ZTF22aaijniw   16:09:59.413   +65:56:50.95 2022-04-29 10:12:47.002    Unclassified 19.8673                  g_ZTF          -99                 WISEAJ160959.17+655651.2          -99
     AT  2022iyt          ALeRCE              ZTF22aahzbks   14:35:03.181   +43:15:40.91 2022-04-25 06:43:28.001    Unclassified  20.357                  r_ZTF          -99                  SDSSJ143502.98+431541.9          -99
@@ -3306,3 +3304,5 @@
     AT  2022kgg          ALeRCE              ZTF22aakemyc   14:09:03.732   +44:49:26.65 2022-05-20 06:50:14.997    Unclassified 19.9291                  r_ZTF          -99                 WISEAJ140904.03+444926.7     0.175799
     AT  2022khe      Pan-STARRS                   PS22egc   16:50:13.128   +62:14:32.88 2022-05-20 12:38:08.736    Unclassified   20.61                   i_P1          -99                                     None          -99
     AT  2022khg      Pan-STARRS                   PS22ege   16:38:35.711   +64:42:08.59 2022-05-10 11:38:41.280    Unclassified   20.12                   i_P1          -99                                     None          -99
+    SN  2022hdn          ALeRCE              ZTF22aadrjte   15:00:09.143   +36:07:13.09 2022-04-03 08:10:44.999         SNIc-BL 20.2193                  g_ZTF        0.161                  SDSSJ150009.15+360712.9          -99
+    SN  2022ixu             ZTF              ZTF22aahxaiv   13:51:19.860   +58:54:38.88 2022-04-29 07:58:04.800         SNIc-BL   19.42                  g_ZTF        0.072                                     None          -99

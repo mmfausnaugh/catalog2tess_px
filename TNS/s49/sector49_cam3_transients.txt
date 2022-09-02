@@ -3058,7 +3058,6 @@
     AT  2022hsw             ZTF              ZTF22aagvmdu   13:19:56.335   +74:58:45.91 2022-04-15 07:52:19.200    Unclassified   19.82                  r_ZTF          -99                                     None          -99
     AT  2018mbb             ZTF              ZTF18aaqwbsq   14:57:54.479   +47:34:10.43 2018-06-03 05:47:02.400    Unclassified   20.42                  g_ZTF          -99                                     None          -99
     AT  2022huo      Pan-STARRS                   PS22dld   13:35:43.123   +63:05:32.71 2022-04-19 09:51:26.208    Unclassified   19.78                   i_P1          -99                                     None          -99
-    AT  2022hwk      Pan-STARRS                   PS22dlx   12:45:59.217   +59:15:36.90 2022-04-12 08:16:20.352    Unclassified   20.08                   i_P1          -99                                     None          -99
     AT  2022hzu      Pan-STARRS                   PS22dnx   13:47:11.078   +60:14:29.22 2022-04-13 09:37:48.864    Unclassified   20.44                   i_P1          -99                                     None          -99
     AT   1992by           PALEO                      None   15:54:43.880   +53:08:36.50 1992-04-02 10:53:00.000    Unclassified    19.5              B_Johnson          -99                                LEDA56353      0.06868
     AT  2022iao         ANTARES              ZTF22aafpftz   14:35:54.625   +51:45:02.65 2022-04-21 08:19:22.656    Unclassified 20.1059                  r_ZTF          -99                                     None          -99
@@ -3072,3 +3071,4 @@
     AT  2022igv          ALeRCE              ZTF22aagzbui   13:44:49.531   +52:46:00.07 2022-04-20 09:24:46.002    Unclassified 20.0524                  r_ZTF          -99                  SDSSJ134449.53+524559.8          -99
     AT  2022igw          ALeRCE              ZTF22aagzbpr   13:20:07.372   +54:10:16.62 2022-04-20 09:24:46.002    Unclassified 19.7548                  r_ZTF          -99                  SDSSJ132007.35+541016.3          -99
     SN  2022hgk             ZTF              ZTF22aaezyos   14:10:23.724   +44:14:01.13 2022-04-06 08:15:21.600            SNIb   20.67                  r_ZTF        0.033                                     None          -99
+    SN  2022hwk      Pan-STARRS                   PS22dlx   12:45:59.217   +59:15:36.90 2022-04-12 08:16:20.352           SNIIn   20.08                   i_P1        0.127                                     None          -99

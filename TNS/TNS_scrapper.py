@@ -141,7 +141,10 @@ def get_file(url):                                                   #
 
 
 #gotta do s2cam4, s15 cam4, s16 3&4, s18 2,3,4, s20+4, s22 3+4, s27 3+4, s40 3+4, ,s42 4, 46 2,3,4
-active_sectors = np.r_[49,50,51]
+#active_sectors = np.r_[49,50,51]
+
+#starting in S52, modified to only pull transients from within the last 3 months of sector start
+active_sectors = np.r_[53,54]
 
 #these are imported from catalog2tess_px/camera_pointings/cam_pointings.py
 cams = [cam_pointings.cam1, 
@@ -193,6 +196,9 @@ for s in active_sectors:
             #np.savetxt('tmp.txt',np.c_[objs, times_sort],fmt='%s')
             for obj in objs:
                 print(obj)
+                if '2022' not in obj and '2023' not in obj:
+                    continue
+                
                 if any(np.in1d(catname, str(obj))):
                     continue
                 if len(obj) >8:
@@ -216,10 +222,13 @@ for s in active_sectors:
                     if t > sector_times['s{:d}'.format(s)][1] + 30.0:
                         print('object {} is more than 30 days after end of sector'.format(obj) )
                         break
+                    print(t, sector_times['s{:d}'.format(s)][0], t < sector_times['s{:d}'.format(s)][0] - 90.0)
+                    if t < sector_times['s{:d}'.format(s)][0] - 90.0:
+                        continue
                     mags  = float(json_data2['discoverymag'])
                 except Exception as e:
                     #print('error on {}, skipping'.format(obj))
-                    #print(e)
+                    print(e)
                     #raise
                     continue
 
