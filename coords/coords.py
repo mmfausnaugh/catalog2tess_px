@@ -1,6 +1,8 @@
 import scipy as sp
 from subprocess import call, check_call, Popen, PIPE
 import os
+from astropy.io import fits
+from astropy.wcs import wcs
 
 def aber_stars_and_starspx(ra,dec,mag,                                                  
                            SC_coords,                                      
@@ -49,10 +51,21 @@ def aber_stars_and_starspx(ra,dec,mag,
             idxrowcol[:,0].astype(int),
             idxrowcol[:,6].astype(int))
 
-
+def radec2pix_from_image(ra, dec, image):
+    try:
+        hdr = fits.getheader(image, 0)  # get primary HDU's header
+        if hdr['WCSAXES']:
+            fits_wcs = wcs.WCS(hdr) # World Coordinate Solutions
+            px, py = fits_wcs.all_world2pix([ra], [dec], 1)
+            px, py = px[0], py[0]
+            if (px<0 or px>hdr['NAXIS1'] or py<0 or py>hdr['NAXIS2']):
+                print("WARNING: Pixel coordinate is outside the image")
+            return px,py
+    except Exception as e:
+        print(e)
 
 class SectorCoords(object):
-    """This close knows about TESS pointings and velocities, and can
+    """This class knows about TESS pointings and velocities, and can
     convert sky coordinates to pixel coordinates
 
     """
