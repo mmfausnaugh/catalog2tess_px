@@ -52,14 +52,25 @@ def aber_stars_and_starspx(ra,dec,mag,
             idxrowcol[:,6].astype(int))
 
 def radec2pix_from_image(ra, dec, image):
+# ra, dec are python array or numpy array and image is a string
     try:
         hdr = fits.getheader(image, 0)  # get primary HDU's header
         if hdr['WCSAXES']:
             fits_wcs = wcs.WCS(hdr) # World Coordinate Solutions
-            px, py = fits_wcs.all_world2pix([ra], [dec], 1)
-            px, py = px[0], py[0]
-            if (px<0 or px>hdr['NAXIS1'] or py<0 or py>hdr['NAXIS2']):
-                print("WARNING: Pixel coordinate is outside the image")
+            px, py = fits_wcs.all_world2pix(ra, dec, 1)           
+ 
+            pixel_outside_the_image_flag = 0
+            for x in px:
+                if (x<0 or x>hdr['NAXIS1']):
+                    pixel_outside_the_image_flag=1
+                    break
+            for y in py:
+                if (y<0 or y>hdr['NAXIS2']):
+                    pixel_outside_the_image_flag=1
+                    break
+            if pixel_outside_the_image_flag:
+                print("WARNING: Pixel coordinate(s) outside the image")
+            
             return px,py
     except Exception as e:
         print(e)
