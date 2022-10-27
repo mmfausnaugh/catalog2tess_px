@@ -122,7 +122,7 @@ def get_file(url):                                                   #
 
 
 
-active_sectors = np.r_[52:55]
+active_sectors = np.r_[56:58]
 #active_sectors = [47]
 
 
