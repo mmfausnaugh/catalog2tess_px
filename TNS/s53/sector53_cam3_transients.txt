@@ -301,4 +301,3 @@
     AT  2022qwg      Pan-STARRS                   PS22gvu   18:11:05.533   +72:13:04.60 2022-08-07 09:24:16.704    Unclassified   20.06                   i_P1          -99                                     None          -99
     AT  2022qxl          ALeRCE              ZTF22aazhlcb   20:56:22.515   +67:07:39.39 2022-08-07 08:21:39.004    Unclassified 20.3817                  r_ZTF          -99                 WISEAJ205622.90+670738.8          -99
     AT  2022qzv             ZTF              ZTF22aazaypq   19:23:08.020   +81:05:05.82 2022-08-06 08:58:33.600    Unclassified   20.16                  r_ZTF          -99                                     None          -99
-    AT  2022qzx             ZTF              ZTF22aazbxmi   18:02:17.770   +80:06:03.13 2022-07-26 06:53:16.800    Unclassified   20.31                  r_ZTF          -99                                     None          -99

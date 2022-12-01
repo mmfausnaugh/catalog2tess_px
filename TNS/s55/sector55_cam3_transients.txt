@@ -163,8 +163,6 @@
     AT  2022tly             ZTF              ZTF22abejtiz   19:26:29.544   +48:36:58.02 2022-08-30 04:13:26.400    Unclassified   21.01                  g_ZTF          -99                                     None          -99
     AT  2022tqn      Pan-STARRS                   PS22iao   18:32:50.701   +43:28:16.66 2022-09-02 06:29:04.416    Unclassified   20.92                   w_P1          -99                                     None          -99
     AT  2022twl      Pan-STARRS                   PS22idp   18:38:09.228   +54:24:07.47 2022-09-02 06:16:38.784    Unclassified   20.92                   w_P1          -99                                     None          -99
-    AT  2022ubt           ATLAS               ATLAS22beme   19:16:28.841   +41:53:21.70 2022-09-13 08:42:29.376    Unclassified  18.979           orange_ATLAS          -99                                     None          -99
-    AT  2022udk           ATLAS               ATLAS22beri   19:25:21.918   +52:19:34.44 2022-09-15 07:09:58.176    Unclassified  18.618           orange_ATLAS          -99                                     None          -99
     AT  2022ufn          ALeRCE              ZTF22abfvlje   19:27:28.967   +60:56:59.53 2022-09-16 03:56:02.999    Unclassified 19.7727                  g_ZTF          -99                                     None          -99
     AT  2022ukg          ALeRCE              ZTF22abfwelj   19:01:39.516   +58:09:57.36 2022-09-17 04:25:12.996    Unclassified 19.1996                  g_ZTF          -99                 WISEAJ190139.44+580956.7          -99
     AT  2022umv      Pan-STARRS                   PS22iog   18:47:48.492   +42:38:48.37 2022-08-21 06:40:32.160    Unclassified   21.26                   w_P1          -99                                     None          -99
@@ -195,3 +193,5 @@
     SN  2022vxf      GaiaAlerts                 Gaia22dzy   21:11:15.740   +37:53:08.34 2022-09-24 00:15:50.400  SNIa-91bg-like    19.0                 G_Gaia        0.028                                     None          -99
     SN  2022wep             ZTF              ZTF22abhxptj   19:07:42.243   +42:19:43.19 2022-09-25 03:48:57.600            SNIa   20.54                  g_ZTF        0.059                                     None          -99
     AT  2022wlb         ANTARES              ZTF22abgwpvu   18:57:42.071   +39:05:07.64 2022-10-01 04:29:10.752    Unclassified 20.1208                  r_ZTF          -99                                     None          -99
+    SN  2022ubt           ATLAS               ATLAS22beme   19:16:28.790   +41:53:21.45 2022-09-13 08:42:29.376  SNIa-91bg-like  18.979           orange_ATLAS        0.052                                     None          -99
+    SN  2022udk           ATLAS               ATLAS22beri   19:25:21.894   +52:19:34.12 2022-09-15 07:09:58.176            SNII  18.618           orange_ATLAS       0.0548                                     None          -99

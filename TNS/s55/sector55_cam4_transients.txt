@@ -227,7 +227,6 @@
     AT  2022qxl          ALeRCE              ZTF22aazhlcb   20:56:22.515   +67:07:39.39 2022-08-07 08:21:39.004    Unclassified 20.3817                  r_ZTF          -99                 WISEAJ205622.90+670738.8          -99
     AT  2022qxm          ALeRCE              ZTF22aazhjwv   20:48:59.245   +65:15:42.17 2022-08-02 05:28:24.004    Unclassified 20.7875                  r_ZTF          -99                 WISEAJ204858.52+651544.3          -99
     AT  2022qzv             ZTF              ZTF22aazaypq   19:23:08.020   +81:05:05.82 2022-08-06 08:58:33.600    Unclassified   20.16                  r_ZTF          -99                                     None          -99
-    AT  2022qzx             ZTF              ZTF22aazbxmi   18:02:17.770   +80:06:03.13 2022-07-26 06:53:16.800    Unclassified   20.31                  r_ZTF          -99                                     None          -99
     AT  2022rbw      Pan-STARRS                   PS22gyc   16:23:59.619   +74:31:19.95 2022-08-10 07:04:56.640    Unclassified   20.11                   i_P1          -99                                     None          -99
     AT  2022rez             ZTF              ZTF22aayyvzj   19:21:47.165   +53:39:58.72 2022-08-06 07:17:45.600    Unclassified   20.27                  g_ZTF          -99                                     None          -99
     SN  2022rfh          ALeRCE              ZTF22abaette   16:37:41.606   +66:45:53.03 2022-08-08 04:53:26.998            SNIa 20.5664                  r_ZTF        0.089                 WISEAJ163740.68+664547.0          -99
@@ -332,3 +331,4 @@
     SN  2022wlh             ZTF              ZTF22abiozoc   17:16:47.750   +66:30:40.40 2022-09-25 03:53:16.800            SNIa   20.56                  g_ZTF        0.088                                     None          -99
     SN  2022wln             ZTF              ZTF22abjqztl   16:10:34.481   +64:49:43.76 2022-10-01 03:17:16.800            SNIa   19.69                  g_ZTF         0.06                                     None          -99
     AT  2022wlv             ZTF              ZTF22abhxpns   16:10:13.630   +65:46:56.86 2022-09-24 05:26:52.800    Unclassified   19.74                  g_ZTF          -99                                     None          -99
+    SN  2022qzx             ZTF              ZTF22aazbxmi   18:02:17.770   +80:06:03.13 2022-07-26 06:53:16.800           SNIIn   20.31                  r_ZTF        0.058                                     None          -99
