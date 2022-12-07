@@ -79,7 +79,6 @@
     AT  2022zvw           ATLAS               ATLAS22blnr   03:35:42.609   +55:10:38.68 2022-11-10 10:18:21.024    Unclassified  17.339           orange_ATLAS          -99                                     None          -99
     AT  2022zwi             ZTF              ZTF22absuxji   01:04:43.047   +51:37:05.13 2022-11-05 05:41:16.800    Unclassified   19.43                  g_ZTF          -99                                     None          -99
     AT  2022zxn             ZTF              ZTF22abriqvc   00:40:09.146   +45:01:07.89 2022-10-25 06:47:31.200    Unclassified   20.88                  g_ZTF          -99                                     None          -99
-    AT  2022zxw             ZTF              ZTF22abtcphd   01:55:13.929   +53:11:58.43 2022-11-10 09:44:38.400    Unclassified   19.09                  g_ZTF          -99                                     None          -99
     SN  2022zyd             ZTF              ZTF22abtcpig   02:08:33.210   +52:49:36.29 2022-11-10 09:44:38.400           SNIIn   19.39                  g_ZTF        0.063                                     None          -99
     AT 2022aadq          ALeRCE              ZTF22abtmczq   02:04:54.681   +44:47:53.02 2022-11-11 07:22:34.003    Unclassified 20.2102                  r_ZTF          -99                                     None          -99
     AT 2022aahl          ALeRCE              ZTF22abtrcdd   00:54:51.135   +73:10:32.35 2022-11-14 06:45:13.997    Unclassified 19.9186                  r_ZTF          -99                SSTSL2J005451.50+731033.2          -99
@@ -104,3 +103,5 @@
     AT 2022absk             ZTF              ZTF22abwwdbv   02:01:36.303   +50:54:18.32 2022-11-26 05:11:02.400              CV   15.92                  r_ZTF          -99                                     None          -99
     AT 2022abvw           ATLAS               ATLAS22bnch   00:14:09.010   +49:25:03.76 2022-11-26 05:21:33.984    Unclassified   19.56             cyan_ATLAS          -99                                     None          -99
     AT 2022abwa           ATLAS               ATLAS22bncs   02:15:20.800   +52:50:21.67 2022-11-24 09:54:45.792    Unclassified  19.277           orange_ATLAS          -99                                     None          -99
+    SN  2022zxw             ZTF              ZTF22abtcphd   01:55:13.929   +53:11:58.43 2022-11-10 09:44:38.400            SNII   19.09                  g_ZTF        0.025                                     None          -99
+    AT 2022acdk          ALeRCE              ZTF22abxzitc   02:50:13.105   +47:03:30.34 2022-11-30 06:49:07.000    Unclassified 19.8988                  r_ZTF          -99                                  UGC2308     0.027883

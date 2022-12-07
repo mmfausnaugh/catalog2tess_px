@@ -62,3 +62,4 @@
     AT 2022abyb      Pan-STARRS                   PS22mbj   06:10:38.554   +47:08:39.30 2022-11-26 13:30:46.656    Unclassified    20.3                   w_P1          -99                                     None          -99
     AT 2022acbo          ALeRCE              ZTF22abworsk   05:08:32.991   +51:04:01.06 2022-11-25 07:13:07.003    Unclassified 20.4794                  g_ZTF          -99                                     None          -99
     AT 2022acby      Pan-STARRS                   PS22mdf   06:27:33.306   +45:22:57.19 2022-11-26 13:31:42.816    Unclassified   20.97                   w_P1          -99                                     None          -99
+    AT 2022accr      Pan-STARRS                   PS22mdl   06:13:40.463   +45:18:02.53 2022-11-26 13:30:46.656    Unclassified   20.53                   w_P1          -99                                     None          -99

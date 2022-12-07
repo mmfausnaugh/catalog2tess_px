@@ -289,3 +289,4 @@
     AT 2022abvw           ATLAS               ATLAS22bnch   00:14:09.010   +49:25:03.76 2022-11-26 05:21:33.984    Unclassified   19.56             cyan_ATLAS          -99                                     None          -99
     AT 2022abxn             ZTF              ZTF19acfcfvo   00:10:12.091   +34:23:01.78 2022-11-18 05:15:21.600    Unclassified   20.45                  g_ZTF          -99                                     None          -99
     AT 2022abzg            XOSS                    XM90MZ   00:42:37.880   +41:12:49.10 2022-11-01 14:54:45.504    Unclassified    19.7                 Clear_          -99                                      M31          -99
+    AT 2022acdd           GSNST                  G_Harris   00:39:44.012   +41:37:12.32 2022-11-22 00:53:43.584    Unclassified   20.35                 Clear_          -99                                  Unknown          -99

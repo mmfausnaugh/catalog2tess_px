@@ -122,8 +122,8 @@ def get_file(url):                                                   #
 
 
 
-active_sectors = np.r_[56:58]
-#active_sectors = [47]
+#active_sectors = np.r_[57:60]
+active_sectors = [56]
 
 
 if len(sys.argv) > 2:
