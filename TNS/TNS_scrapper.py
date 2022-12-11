@@ -144,7 +144,7 @@ def get_file(url):                                                   #
 #active_sectors = np.r_[49,50,51]
 
 #starting in S52, modified to only pull transients from within the last 3 months of sector start
-active_sectors = np.r_[57:60]
+active_sectors = np.r_[59:60]
 #active_sectors = [58,59]
 
 #these are imported from catalog2tess_px/camera_pointings/cam_pointings.py
