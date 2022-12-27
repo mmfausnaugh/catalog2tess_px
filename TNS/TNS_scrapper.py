@@ -156,8 +156,8 @@ cams = [cam_pointings.cam1,
 for s in active_sectors:
     for ii,cam in enumerate(cams):
         #pick out individual cameras
-        #if ii < 1:
-        #    continue
+        if ii < 2:
+            continue
         sleep(3)
         print('searching sector {}, camera {}'.format(s, ii+1))
 

@@ -57,7 +57,20 @@ def main():
 
     if args.save:
         outfile = open(f'count_transients_s{min(sector_use)}-{max(sector_use)}.txt','w')
+        outfile.write('#{:>3s} {:>12s} '
+                      '{:>15s} {:>6s} '
+                      '{:>10s} {:>2s} '
+                      '{:>14s} {:>10s} '
+                      '{:>13s} {:>4s} {:>4s} '
+                      '{:>15s} {:>15.3s}\n'.format(
+                          'sector','ra','dec',
+                          'mag','disc_tjd',
+                          't1','type',
+                          'name',
+                          'group','cam','ccd',
+                          'column','row'))
 
+        
     sector_iterator = tqdm.tqdm(sector_use) if args.quiet else sector_use
 
     for sector in sector_iterator:        
@@ -106,6 +119,7 @@ def main():
 #                                                        cat.internal_name[jj], cat.mag[jj]))
 
                 if args.save:
+                    
                     for jj in np.where(mask)[0]:
                         outfile.write(f'{sector:4d} {cat.ra[jj]:15.8f} '
                                       f'{cat.dec[jj]:15.8f} {cat.mag[jj]:6.3f} '
