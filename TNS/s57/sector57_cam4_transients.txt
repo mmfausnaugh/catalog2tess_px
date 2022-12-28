@@ -315,3 +315,4 @@
     SN 2022abln            None                      None   14:54:08.180   +73:08:04.90 2022-11-24 18:55:00.000            SNII    17.8                 Clear_      0.02418                                     None          -99
     AT 2022absy             ZTF              ZTF22abxcobm   18:28:13.298   +62:27:44.80 2022-11-21 02:39:50.400    Unclassified   20.09                  r_ZTF          -99                                     None          -99
     AT 2022acbs             ZTF              ZTF22abxwlaa   19:54:15.066   +64:48:39.56 2022-11-11 02:52:48.000    Unclassified   20.17                  r_ZTF          -99                                     None          -99
+    AT 2022acnv             ZTF              ZTF22abthaim   15:59:26.455   +79:56:31.31 2022-11-14 03:24:28.800    Unclassified   20.03                  g_ZTF          -99                                     None          -99
