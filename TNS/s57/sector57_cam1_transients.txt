@@ -615,3 +615,4 @@
     AT 2022accl      Pan-STARRS                   PS22mdk   01:33:55.232   +26:56:51.84 2022-11-26 05:04:05.952    Unclassified   21.54                   w_P1          -99                                     None          -99
     AT 2022accv      Pan-STARRS                   PS22mdp   01:33:43.724   +33:32:32.48 2022-11-26 05:01:19.200    Unclassified   21.78                   w_P1          -99                                     None          -99
     AT 2022acdd           GSNST                  G_Harris   00:39:44.012   +41:37:12.32 2022-11-22 00:53:43.584    Unclassified   20.35                 Clear_          -99                                  Unknown          -99
+    SN 2022aawb             ZTF              ZTF22abvcnnl   01:44:52.375   +23:00:43.91 2022-11-15 05:21:07.200          SLSN-I   20.53                  g_ZTF         0.13                                     None          -99
