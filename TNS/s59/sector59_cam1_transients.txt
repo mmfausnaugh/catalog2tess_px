@@ -71,3 +71,5 @@
     AT 2022adcp          ALeRCE              ZTF22abyxzww   06:01:50.669   +53:12:33.32 2022-12-17 07:20:50.997    Unclassified 20.3198                  r_ZTF          -99                 WISEAJ060150.87+531234.7          -99
     AT 2022adpp      Pan-STARRS                   PS22new   06:24:15.027   +48:50:57.81 2022-12-02 10:46:05.952    Unclassified   20.54                   i_P1          -99                                     None          -99
     SN 2022adub          ALeRCE              ZTF22abyxnrr   05:02:51.420   +51:43:35.48 2022-12-19 06:24:00.003            SNIa 19.5509                  g_ZTF         0.03                 WISEAJ050251.52+514336.0          -99
+    AT   2023cf             ZTF              ZTF23aaaatjn   04:26:49.491   +29:56:59.84 2023-01-07 05:24:06.912    Unclassified 17.4805                  g_ZTF          -99                                     None          -99
+    AT   2023cg             ZTF              ZTF23aaaatee   03:57:39.712   +36:47:14.31 2023-01-07 05:15:49.248    Unclassified 16.8328                  g_ZTF          -99                                     None          -99

@@ -120,3 +120,4 @@
     AT 2022acsy             ZTF              ZTF22abydqyj   20:07:31.107   +72:03:50.48 2022-11-26 04:56:38.400    Unclassified   20.47                  g_ZTF          -99                                     None          -99
     AT 2022adcr          ALeRCE              ZTF22abywrrb   19:48:04.780   +74:50:48.94 2022-12-17 03:53:33.000    Unclassified 19.4822                  r_ZTF          -99                 WISEAJ194803.63+745045.7          -99
     AT 2022adcx          ALeRCE              ZTF18abjjgwy   16:01:15.079   +74:42:18.78 2022-12-17 11:55:36.998    Unclassified 18.6815                  g_ZTF          -99                 WISEAJ160114.96+744218.2          -99
+    AT   2023cd          ALeRCE              ZTF18abjzpxo   16:13:15.023   +59:10:17.21 2023-01-07 11:54:30.997    Unclassified 18.0344                  g_ZTF          -99                  SDSSJ161314.99+591017.0          -99

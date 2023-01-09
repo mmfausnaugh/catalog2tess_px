@@ -167,3 +167,4 @@
     AT 2022adyl          ALeRCE              ZTF22acancjn   08:10:07.233   +57:50:05.71 2022-12-23 09:27:45.999    Unclassified 19.6818                  r_ZTF          -99                            MCG+10-12-082     0.025851
     AT 2022adzb            None                      None   08:18:03.603   +55:19:20.43 2022-12-22 06:42:00.000    Unclassified   20.64                  r_ZTF          -99                                     None          -99
     AT 2022aebn            XOSS                    XM92MZ   09:55:17.270   +69:04:46.20 2022-12-25 23:34:21.216    Unclassified    19.3                 Clear_          -99                                      M81          -99
+    AT   2023bs          ALeRCE              ZTF23aaabsqf   08:25:48.286   +53:52:35.55 2023-01-07 07:06:45.996    Unclassified 18.9789                  r_ZTF          -99                  SDSSJ082548.44+535235.9   0.06414305
