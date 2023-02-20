@@ -126,4 +126,3 @@
     AT   2023np             ZTF              ZTF23aaahuyo   17:09:53.666   +59:45:18.25 2023-01-12 12:24:28.800    Unclassified   19.13                  r_ZTF          -99                                     None          -99
     AT   2023yo      GaiaAlerts                 Gaia23aim   19:10:36.200   +62:17:28.97 2023-01-18 16:58:04.800    Unclassified    18.2                 G_Gaia          -99                                     None          -99
     AT  2023adi      GaiaAlerts                 Gaia23ajk   17:43:37.860   +55:09:12.92 2023-01-20 17:11:02.400    Unclassified   18.85                 G_Gaia          -99                                     None          -99
-    AT  2023ael      GaiaAlerts                 Gaia23ajs   17:14:41.460   +66:51:22.07 2023-01-21 23:02:24.000    Unclassified   18.57                 G_Gaia          -99                                     None          -99

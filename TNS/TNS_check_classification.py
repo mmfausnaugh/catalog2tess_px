@@ -122,7 +122,7 @@ def get_file(url):                                                   #
 
 
 
-active_sectors = np.r_[58:61]
+active_sectors = np.r_[60:62]
 #active_sectors = [57]
 
 
@@ -140,8 +140,8 @@ print('\n\nchecking for changes {} days in the past...\n\n'.format(time_offset))
 for s in active_sectors:
     #loop over cameras
     for ii in range(4):
-        if ii < 1:
-            continue
+        #if ii >0 :
+        #    continue
         sleep(60)
         print('searching sector {}, camera {}'.format(s, ii+1))
 
