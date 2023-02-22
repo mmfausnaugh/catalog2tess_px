@@ -71,8 +71,6 @@
     AT 2022adcp          ALeRCE              ZTF22abyxzww   06:01:50.669   +53:12:33.32 2022-12-17 07:20:50.997    Unclassified 20.3198                  r_ZTF          -99                 WISEAJ060150.87+531234.7          -99
     AT 2022adpp      Pan-STARRS                   PS22new   06:24:15.027   +48:50:57.81 2022-12-02 10:46:05.952    Unclassified   20.54                   i_P1          -99                                     None          -99
     SN 2022adub          ALeRCE              ZTF22abyxnrr   05:02:51.420   +51:43:35.48 2022-12-19 06:24:00.003            SNIa 19.5509                  g_ZTF         0.03                 WISEAJ050251.52+514336.0          -99
-    AT   2023cf             ZTF              ZTF23aaaatjn   04:26:49.491   +29:56:59.84 2023-01-07 05:24:06.912    Unclassified 17.4805                  g_ZTF          -99                                     None          -99
-    AT   2023cg             ZTF              ZTF23aaaatee   03:57:39.712   +36:47:14.31 2023-01-07 05:15:49.248    Unclassified 16.8328                  g_ZTF          -99                                     None          -99
     AT   2023he      Pan-STARRS                     PS23w   04:24:49.364   +30:05:35.68 2023-01-08 09:11:06.144    Unclassified   19.59                   i_P1          -99                                     None          -99
     AT   2023ot          ALeRCE              ZTF23aaamnnv   03:36:58.317   +41:25:44.92 2023-01-14 05:14:08.998    Unclassified 20.2434                  r_ZTF          -99                  SDSSJ033658.32+412542.2          -99
     SN   2023rk           ATLAS                ATLAS23arb   05:14:18.888   +46:22:23.84 2023-01-15 08:44:23.424            SNIa   17.31           orange_ATLAS        0.018                                     None          -99
@@ -83,3 +81,5 @@
     AT  2023abn          ALeRCE              ZTF23aaaoiap   06:15:15.330   +48:16:42.91 2023-01-21 05:49:47.001    Unclassified 19.6368                  r_ZTF          -99                 WISEAJ061515.61+481643.3          -99
     AT  2023add      GaiaAlerts                 Gaia23aje   04:42:21.470   +46:57:04.00 2023-01-20 22:00:28.800    Unclassified   14.26                 G_Gaia          -99                                     None          -99
     AT  2023afn             ZTF              ZTF23aaatrlf   06:21:04.635   +43:34:04.47 2023-01-21 05:48:28.800    Unclassified   19.93                  r_ZTF          -99                                     None          -99
+    SN   2023cf             ZTF              ZTF23aaaatjn   04:26:49.500   +29:56:59.93 2023-01-07 05:24:06.912            SNII 17.4805                  g_ZTF       0.0175                                     None          -99
+    SN   2023cg             ZTF              ZTF23aaaatee   03:57:39.712   +36:47:14.31 2023-01-07 05:15:49.248            SNIa 16.8328                  g_ZTF       0.0194                                     None          -99

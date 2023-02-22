@@ -70,3 +70,4 @@
     AT  2023bre           ATLAS               ATLAS20besv   08:06:28.181   -32:01:02.70 2023-02-10 21:46:53.184    Unclassified  18.256           orange_ATLAS          -99                                     None          -99
     AT  2023bsr           DLT40                    DLT23d   07:43:43.310   -56:46:13.35 2023-02-15 14:24:29.376    Unclassified 19.5901                 Clear_          -99                               ESO163m014          -99
     AT  2023buf           ATLAS                ATLAS17bii   07:09:32.085   -35:37:47.86 2023-02-17 03:04:39.072    Unclassified  18.455             cyan_ATLAS          -99                                     None          -99
+    AT  2023cjj      GaiaAlerts                 Gaia23auc   08:22:30.630   -60:22:51.89 2023-02-18 13:33:35.000    Unclassified    18.5                 G_Gaia          -99                                     None          -99

@@ -157,7 +157,6 @@
     AT 2022acsa             ZTF              ZTF22abynjjf   07:25:42.876   +54:22:54.24 2022-12-10 08:21:07.200    Unclassified   19.85                  r_ZTF          -99                                     None          -99
     SN 2022acsc             ZTF              ZTF22abynjkd   07:19:43.759   +55:58:33.78 2022-12-10 08:21:07.200            SNIa   18.21                  r_ZTF 0.0416299999                                     None          -99
     AT 2022actu             ZTF              ZTF22abynjuz   06:41:26.142   +51:12:04.00 2022-12-01 09:51:50.400    Unclassified   20.56                  r_ZTF          -99                                     None          -99
-    AT 2022acwn           ATLAS               ATLAS22bnqh   06:33:29.418   +34:14:36.97 2022-12-13 11:53:27.744    Unclassified  18.298           orange_ATLAS          -99                                     None          -99
     AT 2022acwq             YSE                   PS22mpq   08:29:29.132   +48:52:11.85 2022-12-02 13:50:39.840            Nova   20.82                   z_P1          -99                                     None          -99
     AT 2022acwr           ATLAS               ATLAS22bnqu   06:44:39.556   +46:33:55.46 2022-12-14 09:12:57.600    Unclassified  18.098           orange_ATLAS          -99                                     None          -99
     AT 2022aczi      Pan-STARRS                   PS22mqi   07:33:20.804   +47:27:15.31 2022-12-14 11:55:59.808    Unclassified   20.13                   i_P1          -99                                     None          -99
@@ -286,3 +285,4 @@
     AT  2023bra           ATLAS                ATLAS23cbu   06:43:26.323   +31:41:31.01 2023-02-12 20:19:33.024    Unclassified  19.027           orange_ATLAS          -99                                     None          -99
     AT  2023buy          ALeRCE              ZTF23aacjetk   08:20:53.696   +39:14:29.67 2023-02-17 05:08:54.001    Unclassified 17.9997                  r_ZTF          -99                  SDSSJ082054.22+391423.0   0.02861966
     SN   2023su      Pan-STARRS                    PS23fq   07:58:02.084   +40:55:04.26 2023-01-15 08:42:37.152            SNIa   19.46                   w_P1         0.09                                     None          -99
+    SN 2022acwn           ATLAS               ATLAS22bnqh   06:33:29.418   +34:14:36.97 2022-12-13 11:53:27.744            SNII  18.298           orange_ATLAS        0.015                                     None          -99
