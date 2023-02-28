@@ -84,3 +84,5 @@
     AT  2023bta           ATLAS                ATLAS23ceb   08:43:16.583   -19:12:45.21 2023-02-14 22:10:10.272    Unclassified  19.348           orange_ATLAS          -99                                     None          -99
     AT  2023btz           ATLAS                ATLAS23cff   06:55:00.642   -27:42:22.82 2023-02-14 21:13:47.712    Unclassified  18.815           orange_ATLAS          -99                                     None          -99
     AT  2023buf           ATLAS                ATLAS17bii   07:09:32.085   -35:37:47.86 2023-02-17 03:04:39.072    Unclassified  18.455             cyan_ATLAS          -99                                     None          -99
+    AT  2023cly           ATLAS                ATLAS23cnc   07:54:48.952   -38:55:19.80 2023-02-22 21:22:58.944    Unclassified  18.971           orange_ATLAS          -99                                     None          -99
+    AT  2023cnm           ATLAS                ATLAS23cpk   08:41:14.745   -25:36:31.50 2023-02-24 01:20:19.392    Unclassified  19.481             cyan_ATLAS          -99                                     None          -99

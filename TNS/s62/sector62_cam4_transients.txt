@@ -68,3 +68,5 @@
     AT  2023bus      GaiaAlerts                 Gaia23asv   06:05:16.140   -70:08:49.67 2023-02-16 07:43:40.800    Unclassified   17.07                 G_Gaia          -99                                     None          -99
     AT  2023bvg      GaiaAlerts                 Gaia23ath   03:33:59.710   -60:34:17.26 2023-01-24 15:54:43.200    Unclassified   19.05                 G_Gaia          -99                                     None          -99
     AT  2023bzq         ASAS-SN               ASASSN-23ay   04:49:13.330   -54:23:54.20 2023-02-16 01:55:12.000    Unclassified    17.0                g_Sloan          -99                 WISEAJ044912.63-542355.3     0.021301
+    AT  2023cna           ATLAS                ATLAS23col   05:57:21.163   -73:07:23.17 2023-02-23 20:55:34.752    Unclassified   19.05           orange_ATLAS          -99                                     None          -99
+    AT  2023cnf           ATLAS                ATLAS23cpa   07:59:11.397   -82:48:29.76 2023-02-23 21:39:31.680    Unclassified  19.171           orange_ATLAS          -99                                     None          -99
