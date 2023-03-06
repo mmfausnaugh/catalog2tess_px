@@ -70,3 +70,4 @@
     AT  2023bzq         ASAS-SN               ASASSN-23ay   04:49:13.330   -54:23:54.20 2023-02-16 01:55:12.000    Unclassified    17.0                g_Sloan          -99                 WISEAJ044912.63-542355.3     0.021301
     AT  2023cna           ATLAS                ATLAS23col   05:57:21.163   -73:07:23.17 2023-02-23 20:55:34.752    Unclassified   19.05           orange_ATLAS          -99                                     None          -99
     AT  2023cnf           ATLAS                ATLAS23cpa   07:59:11.397   -82:48:29.76 2023-02-23 21:39:31.680    Unclassified  19.171           orange_ATLAS          -99                                     None          -99
+    AT  2023crb           ATLAS                ATLAS23ddt   05:43:35.326   -81:01:54.72 2023-03-01 01:14:17.376    Unclassified  18.619           orange_ATLAS          -99                                     None          -99

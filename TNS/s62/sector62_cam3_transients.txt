@@ -57,3 +57,4 @@
     AT  2023coa      GaiaAlerts                 Gaia23avv   08:40:40.990   -44:45:55.66 2023-02-23 13:35:02.400    Unclassified   14.11                 G_Gaia          -99                                     None          -99
     AT  2023cod      GaiaAlerts                 Gaia23awb   09:29:25.690   -41:10:41.45 2023-02-24 19:27:50.400    Unclassified   18.99                 G_Gaia          -99                                     None          -99
     AT  2023cqg      GaiaAlerts                 Gaia23awo   09:04:20.740   -40:28:48.97 2023-02-25 19:32:09.600    Unclassified   18.73                 G_Gaia          -99                                     None          -99
+    AT  2023crr      GaiaAlerts                 Gaia23axe   08:25:34.460   -38:05:44.92 2023-02-26 13:40:47.000    Unclassified    18.3                 G_Gaia          -99                                     None          -99
