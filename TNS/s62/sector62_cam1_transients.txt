@@ -291,7 +291,6 @@
     SN  2023dxj           ATLAS                ATLAS23ejf   09:43:55.627   -02:36:38.20 2023-03-25 08:28:31.296            SNIa  18.687           orange_ATLAS         0.05                                     None          -99
     SN  2023dyl           ATLAS                ATLAS23eju   10:02:58.659   +02:20:36.28 2023-03-27 02:49:58.656            SNIa  18.301           orange_ATLAS     0.044167                                     None          -99
     AT  2023ean             ZTF              ZTF23aadvjus   09:02:14.531   -09:06:17.14 2023-03-17 04:33:36.000    Unclassified   20.61                  g_ZTF          -99                                     None          -99
-    AT  2023eau             ZTF              ZTF23aadwfed   10:41:29.733   -06:02:38.82 2023-03-28 05:03:50.400    Unclassified   19.16                  g_ZTF          -99                                     None          -99
     AT  2023ebe             ZTF              ZTF23aadwkof   09:29:10.566   +01:11:56.69 2023-03-28 05:26:52.800    Unclassified    19.7                  g_ZTF          -99                                     None          -99
     AT  2023ebf             ZTF              ZTF23aadxdwv   09:11:34.623   -06:21:11.83 2023-03-28 04:33:36.000    Unclassified   20.04                  g_ZTF          -99                                     None          -99
     AT  2023ebs             YSE                   PS23bbm   09:03:41.007   -02:47:40.47 2023-03-28 07:08:15.360    Unclassified   20.48                   i_P1          -99                                     None          -99
@@ -344,3 +343,5 @@
     AT  2023ffo             ZTF              ZTF23aadhttp   10:50:05.250   -06:53:07.64 2023-03-17 07:03:21.600    Unclassified   19.55                  r_ZTF          -99                                     None          -99
     AT  2023ffp             ZTF              ZTF23aaevyhv   10:26:32.901   -00:10:02.72 2023-04-09 05:32:38.400    Unclassified   19.61                  r_ZTF          -99                                     None          -99
     AT  2023ffs             ZTF              ZTF23aaelwdh   10:18:13.760   -16:01:47.36 2023-04-09 06:05:45.600    Unclassified   19.32                  r_ZTF          -99                                     None          -99
+    SN  2023eau             ZTF              ZTF23aadwfed   10:41:29.733   -06:02:38.82 2023-03-28 05:03:50.400            SNIa   19.16                  g_ZTF        0.063                                     None          -99
+    AT  2023fgp             ZTF              ZTF23aaelwub   10:06:30.567   -08:18:14.29 2023-03-28 06:11:31.200    Unclassified   20.41                  r_ZTF          -99                                     None          -99
