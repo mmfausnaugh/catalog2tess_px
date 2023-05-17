@@ -144,7 +144,7 @@ def get_file(url):                                                   #
 #active_sectors = np.r_[49,50,51]
 
 #starting in S52, modified to only pull transients from within the last 3 months of sector start
-active_sectors = np.r_[62:65]
+active_sectors = np.r_[64:65]
 #active_sectors = [60]
 
 #these are imported from catalog2tess_px/camera_pointings/cam_pointings.py
@@ -173,21 +173,43 @@ for s in active_sectors:
 
         fout = open(catfile, 'a')
 
-        search_obj=[("ra", "{}".format(cam[s-1][0])),
-                    ("dec","{}".format(cam[s-1][1])),
-                    ("radius","17"),
-                    ("units","degrees"),
-                    ("objname",""),
-                    ("internal_name",""),
-                    ("discoverydate","")]                    
+        sector_time_start = Time( sector_times['s{:d}'.format(s)][0] + 2457000,
+                                  format='jd').isot
+        sector_time_end   = Time( sector_times['s{:d}'.format(s)][1] + 2457000,
+                                  format='jd').isot
+
+        
+        print(cam[s-1][0], cam[s-1][1], sector_time_start, sector_time_end.split('T')[0])
+        search_obj=[
+
+            #("discovered_period_value","1"),
+            #("discovered_period_units","months"),
+
+            ("start_date",sector_time_start.split('T')[0]),
+            ("date_end[date]",  sector_time_end.split('T')[0]),
+            ("ra", "{}".format(cam[s-1][0])),
+            ("dec","{}".format(cam[s-1][1])),
+            ("radius","17"),
+            ("units","degrees"),
+            #("objname",""),
+            #("internal_name",""),
+            #("discoverydate",""),
+
+                    ]                    
         print('doing cone search')
         response=search(url_tns_api,search_obj)
+        print(response.apparent_encoding, response.headers, response.json)
+        print(response.request)
         print('cone search done')
-        
+
+    
         if None not in response:
             # Here we just display the full json data as the response
             json_data=json.loads(response.text)
             objs = np.array([ elem['objname'] for elem in json_data['data']['reply'] ])
+            print(objs)
+            print(len(objs))
+            sys.exit()
             times_sort = np.array([ elem['objid'] for elem in json_data['data']['reply'] ])
             idx = np.argsort(times_sort)
             objs = objs[idx]
