@@ -144,7 +144,7 @@ def get_file(url):                                                   #
 #active_sectors = np.r_[49,50,51]
 
 #starting in S52, modified to only pull transients from within the last 3 months of sector start
-active_sectors = np.r_[64:65]
+active_sectors = np.r_[61:66]
 #active_sectors = [60]
 
 #these are imported from catalog2tess_px/camera_pointings/cam_pointings.py
@@ -185,8 +185,8 @@ for s in active_sectors:
             #("discovered_period_value","1"),
             #("discovered_period_units","months"),
 
-            ("start_date",sector_time_start.split('T')[0]),
-            ("date_end[date]",  sector_time_end.split('T')[0]),
+            #("start_date",sector_time_start.split('T')[0]),
+            #("date_end[date]",  sector_time_end.split('T')[0]),
             ("ra", "{}".format(cam[s-1][0])),
             ("dec","{}".format(cam[s-1][1])),
             ("radius","17"),
@@ -209,7 +209,7 @@ for s in active_sectors:
             objs = np.array([ elem['objname'] for elem in json_data['data']['reply'] ])
             print(objs)
             print(len(objs))
-            sys.exit()
+            #sys.exit()
             times_sort = np.array([ elem['objid'] for elem in json_data['data']['reply'] ])
             idx = np.argsort(times_sort)
             objs = objs[idx]
