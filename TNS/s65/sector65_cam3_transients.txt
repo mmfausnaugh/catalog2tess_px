@@ -48,3 +48,4 @@
     AT  2023iwl          MASTER MASTER-OT-J080727.62-763159.4   08:07:27.620   -76:31:59.40 2023-05-18 21:13:06.240    Unclassified    12.6                 Clear_          -99                                     None          -99
     AT  2023ixg       MeerLICHT   MLT-J074824.10-703558.7   07:48:24.101   -70:35:58.78 2023-05-19 19:11:47.832    Unclassified    18.3          BG-q_BlackGem          -99                               LEDA272869          -99
     AT  2023iyb       MeerLICHT   MLT-J111035.64-873800.2   11:10:35.450   -87:38:00.42 2023-05-19 20:10:33.000    Unclassified   18.73          BG-q_BlackGem          -99                          HyperLEDA215607          -99
+    AT  2023jfx           ATLAS                ATLAS23jur   14:46:34.873   -74:51:21.84 2023-05-01 07:07:16.608    Unclassified  18.898           orange_ATLAS          -99                                     None          -99

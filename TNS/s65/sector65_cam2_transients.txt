@@ -54,3 +54,5 @@
     SN  2023hym           DLT40                    DLT23k   14:13:35.180   -45:25:44.80 2023-05-11 06:37:22.944 SNIax[02cx-like] 18.7411                 Clear_         0.01                               ESO271m022          -99
     AT  2023iua      GaiaAlerts                 Gaia23bue   13:01:45.880   -58:50:08.77 2023-05-03 12:43:12.000    Unclassified    18.4                 G_Gaia          -99                                     None          -99
     AT  2023ius      GaiaAlerts                 Gaia23bvg   15:03:43.120   -60:14:49.96 2023-04-28 12:23:02.400    Unclassified   17.86                 G_Gaia          -99                                     None          -99
+    AT  2023jaq           ATLAS                ATLAS23kyg   16:37:42.128   -73:18:29.46 2023-05-18 00:11:34.656    Unclassified  19.472             cyan_ATLAS          -99                                     None          -99
+    AT  2023jfx           ATLAS                ATLAS23jur   14:46:34.873   -74:51:21.84 2023-05-01 07:07:16.608    Unclassified  18.898           orange_ATLAS          -99                                     None          -99
