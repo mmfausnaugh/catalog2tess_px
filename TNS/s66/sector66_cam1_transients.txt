@@ -109,3 +109,6 @@
     AT  2023juu          MASTER MASTER-OT-J172840.09-255849.1   17:28:40.090   -25:58:49.10 2023-06-02 08:05:47.040    Unclassified    16.6                 Clear_          -99                                     None          -99
     AT  2023juv          MASTER MASTER-OT-J174240.38-265058.4   17:42:40.380   -26:50:58.40 2023-06-02 08:12:48.672    Unclassified    17.3                 Clear_          -99                                     None          -99
     AT  2023juw          MASTER MASTER-OT-J174003.81-255212.8   17:40:03.810   -25:52:12.80 2023-06-02 08:12:48.672    Unclassified    16.9                 Clear_          -99                                     None          -99
+    AT  2023kir           ATLAS                ATLAS23lzo   18:35:51.704   -47:31:46.37 2023-06-11 01:03:55.296    Unclassified  18.695           orange_ATLAS          -99                                     None          -99
+    AT  2023kjh           ATLAS                ATLAS23mbh   18:55:46.295   -37:46:34.49 2023-06-10 22:38:03.840    Unclassified  18.745           orange_ATLAS          -99                                     None          -99
+    AT  2023klk           ATLAS                ATLAS23lem   18:16:09.017   -46:24:42.43 2023-05-20 22:18:29.664    Unclassified  18.577             cyan_ATLAS          -99                                     None          -99

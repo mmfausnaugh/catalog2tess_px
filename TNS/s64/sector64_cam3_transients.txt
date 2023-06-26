@@ -68,3 +68,4 @@
     AT  2023ido           BraTS          BraTS-SON-T2-043   11:26:07.240   -57:06:04.10 2023-05-12 23:29:11.000    Unclassified    14.4                 Clear_          -99                                     None          -99
     AT  2023iwl          MASTER MASTER-OT-J080727.62-763159.4   08:07:27.620   -76:31:59.40 2023-05-18 21:13:06.240    Unclassified    12.6                 Clear_          -99                                     None          -99
     AT  2023ixg       MeerLICHT   MLT-J074824.10-703558.7   07:48:24.101   -70:35:58.78 2023-05-19 19:11:47.832    Unclassified    18.3          BG-q_BlackGem          -99                               LEDA272869          -99
+    AT  2023jba           ATLAS                ATLAS23kze   07:41:25.703   -66:46:49.14 2023-05-20 18:35:32.352    Unclassified  19.064             cyan_ATLAS          -99                                     None          -99
