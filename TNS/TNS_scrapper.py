@@ -144,8 +144,8 @@ def get_file(url):                                                   #
 #active_sectors = np.r_[49,50,51]
 
 #starting in S52, modified to only pull transients from within the last 3 months of sector start
-active_sectors = np.r_[65:67]
-#active_sectors = [60]
+#active_sectors = np.r_[69:74]
+active_sectors = [72]
 
 #these are imported from catalog2tess_px/camera_pointings/cam_pointings.py
 cams = [cam_pointings.cam1, 
@@ -180,28 +180,39 @@ for s in active_sectors:
 
         
         print(cam[s-1][0], cam[s-1][1], sector_time_start, sector_time_end.split('T')[0])
+        
         search_obj=[
 
             #("discovered_period_value","1"),
             #("discovered_period_units","months"),
 
-            #("start_date",sector_time_start.split('T')[0]),
-            #("date_end[date]",  sector_time_end.split('T')[0]),
+            ("start_date[date]",sector_time_start.split('T')[0]),
+            ("date_end[date]",  sector_time_end.split('T')[0]),
             ("ra", "{}".format(cam[s-1][0])),
-            ("dec","{}".format(cam[s-1][1])),
+            ("decl","{}".format(cam[s-1][1])),
             ("radius","17"),
             ("units","degrees"),
             #("objname",""),
             #("internal_name",""),
-            #("discoverydate",""),
+            ("discoverydate",""),
 
-                    ]                    
+                    ]
+        print(search_obj)
         print('doing cone search')
         response=search(url_tns_api,search_obj)
         print(response.apparent_encoding, response.headers, response.json)
         print(response.request)
         print('cone search done')
+        json_data=json.loads(response.text)
+        print(json_data.keys())
+        print(json_data['id_code'], json_data['id_message'])
+        print(json_data['data'].keys())
 
+        print(json_data['data']['received_data'])
+        print(json_data['data']['reply'][0:5])
+        print(json_data['data']['reply'][-5:])
+        
+        #sys.exit()
     
         if None not in response:
             # Here we just display the full json data as the response
@@ -217,7 +228,7 @@ for s in active_sectors:
             #np.savetxt('tmp.txt',np.c_[objs, times_sort],fmt='%s')
             for obj in objs:
                 print(obj)
-                if '2022' not in obj and '2023' not in obj:
+                if '2023' not in obj and '2024' not in obj:
                     continue
                 
                 if any(np.in1d(catname, str(obj))):
