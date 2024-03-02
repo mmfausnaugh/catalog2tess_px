@@ -293,6 +293,8 @@ for s in active_sectors:
 
 
                             bibcode = data[24].replace('"','')
+                            if len(bibcode) == 0:
+                                bibcode = 'None'
                             
                             print('  ',internal_name,  group, mags, obj, times,bibcode)
 
