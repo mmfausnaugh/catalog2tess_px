@@ -148,7 +148,7 @@ def get_file(url):                                                   #
 
 #starting in S52, modified to only pull transients from within the last 3 months of sector start
 #active_sectors = np.r_[69:74]
-active_sectors = [72]
+active_sectors = [73,74,75]
 
 #these are imported from catalog2tess_px/camera_pointings/cam_pointings.py
 cams = [cam_pointings.cam1, 
@@ -212,7 +212,7 @@ for s in active_sectors:
         #need to loop over PAGENO in query, until no records are returned
         n_rows = 1000
         while n_rows > 1:
-            sleep(5.0)
+            sleep(31.0)
             s2="date_start%5Bdate%5D=" + start_time + "&date_end%5Bdate%5D=" + end_time
             s3="&ra={}&decl={}&radius=20&coords_unit=deg&".format(ra_search, dec_search)
             s4="&num_page=" + NMAX+ "&page=" + str(PAGENO) + "&format=tsv"
@@ -295,7 +295,8 @@ for s in active_sectors:
                             bibcode = data[24].replace('"','')
                             if len(bibcode) == 0:
                                 bibcode = 'None'
-                            
+                            else:
+                                bibcode = bibcode.replace(" ","")
                             print('  ',internal_name,  group, mags, obj, times,bibcode)
 
 
@@ -311,6 +312,6 @@ for s in active_sectors:
 
 
         print('exited loop')
-        #os.remove(tmpfile)
+        os.remove(tmpfile)
               
         fout.close()
