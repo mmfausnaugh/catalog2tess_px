@@ -25,9 +25,11 @@ sys.path.insert(0, os.path.abspath(   os.path.dirname(__file__)) + '/..')
 from camera_pointings import cam_pointings
 from catalogs.catalog import sector_times
 
+
 #new header needed as of 2021 May
 header = {'User-Agent':'tns_marker{"tns_id":54047,"type": "bot", "name":"tess1"}'}
 #header = {'User-Agent':'tns_marker{"tns_id":870,"type": "user", "name":"mmfausnaugh"}'}
+
 
 ############################# PARAMETERS #############################
 # API key for Bot                                                    #
@@ -46,6 +48,7 @@ get_obj=[("objname",""), ("photometry","0"), ("spectra","1")]        #
 #url_tns_api="https://wis-tns.weizmann.ac.il/api/get"                 #
 #url_tns_sandbox_api="https://sandbox-tns.weizmann.ac.il/api/get"     #
 url_tns_api="https://www.wis-tns.org/api/get"                 #
+url_tns_api_search="https://www.wis-tns.org/search?&"                 #
 url_tns_sandbox_api="https://sandbox.wis-tns.org/api/get"     #
 ######################################################################
 
@@ -145,7 +148,7 @@ def get_file(url):                                                   #
 
 #starting in S52, modified to only pull transients from within the last 3 months of sector start
 #active_sectors = np.r_[69:74]
-active_sectors = [72]
+active_sectors = [73,74,75]
 
 #these are imported from catalog2tess_px/camera_pointings/cam_pointings.py
 cams = [cam_pointings.cam1, 
@@ -155,8 +158,18 @@ cams = [cam_pointings.cam1,
 
 for s in active_sectors:
     for ii,cam in enumerate(cams):
+
+        #params to access TNS api
+        #Shri had these as 500 in his script,
+
+        #need to reset inorder to loop through pages
+        NMAX = "1000"
+        PAGENO = 0
+        tmpfile = "tmp_tns_file_{}_cam{}.tsv".format(s, ii + 1)
+        savefile = "save_tns_file_{}_cam{}.tsv".format(s, ii + 1)
+
         #pick out individual cameras
-        sleep(3)
+        sleep(61.0)
         print('searching sector {}, camera {}'.format(s, ii+1))
 
         catfile = 's{:02d}/sector{}_cam{}_transients.txt'.format(s, s, ii+1)
@@ -165,175 +178,140 @@ for s in active_sectors:
         else:
             catname = np.array([])
             with open(catfile,'w') as fout:
-                fout.write('#%-6s %-8s %-15s %-25s %-14s %-14s %-22s %-15s %-7s %-22s %-12s %-40s %-12s\n'%(
+                fout.write('#%-6s %-8s %-15s %-25s %-14s %-14s %-22s %-15s %-7s %-22s %-12s %-40s %-12s %-25s\n'%(
                     'prefix','name','group','internal_name',
                     'RA','DEC',
                     'Discovery Time','Type','Mag','Filter','Redshift',
-                    'Host Galaxy','Host Redshift'))
+                    'Host Galaxy','Host Redshift','bibcode'))
 
         fout = open(catfile, 'a')
 
-        sector_time_start = Time( sector_times['s{:d}'.format(s)][0] + 2457000,
+        #anything discovered 5 days prior to sector star for followup
+        sector_time_start = Time( sector_times['s{:d}'.format(s)][0] + 2457000 - 5,
                                   format='jd').isot
-        sector_time_end   = Time( sector_times['s{:d}'.format(s)][1] + 2457000,
+        #anything discovered 30 days after TESS, for precovery
+        sector_time_end   = Time( sector_times['s{:d}'.format(s)][1] + 2457000 + 30,
                                   format='jd').isot
 
+        ra_search = cam[s-1][0]
+        dec_search = cam[s-1][1]
         
         print(cam[s-1][0], cam[s-1][1], sector_time_start, sector_time_end.split('T')[0])
-        
-        search_obj=[
 
-            #("discovered_period_value","1"),
-            #("discovered_period_units","months"),
 
-            ("start_date",sector_time_start.split('T')[0]),
-            ("end_date",  sector_time_end.split('T')[0]),
-            ("ra", "{}".format(cam[s-1][0])),
-            ("decl","{}".format(cam[s-1][1])),
-            ("radius","17"),
-            ("units","degrees"),
-            #("objname",""),
-            #("internal_name",""),
-            ("discoverydate",""),
+        #update on 2024-03-01; to make search
+        #managable, I need to limit by the few months around the times of TESS
+        #observations.  Shri Kulkarni's qTNSm.sh tool is the only thing
+        #I have found that can do this.  Need to construct the URL by hand
+        #and submit by curl
 
-                    ]
-        print(search_obj)
-        print('doing cone search')
-        response=search(url_tns_api,search_obj)
-        print(response.apparent_encoding, response.headers, response.json)
-        print(response.request)
-        print('cone search done')
-        json_data=json.loads(response.text)
-        print(json_data.keys())
-        print(json_data['id_code'], json_data['id_message'])
-        print(json_data['data'].keys())
+        start_time = sector_time_start.split('T')[0]
+        end_time = sector_time_end.split('T')[0]
 
-        print(json_data['data']['received_data'])
-        print(json_data['data']['reply'][0:5])
-        print(json_data['data']['reply'][-5:])
-        
-        #sys.exit()
-    
-        if None not in response:
-            # Here we just display the full json data as the response
-            json_data=json.loads(response.text)
-            objs = np.array([ elem['objname'] for elem in json_data['data']['reply'] ])
-            print(objs)
-            print(len(objs))
-            #sys.exit()
-            times_sort = np.array([ elem['objid'] for elem in json_data['data']['reply'] ])
-            idx = np.argsort(times_sort)
-            objs = objs[idx]
-            times_sort = times_sort[idx]
-            #np.savetxt('tmp.txt',np.c_[objs, times_sort],fmt='%s')
-            for obj in objs:
-                print(obj)
-                if '2023' not in obj and '2024' not in obj:
-                    continue
+
+        #need to loop over PAGENO in query, until no records are returned
+        n_rows = 1000
+        while n_rows > 1:
+            sleep(31.0)
+            s2="date_start%5Bdate%5D=" + start_time + "&date_end%5Bdate%5D=" + end_time
+            s3="&ra={}&decl={}&radius=20&coords_unit=deg&".format(ra_search, dec_search)
+            s4="&num_page=" + NMAX+ "&page=" + str(PAGENO) + "&format=tsv"
+
+            curl_string = "curl"+  " -s"+  " -o " +  tmpfile +\
+                          " -H " + "'User-Agent: " + json.dumps(header["User-Agent"]) + "'"+\
+                          " -d"+ " 'api_key=" + api_key + "' " +\
+                            "'" + url_tns_api_search  +  s2 + s3 + s4 + "'"
                 
-                if any(np.in1d(catname, str(obj))):
-                    continue
-                if len(obj) >8:
-                    continue
-                get_obj = [("objname",obj)]
-                sleep(3.0)
-                print('doing obj query')
-                response=get(url_tns_api, get_obj)
-                print('done with obj query')
-                
-                json_data2 = json.loads(response.text)
-                try:
-                    json_data2 = json_data2['data']['reply']
-                except:
-                    print(json_data2)
-                    raise
-                try:
-                    times = json_data2['discoverydate']
-                    t = Time(times.replace(' ','T'),  scale='utc',format='isot').jd - 2457000.0
-                    #print(times, t, sector_times['s{:d}'.format(s)][1] + 30.0)
-                    if t > sector_times['s{:d}'.format(s)][1] + 30.0:
-                        print('object {} is more than 30 days after end of sector'.format(obj) )
-                        break
-                    print(t, sector_times['s{:d}'.format(s)][0], t < sector_times['s{:d}'.format(s)][0] - 90.0)
-                    if t < sector_times['s{:d}'.format(s)][0] - 90.0:
-                        continue
-                    mags  = float(json_data2['discoverymag'])
-                except Exception as e:
-                    #print('error on {}, skipping'.format(obj))
-                    print(e)
-                    #raise
-                    continue
+            print(curl_string)
+            os.system(curl_string)
+            #will still have a header
+            n_rows = 1
+            with open(tmpfile,'r') as fin:
+                for row in fin:
+                    #check for html 
+                    row.strip()
+                    #weird white space remains, seems to be ^M character
+                    #this is more reliable, I guess?
+                    if len(row) > 10 and '<' not in row and \
+                       '@' not in row and '{' not in row and \
+                       'http' not in row and 'ID' not in row:
+                            n_rows += 1
+                            #split and write to fout, which is the catfile
+                            data = row.split("\t")
 
-                if json_data2['discmagfilter']['name'] and json_data2['discmagfilter']['family'] is not None:
-                    fband = str(json_data2['discmagfilter']['name']) + '_'+str(json_data2['discmagfilter']['family'])
-                else:
-                    fband = 'None'
-                RAs   = json_data2['ra']
-                DECs  = json_data2['dec']
-                if json_data2['name_prefix'] is None:
-                    prefix = 'AT'
-                if 'SN' not in json_data2['name_prefix']:
-                    prefix  = 'AT'
-                else:
-                    prefix = json_data2['name_prefix']
+                            id_num = data[0].replace('"','')
+                            obj = data[1].replace('"','')
+                            prefix, obj = obj.split()
+                            #do not write if it is already in the catalog
+                            if any(np.in1d(catname, str(obj))):
+                                continue
 
-                if json_data2['hostname'] is not None:
-                    print(json_data2['hostname'], json_data2['internal_names'])
-                    if isinstance(json_data2['hostname'], str):
-                        host  = json_data2['hostname'].replace(' ','')
-                        if len(host) == 0:
-                            host = 'None'
-                    else:
-                        host = 'None'
-                else:
-                    host = 'None'
+                            times = data[20].replace('"','')
+                            t = Time(times.replace(' ','T'),  scale='utc',format='isot').jd - 2457000.0
+                            mags  = data[18].replace('"','')
 
-                if json_data2['host_redshift'] is not None:                    
-                    host_redshift = float(json_data2['host_redshift'])
-                else:
-                    host_redshift = -99
+                            fband = data[19].replace('"','')
+                            if len(fband) == 0:
+                                fband='None'
 
-                if json_data2['redshift'] is not None:                    
-                    redshift = float(json_data2['redshift'])
-                else:
-                    redshift = -99
+                            RAs   = data[2].replace('"','')
+                            DECs  = data[3].replace('"','')
 
-                group = json_data2['reporting_group']['group_name']
+                            host = data[6].replace('"','')
+                            if len(host) == 0:
+                                host = 'None'
+                            else:
+                                host = host.replace(' ','')
 
-                if json_data2['internal_names'] is None:
-                    internal_name = 'None'
-                elif json_data2['discoverer_internal_name'] is None:
-                    internal_name = 'None'
-                elif len(json_data2['discoverer_internal_name']) == 0:
-                    internal_name = 'None'
-#                elif json_data2['internal_name'] is None:
-#                    internal_name = 'None'
-#                elif len(json_data2['internal_name']) == 0:
-#                    internal_name = 'None'
-                else:
-                    try:
-                        internal_name = json_data2['internal_name']
-                        internal_name = internal_name.replace(' ','-') 
-                    except:
-                        internal_name = json_data2['discoverer_internal_name']
-                        internal_name = internal_name.replace(' ','-') 
-                        
+                            host_redshift = data[7].replace('"','')
+                            if len(host_redshift) == 0:
+                                host_redshift= -99
+                            else:
+                                host_redshift = float(host_redshift)
 
-                if json_data2['object_type']['name'] is not None:
-                    obj_type = json_data2['object_type']['name'].replace(' ','')
-                else:
-                    obj_type = 'Unclassified'
-                    
-                print('  ',internal_name,  mags, obj, times)
 
-                fout.write('%6s %8s %15s %25s %14s %14s %22s %15s %7s %22s %12s %40s %12s\n'%(
-                    prefix, obj, group, internal_name,
-                    RAs, DECs,
-                    times, obj_type, mags, fband, redshift,
-                    host,host_redshift))
-                fout.flush()
-                
-        else:
-            print (response[1])
+                            redshift = data[5].replace('"','')
+                            if len(redshift) == 0:
+                                redshift = -99
+                            else:
+                                redshift = float(redshift)
 
+
+                            group = data[8].replace('"','')
+                            group = group.replace(', ',',')
+
+                            internal_name = data[12].replace('"','')
+                            if len(internal_name) == 0:
+                                internal_name = 'None'
+                            internal_name = internal_name.replace(' ','-')
+
+                            obj_type = data[4].replace('"','')
+                            if len(obj_type) == 0:
+                                obj_type = 'Unclassified'
+                            else:
+                                obj_type = obj_type.replace(' ','')
+
+
+                            bibcode = data[24].replace('"','')
+                            if len(bibcode) == 0:
+                                bibcode = 'None'
+                            else:
+                                bibcode = bibcode.replace(" ","")
+                            print('  ',internal_name,  group, mags, obj, times,bibcode)
+
+
+                            fout.write('%6s %8s %35s %25s %14s %14s %22s %15s %7s %22s %12s %40s %12s %25s\n'%(
+                                prefix, obj, group, internal_name,
+                                RAs, DECs,
+                                times, obj_type, mags, fband, redshift,
+                                host,host_redshift,bibcode))
+
+
+            PAGENO += 1
+            print(PAGENO, n_rows)
+
+
+        print('exited loop')
+        os.remove(tmpfile)
+              
         fout.close()
