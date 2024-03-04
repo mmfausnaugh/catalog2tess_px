@@ -186,8 +186,8 @@ for s in active_sectors:
             #("discovered_period_value","1"),
             #("discovered_period_units","months"),
 
-            ("start_date[date]",sector_time_start.split('T')[0]),
-            ("date_end[date]",  sector_time_end.split('T')[0]),
+            ("start_date",sector_time_start.split('T')[0]),
+            ("end_date",  sector_time_end.split('T')[0]),
             ("ra", "{}".format(cam[s-1][0])),
             ("decl","{}".format(cam[s-1][1])),
             ("radius","17"),
