@@ -1,3 +1,4 @@
+import numpy as np
 import scipy as sp
 from astropy.time import Time
 import sys
@@ -23,8 +24,8 @@ class HyperLedaCsv(Catalog):
       
 
     def __init__(self, ifile, ignore_image_buffer=False):
-        id_use, objtype, morph_class,bar,ring,multi,agn = sp.genfromtxt(ifile, usecols=(0,2,12,13,14,15,19),unpack=1,dtype=str,delimiter=',')
-        d = sp.genfromtxt(ifile,delimiter=',')
+        id_use, objtype, morph_class,bar,ring,multi,agn = np.genfromtxt(ifile, usecols=(0,2,12,13,14,15,19),unpack=1,dtype=str,delimiter=',')
+        d = np.genfromtxt(ifile,delimiter=',')
         
         ra = d[:,5] * (180.0/12.0) # converting to decimals
         dec = d[:,6]

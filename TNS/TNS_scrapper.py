@@ -279,6 +279,8 @@ for s in active_sectors:
 
                             group = data[8].replace('"','')
                             group = group.replace(', ',',')
+                            if len(group) == 0:
+                                group = None
 
                             internal_name = data[12].replace('"','')
                             if len(internal_name) == 0:

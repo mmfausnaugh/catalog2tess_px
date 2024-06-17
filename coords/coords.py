@@ -1,3 +1,4 @@
+import numpy as np
 import scipy as sp
 from subprocess import call, check_call, Popen, PIPE
 import os
@@ -14,9 +15,9 @@ def aber_stars_and_starspx(ra,dec,mag,
     aber_stars = os.path.join(path_use,'aber_stars1')
     starspx    =  os.path.join(path_use,'starspx8')
     
-    geom_path = os.path.join(path_use,'../coords/')
+    geom_path = os.path.join(path_use,'..','coords')
     
-    data_string = '\n'.join([' '.join(r.astype(str)) for r in sp.c_[ra,dec,mag] ])
+    data_string = '\n'.join([' '.join(r.astype(str)) for r in np.c_[ra,dec,mag] ])
     p1 = Popen([aber_stars, "1",str(v1), str(v2), str(v3)],
                stdin = PIPE, stdout = PIPE, bufsize=1,universal_newlines=True)
     aberrated_data_string = p1.communicate(input=data_string )[0]

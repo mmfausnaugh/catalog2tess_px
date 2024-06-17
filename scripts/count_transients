@@ -96,7 +96,7 @@ def main():
                 except Exception as e:
                     print(sector, cam, e)
                     continue
-                    
+
                 #select the masks
                 time_mask = cat.filter_on_sector_time(f's{sector}', 
                                                       early_offset=args.tminus,
@@ -104,6 +104,7 @@ def main():
                 mag_mask  = cat.mag < args.mag
                 ccd_mask  = cat.ccd == ccd
 
+                
                 mask = time_mask & mag_mask & ccd_mask
                 if args.SN:
                     mask_SN = cat.prefix == 'SN'
