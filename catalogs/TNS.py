@@ -1,8 +1,8 @@
+import numpy as np
 import scipy as sp
 from astropy.time import Time
 import sys
 import os
-import pandas as pd
 sys.path.insert(0, os.path.abspath(   os.path.dirname(__file__)) + '/..')
 from coords.coords import SectorCoords
 from .catalog import Catalog
@@ -17,7 +17,7 @@ class TNS(Catalog):
     
     def __init__(self,ifile,ignore_image_buffer=False,):
         try:
-            d = sp.genfromtxt(ifile,dtype=str,
+            d = np.genfromtxt(ifile,dtype=str,
                               usecols=(0,1,2,3,4,5,6,7,8,9,
                                        10,11,12,13) )
         except:
@@ -26,7 +26,7 @@ class TNS(Catalog):
         
         ra = [[float(e) for e in r.split(':')] for r  in d[:,4]]
         dec = [[float(e) for e in r.split(':')] for r in d[:,5]]
-        coords = sp.array([ self.sexigesimal_to_decimal(z[0],z[1]) for z in zip(ra,dec)])
+        coords = np.array([ self.sexigesimal_to_decimal(z[0],z[1]) for z in zip(ra,dec)])
         ra  = coords[:,0]
         dec = coords[:,1]
 
@@ -34,7 +34,7 @@ class TNS(Catalog):
 
         t1 = d[:,6]
         t2 = d[:,7]
-        t = sp.array([ z[0]+'T'+z[1] for z in zip(t1,t2)])
+        t = np.array([ z[0]+'T'+z[1] for z in zip(t1,t2)])
 
         try:
             t = Time(t, format='isot',scale='utc')

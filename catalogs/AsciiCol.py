@@ -12,14 +12,14 @@ class AsciiCol(Catalog):
             'camcol','camrow','ccd','ccdcol','ccdrow']
 
     def __init__(self, ifile, sector , cam, sexagesimal=False, ignore_image_buffer=False ):
-        d = sp.genfromtxt(ifile,dtype=str)
+        d = np.genfromtxt(ifile,dtype=str)
         if d.ndim == 1:
-            d = sp.array([d])
+            d = np.array([d])
 
         if sexagesimal:
             ra = [[float(e) for e in r.split(':')] for r  in d[:,1]]
             dec = [[float(e) for e in r.split(':')] for r in d[:,2]]
-            coords = sp.array([ self.sexigesimal_to_decimal(z[0],z[1]) for z in zip(ra,dec)])
+            coords = np.array([ self.sexigesimal_to_decimal(z[0],z[1]) for z in zip(ra,dec)])
             ra  = coords[:,0]
             dec = coords[:,1]
 

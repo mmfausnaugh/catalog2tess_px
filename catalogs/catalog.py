@@ -1,8 +1,8 @@
+import numpy as np
 import scipy as sp
 from astropy.time import Time
 import sys
 import os
-import pandas as pd
 sys.path.insert(0, os.path.abspath(   os.path.dirname(__file__)) + '/..')
 from coords.coords import SectorCoords
 
@@ -174,9 +174,9 @@ class Catalog(object):
 #            fout.write('%catID label RA DEC Cols Rows\n')
             for ii in range(len(obj_name)):
                 #obj_name will go into the label
-                c1 = sp.r_[ccdcol[ii] - 5 : ccdcol[ii] + 6].astype(int)
-                r1 = sp.r_[ccdrow[ii] - 5 : ccdrow[ii] + 6].astype(int)
-                C,R = sp.meshgrid(c1,r1)
+                c1 = np.r_[ccdcol[ii] - 5 : ccdcol[ii] + 6].astype(int)
+                r1 = np.r_[ccdrow[ii] - 5 : ccdrow[ii] + 6].astype(int)
+                C,R = np.meshgrid(c1,r1)
                 ccdcol_array = C.reshape(C.size,1)
                 ccdrow_array = R.reshape(R.size,1)
                 ccdcol_array = ','.join([str(_[0]) for _ in ccdcol_array])

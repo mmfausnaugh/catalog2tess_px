@@ -41,10 +41,10 @@ def aber_stars_and_starspx(ra,dec,mag,
         #this condition handles, e.g., one source (that we overwrite
         #coordinates in the GI office) when we tryi it on the wrong CCD.
 #        raise RuntimeError("Empty return of starspx8")
-    idxrowcol =  sp.array([ s1.split() for s1 in starpx_output_string.split('\n') if len(s1) > 0])
+    idxrowcol =  np.array([ s1.split() for s1 in starpx_output_string.split('\n') if len(s1) > 0])
     #return col,row index (to mask), and CCD
     if len(idxrowcol) == 0:
-        idxrowcol = sp.empty((0,9))
+        idxrowcol = np.empty((0,9))
     return (idxrowcol[:,7].astype(float),
             idxrowcol[:,8].astype(float),
             idxrowcol[:,0].astype(int),
@@ -290,13 +290,13 @@ class SectorCoords(object):
                                                      camnum)
 
         if len(idx) == 0:
-            return sp.empty(0),sp.empty(0),sp.empty(0), sp.empty(0), sp.empty(0), sp.empty(0), sp.empty(0)
+            return np.empty(0),np.empty(0),np.empty(0), np.empty(0), np.empty(0), np.empty(0), np.empty(0)
         else:
             ra,dec,mag  = ra[idx],dec[idx],mag[idx]
             return col, row, ccd, ra, dec, mag, idx
 
     def convert_cam2ccd_pix(self, col, row, ccd):
-        colout, rowout = sp.zeros(len(col)), sp.zeros(len(row))
+        colout, rowout = np.zeros(len(col)), np.zeros(len(row))
         
         #
         m = ccd == 1
