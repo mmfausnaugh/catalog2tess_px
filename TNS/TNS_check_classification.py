@@ -122,8 +122,8 @@ def get_file(url):                                                   #
 
 
 
-active_sectors = np.r_[86]
-#active_sectors = [57]
+#active_sectors = np.r_[8]
+active_sectors = [87]
 
 
 if len(sys.argv) > 2:
@@ -179,8 +179,7 @@ for s in active_sectors:
                 response=get(url_tns_api, get_obj)
                 try:
                     json_data2 = json.loads(response.text)
-                    #print(json_data2)
-                    json_data2 = json_data2['data']['reply']
+                    json_data2 = json_data2['data']
                     m = np.in1d(catname, obj)
 
                     if json_data2['object_type']['name']  is not  None:
