@@ -1,4 +1,5 @@
 import scipy as sp
+import numpy as np
 from astropy.time import Time
 import sys
 import os
