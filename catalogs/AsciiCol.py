@@ -3,7 +3,6 @@ import numpy as np
 from astropy.time import Time
 import sys
 import os
-import pandas as pd
 sys.path.insert(0, os.path.abspath(   os.path.dirname(__file__)) + '/..')
 from coords.coords import SectorCoords
 from .catalog import Catalog

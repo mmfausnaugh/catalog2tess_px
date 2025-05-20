@@ -60,7 +60,12 @@ def main():
                 #make the file
                 outdir = os.path.join(args.outdir,'sector{:02d}'.format(sector),'cam'+str(cam)+'_ccd'+str(ccd))
                 if not os.path.isdir(outdir):
-                    os.makedirs(outdir)
+                    outdir2 = os.path.join(args.outdir,'s{:04d}'.format(sector),'cam'+str(cam)+'-ccd'+str(ccd))
+                    print(outdir2)
+                    if not os.path.isdir(outdir2):
+                        os.makedirs(outdir)
+                    else:
+                        outdir = outdir2
                 cat.make_phot_data(cat.ccdcol[mask],
                                    cat.ccdrow[mask],
                                    cat.obj_name[mask],
