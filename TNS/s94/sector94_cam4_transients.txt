@@ -1,0 +1,1 @@
+#prefix name     group           internal_name             RA             DEC            Discovery Time         Type            Mag     Filter                 Redshift     Host Galaxy                              Host Redshift bibcode                  

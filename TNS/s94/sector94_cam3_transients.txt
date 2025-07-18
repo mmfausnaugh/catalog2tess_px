@@ -1,0 +1,2 @@
+#prefix name     group           internal_name             RA             DEC            Discovery Time         Type            Mag     Filter                 Redshift     Host Galaxy                              Host Redshift bibcode                  
+    AT  2025qus                               ATLAS                ATLAS25gwc   00:27:38.866   -74:14:30.14 2025-06-24 03:02:53.664    Unclassified  18.643           orange-ATLAS          -99                                     None          -99       2025TNSTR2646....1T
