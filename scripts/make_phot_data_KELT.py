@@ -61,7 +61,7 @@ def main():
                     cat.make_phot_data(cat.ccdcol[mask],
                                        cat.ccdrow[mask],
                                        cat.KELT_ID[mask],
-                                       outdir )      
+                                       outdir , 'lc_KELT')      
                 except:
                     continue
 

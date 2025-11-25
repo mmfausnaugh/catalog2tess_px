@@ -65,7 +65,7 @@ def main():
                 cat.make_phot_data(cat.ccdcol[mask],
                                    cat.ccdrow[mask],
                                    name_use[mask],
-                                   outdir )      
+                                   outdir,'lc_gaia' )      
 
 
 if __name__ == '__main__':

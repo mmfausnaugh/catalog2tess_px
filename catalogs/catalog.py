@@ -150,14 +150,14 @@ class Catalog(object):
         s_use = SectorCoords(sector)
         return s_use.radec2pix(cam,ra,dec,mag, ignore_image_buffer = ignore_image_buffer)
 
-    def make_phot_data(self, ccdcol, ccdrow, obj_name, outdir):
-        fmt = '{:.3f} {:.3f} {:d} {:d} lc/lc_{:s} 1\n'
+    def make_phot_data(self, ccdcol, ccdrow, obj_name, outdir, lcdir):
+        fmt = '{:.3f} {:.3f} {:d} {:d} {:s}/lc_{:s} 1\n'
         with open( os.path.join(outdir,'phot.data'),'w') as fout:
             for i in range(len(obj_name)):
                 fout.write(fmt.format(
                     ccdcol[i], ccdrow[i], 
                     ccdcol[i].astype(int), ccdrow[i].astype(int), 
-                    obj_name[i]
+                    lcdir, obj_name[i]
                 ))
 
     def make_coa_input(self, ccdcol, ccdrow, obj_name, ra, dec, mag, outdir):

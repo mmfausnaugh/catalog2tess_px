@@ -62,7 +62,7 @@ def main():
                 cat.make_phot_data(cat.ccdcol[mask],
                                     cat.ccdrow[mask],
                                     cat.source_id[mask],
-                                    outdir )      
+                                    outdir, 'lc_fermi' )      
                 # except:
                 #     continue
 

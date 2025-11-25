@@ -64,7 +64,7 @@ def main():
                 cat.make_phot_data(cat.ccdcol[mask],
                                    cat.ccdrow[mask],
                                    cat.objname[mask],
-                                   outdir )      
+                                   outdir , 'lc_hyperleda' )      
 
 
 if __name__ == '__main__':

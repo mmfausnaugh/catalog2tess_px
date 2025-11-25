@@ -69,7 +69,7 @@ def main():
                 cat.make_phot_data(cat.ccdcol[mask],
                                    cat.ccdrow[mask],
                                    cat.obj_name[mask],
-                                   outdir )      
+                                   outdir, 'lc_discovery' )      
 
 
 if __name__ == '__main__':

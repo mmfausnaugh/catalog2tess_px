@@ -68,7 +68,7 @@ def main():
                 cat.make_phot_data(cat.ccdcol[mask],
                                    cat.ccdrow[mask],
                                    l2[mask],
-                                   outdir )
+                                   outdir,'lc_milliquas' )
 
                 if args.savecoords:                                                       
                     with open('milliquas_save.txt', 'a') as fout:                              

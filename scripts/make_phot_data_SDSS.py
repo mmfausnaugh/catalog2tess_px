@@ -70,7 +70,7 @@ def main():
                 cat.make_phot_data(cat.ccdcol[mask],
                                    cat.ccdrow[mask],
                                    cat.SDSS_NAME[mask],
-                                   outdir )
+                                   outdir, 'lc_sdss' )
 
                 if args.savecoords:
                     with open('SDSS_save.txt', 'a') as fout:
