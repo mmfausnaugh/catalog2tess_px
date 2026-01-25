@@ -136,8 +136,6 @@
     AT  2025ugb                     GOTO,Pan-STARRS                 GOTO25fwo   23:44:54.560   -32:04:34.83 2025-08-17 15:10:05.664    Unclassified    19.8                 L-GOTO          -99                                     None          -99       2025TNSTR3243....1O
     AT  2025udf           ZTF,ATLAS,GOTO,Pan-STARRS              ZTF25abjatfm   00:32:14.940   -23:22:36.41 2025-08-16 08:28:12.996    Unclassified 19.9527                  g-ZTF          -99                                     None          -99       2025TNSTR3247....1S
     AT  2025tzh                  YSE,ZTF,GOTO,ATLAS                   PS25gjm   23:11:57.531   -10:22:20.30 2025-08-15 10:54:54.720    Unclassified   19.83                   y-P1          -99                                     None          -99       2025TNSTR3214....1J
-<<<<<<< HEAD
-=======
     AT 2025abew                                 ZTF              ZTF25abyakhn   22:47:21.015   -21:38:44.40 2025-10-12 05:33:52.997    Unclassified 20.1463                  g-ZTF          -99                                     None          -99       2025TNSTR4243....1S
     AT 2025aayr                                 ZTF              ZTF25abyalcp   23:35:35.711   -22:27:18.95 2025-10-13 05:21:19.002    Unclassified 20.6514                  r-ZTF          -99                                     None          -99       2025TNSTR4211....1S
     AT 2025aawq                          Pan-STARRS                   PS25igl   23:25:10.616   -21:00:56.17 2025-08-24 10:21:18.144    Unclassified   21.34                   w-P1          -99                                     None          -99       2025TNSTR4187....1C

@@ -91,8 +91,6 @@
     AT  2025uid                                GOTO                 GOTO25fxp   05:11:46.562   -72:58:45.52 2025-08-17 17:09:54.144    Unclassified   19.38                 L-GOTO          -99                                     None          -99       2025TNSTR3243....1O
     AT  2025ufh                          GOTO,ATLAS                 GOTO25fvt   01:04:09.458   -79:59:08.74 2025-08-17 11:47:14.496    Unclassified   18.92                 L-GOTO          -99                                     None          -99       2025TNSTR3243....1O
     AT  2025uds                        ASAS-SN,GOTO               ASASSN-25dj   00:13:26.403   -53:50:01.04 2025-08-17 05:16:48.000    Unclassified    17.2                g-Sloan          -99                 WISEAJ001326.13-535002.6          -99       2025TNSTR3239....1S
-<<<<<<< HEAD
-=======
     AT 2025aawu                            BlackGEM  BGEM-J050242.03-682839.8   05:02:42.033   -68:28:39.77 2025-09-20 08:41:38.000    Unclassified   17.65          BG-q-BlackGem          -99                                     None          -99       2025TNSTR4183....1F
     AT 2025aaqv                          ATLAS,GOTO                ATLAS25muu   04:06:39.549   -64:17:10.81 2025-10-14 05:53:30.336    Unclassified  18.862           orange-ATLAS          -99                                     None          -99       2025TNSTR4155....1T
     AT 2025aanx                                GOTO                 GOTO25inx   23:30:19.996   -60:35:10.30 2025-10-13 12:46:44.544    Unclassified   20.23                 L-GOTO          -99                                     None          -99       2025TNSTR4133....1R
