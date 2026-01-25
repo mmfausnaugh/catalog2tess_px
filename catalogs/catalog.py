@@ -154,6 +154,10 @@ class Catalog(object):
         fmt = '{:.3f} {:.3f} {:d} {:d} {:s}/lc_{:s} 1\n'
         with open( os.path.join(outdir,'phot.data'),'w') as fout:
             for i in range(len(obj_name)):
+                print(                    ccdcol[i], ccdrow[i], 
+                    ccdcol[i].astype(int), ccdrow[i].astype(int), 
+                    lcdir, obj_name[i]
+)
                 fout.write(fmt.format(
                     ccdcol[i], ccdrow[i], 
                     ccdcol[i].astype(int), ccdrow[i].astype(int), 
