@@ -28,7 +28,6 @@ class AsciiCol(Catalog):
             dec = d[:,2]
 
 
-            
         out = self.get_pix('s'+str(int(sector)), int(cam - 1.0) ,ra,dec, d[:,3],
                            ignore_image_buffer=ignore_image_buffer)
         camcol = out[0]
