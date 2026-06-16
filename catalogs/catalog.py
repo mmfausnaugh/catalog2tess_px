@@ -106,7 +106,11 @@ sector_times = {'s1':[1324.70843962, 1353.49455073],
                 's97':[3933.44, 3988.3],
                 's98':[3988.3,4045.9],
                 's99':[4046.9, 4073.8],
-                's100':[4073.8,5000],
+                's100':[4073.8,4100.5],
+                's101':[4100.5,4126.9],
+                's102':[4126.9, 4151.9],
+                's103':[4151.9, 4171.7],
+                's104':[4171.7, 6000]
                 }
 
 
@@ -157,9 +161,9 @@ class Catalog(object):
         with open( os.path.join(outdir,'phot.data'),'w') as fout:
             for i in range(len(obj_name)):
                 print(                    ccdcol[i], ccdrow[i], 
-                    ccdcol[i].astype(int), ccdrow[i].astype(int), 
-                    lcdir, obj_name[i]
-)
+                                          ccdcol[i].astype(int), ccdrow[i].astype(int), 
+                                          lcdir, obj_name[i]
+                      )
                 fout.write(fmt.format(
                     ccdcol[i], ccdrow[i], 
                     ccdcol[i].astype(int), ccdrow[i].astype(int), 
